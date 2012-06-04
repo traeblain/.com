@@ -333,6 +333,27 @@ a.menu_link:hover {
   background-position: 20px 20px;
 }
 
+.a2a_kit {
+  display: block;
+  width: 285px;
+  position: fixed;
+  background-color: #ffffff;
+  padding: 7px;
+  border: 2px solid #3C5E73;
+  border-bottom: 0;
+  bottom: 0;
+  left: 50%;
+  z-index: 1000;
+  border-radius: 8px 8px 0 0;
+  margin-left: -150px;
+}
+.a2a_button_facebook_like iframe, .a2a_button_twitter_tweet iframe {
+  margin: 0px;
+}
+.a2a_button_facebook_like, .a2a_button_twitter_tweet, .a2a_button_google_plusone {
+  max-width: 90px !important;
+}
+
 
 /* #Page Styles
 ================================================== */
