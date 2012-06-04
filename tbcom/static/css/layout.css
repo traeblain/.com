@@ -345,7 +345,7 @@ a.menu_link:hover {
   left: 50%;
   z-index: 1000;
   border-radius: 8px 8px 0 0;
-  margin-left: -150px;
+  margin-left: -152px;
 }
 .a2a_button_facebook_like iframe, .a2a_button_twitter_tweet iframe {
   margin: 0px;
@@ -357,6 +357,67 @@ a.menu_link:hover {
 
 /* #Page Styles
 ================================================== */
+
+  /* 404 Page === */
+  .fof {
+    width: 95%;
+    margin: 0px auto;
+  }
+  .ninja {
+    float: left;
+    display: block;
+    margin: 0px 20px 20px 0px;
+  }
+  .fohf {
+    font-size:160px;
+    line-height:272px;
+    font-weight:bold;
+    text-align:center;
+    display:block;
+  }
+  .pnf{
+    font-size:32px;
+    line-height:48px;
+    text-align:center;
+    display:block;
+  }
+  .fofabout{
+    clear:left;
+    font-size:19.2px;
+    text-align:center;
+  }
+  .foflinks{
+    text-align:center;
+    margin-top:25px;
+    font-size:12.8px;
+    margin-bottom:75px;
+  }
+
+  /* Mountain Dew Page === */
+  .dtdew, .loader {
+    margin: 0px auto;
+    display: block;
+  }
+  #commits {
+    margin-bottom: 30px;
+  }
+
+  /* Pretzels Page === */
+  .pretzelpic {
+    margin: 0px auto;
+    display: block;
+  }
+
+  /* Search Page === */
+  article.search a, article.search a:visited {
+    color: #3c5e73 !important;
+  }
+  article.search a:hover {
+    color: #D7D05B !important;
+  }
+  .gsc-url-bottom div {
+    color: #AAA !important;
+  }
 
 /* #Media Queries
 ================================================== */
@@ -374,12 +435,19 @@ a.menu_link:hover {
   /* Tablet Portrait size to standard 960 (devices and browsers) */
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     .topnav {
-      font-size: 16px;
+      font-size: 15px;
       word-spacing: -3px;
       top: 0px;
     }
     .mobilenav {
       display: none;
+    }
+    img, iframe, iframe embed, iframe object {
+      max-width: 650px;
+      height: auto;
+    }
+    iframe, iframe embed, iframe object {
+      min-height: 335px;
     }
   }
 
@@ -436,6 +504,10 @@ a.menu_link:hover {
     }
     img, iframe, iframe embed, iframe object {
       max-width: 414px;
+      height: auto;
+    }
+    iframe, iframe embed, iframe object {
+      min-height: 285px;
     }
     .topnav ul {
       max-width: 420px;
@@ -455,6 +527,17 @@ a.menu_link:hover {
     h4, h5, h6 {
       font-size: 18px;
       line-height: 18px;
+    }
+    .ninja {
+      width: 40%;
+    }
+    .fohf {
+      font-size: 70px;
+      line-height: 100px;
+      padding-top: 30px;
+    }
+    .pnf {
+      font-size: 32px;
     }
   }
 
@@ -512,6 +595,10 @@ a.menu_link:hover {
     }
     img, iframe, iframe embed, iframe object {
       max-width: 294px;
+      height: auto;
+    }
+    iframe, iframe embed, iframe object {
+      min-height: 215px;
     }
     .topnav ul {
       max-width: 300px;
@@ -531,6 +618,18 @@ a.menu_link:hover {
     h4, h5, h6 {
       font-size: 18px;
       line-height: 18px;
+    }
+    .ninja {
+      width: 40%;
+    }
+    .fohf {
+      font-size: 70px;
+      line-height: 100px;
+      padding-top: 30px;
+    }
+    .pnf {
+      font-size: 32px;
+      clear: left;
     }
        
   }

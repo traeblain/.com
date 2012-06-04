@@ -35,6 +35,10 @@ TAG_SAVE_AS = 'tags/{name}.html'
 CATEGORY_SAVE_AS = False
 AUTHOR_SAVE_AS = False
 PAGE_DIR = 'pages'
+
+PAGE_URL = '{slug}'
+PAGE_SAVE_AS = '{slug}.html'
+
 DIRECT_TEMPLATES = ('index', 'tags', 'archives')
 
 RELATIVE_URLS = False
