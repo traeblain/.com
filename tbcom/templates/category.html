@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+{% block title %}{{ category }} - {{ SITENAME }}{% endblock %}
+
+{% block listhead %}
+  <header class="fourteen columns">
+    <h2>Categorized under: <em>{{ category|title }}</em></h2>
+    <br />
+  </header>
+{% endblock %}

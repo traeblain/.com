@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+{% block title %}Tags - {{ SITENAME }}{% endblock %}
+
+{% block main %}
+  <header class="fourteen columns">
+    <h2>Tags:</h2>
+    <br />
+  </header>
+<ul>
+{% for tag in tag_cloud %}
+  <li><a href="{{ SITEURL }}/{{ tag.0.url }}" class="tag-{{ tag.1 }}">{{ tag.0 }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  {% block prehead %}{% endblock %}
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="{{ CHARSET }}">
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+  <meta name="description" content="{{ SITEDESCRIPTION }}">
+  <meta name="author" content="{{ AUTHOR }}">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/base.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/skeleton.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/layout.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic">
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico">
+  <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ SITEURL }}/theme/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ SITEURL }}/theme/images/apple-touch-icon-114x114.png">
+
+  <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
+  {% if FEED_RSS %}
+  <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+  {% endif %}
+
+  {% block endhead %}{% endblock %}
+
+</head>
+<body>
+
+
+
+  <!-- Primary Page Layout
+  ================================================== -->
+
+  <!-- Delete everything in this .container and get started on your own site! -->
+
+  <div class="container">
+    <nav class="topnav row">
+      <ul>
+        <li class="menu_title three columns"><a href="{{ SITEURL }}" class="title_head"><span>Trae </span>Blain</a></li>
+        {% for title, link in NAVLINKS %}
+        <li class="three columns"><a href="{{ link }}">{{ title }}</a></li>
+        {% endfor %}
+        <li class="search_link four columns">
+          <form id="searchbox" name="searchbox" method="get" action="/search.html"><div class="half-border"></div><input id="searchtext" name="q" type="text" /><div class="half-border"></div><input id="searchbutton" type="submit" value="s" class="traefont" /></form>
+        </li>
+      </ul>
+    </nav>
+    <nav class="mobilenav row">
+      <ul>
+        <li class="menu_title eighty"><a href="{{ SITEURL }}" class="title_head"><span>Trae </span>Blain</a></li>
+        <li class="twenty"><a href="#" class="menu_link">M</a></li>
+      </ul>
+    </nav>
+    <header role="banner" class="tophead sixteen columns">
+      <div class="main_head sixteen columns"><a href="{{ SITEURL }}" class="title_head"><span>Trae </span>Blain</a></div>
+      <span class="sub_head sixteen columns">{{ SITEDESCRIPTION }}</span>
+    </header>
+
+    <div class="one alpha columns">&nbsp;</div>
+    <section id="main" role="main" class="fourteen columns">
+      {% block main %}
+      {% endblock %}
+    </section>
+    <div class="one omega columns">&nbsp;</div>
+
+    <br class="clear" />
+
+    <footer class="footer row">
+      <div class="footer-span">
+        &copy; Trae Blain, All Rights Reserved. Powered by <a href="/mountaindew">Diet Mountain Dew</a>, <a href="/pretzels">Pretzels</a>, and <a href="https://github.com/ametaireau/pelican">Pelican</a>.<br />
+        <span>except for the stuff that isn't...</span>
+      </div>
+    </footer>
+
+  </div><!-- container -->
+
+
+
+  <!-- JS
+  ================================================== -->
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="{{ SITEURL }}/theme/js/tabs.js"></script>
+  <script src="{{ SITEURL }}/theme/js/tmb.js"></script>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
