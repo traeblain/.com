@@ -442,11 +442,11 @@ a.menu_link:hover {
     .mobilenav {
       display: none;
     }
-    img, iframe, iframe embed, iframe object {
+    img, .article_content iframe, .article_content iframe embed, .article_content iframe object {
       max-width: 650px;
       height: auto;
     }
-    iframe, iframe embed, iframe object {
+    .article_content iframe, .article_content iframe embed, .article_content iframe object {
       min-height: 335px;
     }
   }
@@ -502,11 +502,11 @@ a.menu_link:hover {
       float: right;
       margin-bottom: 0;
     }
-    img, iframe, iframe embed, iframe object {
+    img, .article_content iframe, .article_content iframe embed, .article_content iframe object {
       max-width: 414px;
       height: auto;
     }
-    iframe, iframe embed, iframe object {
+    .article_content iframe, .article_content iframe embed, .article_content iframe object {
       min-height: 285px;
     }
     .topnav ul {
@@ -593,11 +593,11 @@ a.menu_link:hover {
       float: right;
       margin-bottom: 0;
     }
-    img, iframe, iframe embed, iframe object {
+    img, .article_content iframe, .article_content iframe embed, .article_content iframe object {
       max-width: 294px;
       height: auto;
     }
-    iframe, iframe embed, iframe object {
+    .article_content iframe, .article_content iframe embed, .article_content iframe object {
       min-height: 215px;
     }
     .topnav ul {
