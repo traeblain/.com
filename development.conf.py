@@ -3,6 +3,7 @@
 AUTHOR = u"Trae Blain"
 SITENAME = u"Trae's Blog"
 SITEURL = 'http://localhost:8000'
+ABOUTURL = 'http://localhost:8000/about'
 TIMEZONE = "America/Chicago"
 LOCALE = ('usa')
 DATE_FORMAT = {'en': ('usa', '%B %d, %Y'),}
