@@ -25,9 +25,11 @@ $( function () {
 
 $( function () {
   $('.menu_link').toggle(function(){
-    $('.topnav').addClass('topnavdrop').show('slow');
+    //$('.topnav').show()
+    $('.topnav').addClass('topnavdrop');
   }, function(){
-    $('.topnav').removeClass('topnavdrop').show('slow');
+    $('.topnav').removeClass('topnavdrop');
+    //$('.topnav').hide()
   });
 });
 

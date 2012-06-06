@@ -21,6 +21,10 @@ body {
   background-color: #161C25;
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 16px;
+  -webkit-user-select:none;
+  -webkit-touch-callout:none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  overflow-y: visible !important;
 }
 
 a, a:visited {
@@ -73,7 +77,7 @@ h5, h6 {
   font-size: 18px;
   padding-top: 5px;
   position: fixed;
-
+  display: block;
 }
 
 .topnav li {
@@ -466,6 +470,8 @@ a.menu_link:hover {
       width: 100%;
       max-width: 420px;
       padding-top: 5px;
+      left: 50%;
+      margin-left: -210px;
     }
     .mobilenav .eighty {        
       width: 80%;
@@ -480,17 +486,19 @@ a.menu_link:hover {
       margin-bottom: 5px;
     }
     .topnav {
+      display: none;
+      left: 50%;
+      margin-left: -210px;
+    }
+    .topnav li {
       text-align: right;
-      top: -160px;
+      padding-bottom: 5px;
     }
     .topnavdrop {
-      top: 0px;
+      display: block;
     }
     .topnav li a {
       padding-right: 10px;
-    }
-    .topnav li {
-      padding-bottom: 5px;
     }
     .tophead {
       margin-top: -5px !important;
@@ -553,6 +561,8 @@ a.menu_link:hover {
       width: 100%;
       max-width: 300px;
       padding-top: 5px;
+      margin-left: -150px;
+      left: 50%;
     }
     .mobilenav .eighty {        
       width: 80%;
@@ -567,17 +577,19 @@ a.menu_link:hover {
       margin-bottom: 5px;
     }
     .topnav {
+      display: none;
+      margin-left: -150px;
+      left: 50%;
+    }
+    .topnav li {
       text-align: right;
-      top: -160px;
+      padding-bottom: 5px;
     }
     .topnavdrop {
-      top: 0px;
+      display: block;
     }
     .topnav li a {
       padding-right: 10px;
-    }
-    .topnav li {
-      padding-bottom: 5px;
     }
     .tophead {
       margin-top: -40px !important;
