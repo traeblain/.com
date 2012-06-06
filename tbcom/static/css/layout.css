@@ -423,6 +423,31 @@ a.menu_link:hover {
     color: #AAA !important;
   }
 
+  /* Burger Ratings === */
+  h6.burger{
+    height: 52px;
+    overflow: hidden;
+    background-image: url(http://blog.traeblain.com/wp-content/uploads/burger-ratings.png);
+    background-repeat: no-repeat;
+    color: #00aa00;
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 0 15px;
+    border: 0;
+  }
+  .burger_of{
+    font-size: 22px;
+    vertical-align: top;
+  }
+  h6.five{background-position:150px -210px !important;}
+  h6.four{background-position:150px -158px !important;}
+  h6.three{background-position:150px -105px !important;}
+  h6.two{background-position:150px -53px !important;}
+  h6.one{background-position:150px 0px !important;}
+
 /* #Media Queries
 ================================================== */
 
@@ -547,6 +572,9 @@ a.menu_link:hover {
     .pnf {
       font-size: 32px;
     }
+    h6.burger{
+      background-image: url(/static/images/burger-ratings-small.png);
+    }
   }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -642,6 +670,9 @@ a.menu_link:hover {
     .pnf {
       font-size: 32px;
       clear: left;
+    }
+    h6.burger{
+      background-image: url(/static/images/burger-ratings-small.png);
     }
        
   }
