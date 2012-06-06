@@ -1,12 +1,18 @@
-function title_appear() {
-  var window_top = $(window).scrollTop() + 50;
-  var div_top = $('#main').offset().top;
-  if (window_top > div_top) {
-    $('.menu_title').css('opacity', 1);
-  } else {
-    $('.menu_title').css('opacity', 0);
-  }
-}
+(function($) {
+    // only do this if not on a touch device
+    if (!('ontouchend' in window)) {
+        $(document).delegate('body', 'click', function(e) {
+            $(e.target).trigger('tap');
+        });
+    }
+})(window.Zepto);
+
+$( function () {
+  $('.menu_link').tap(function(){
+    $('.topnav').toggleClass('topnavdrop');
+  });
+  title_appear();
+});
 
 $( function () {
   var ss = new Array(0);
@@ -23,18 +29,43 @@ $( function () {
   }
 });
 
-$( function () {
-  $('.menu_link').toggle(function(){
-    //$('.topnav').show()
-    $('.topnav').addClass('topnavdrop');
-  }, function(){
-    $('.topnav').removeClass('topnavdrop');
-    //$('.topnav').hide()
-  });
-});
+function getScrollingPosition() {
+  var position = [0, 0];
+  if (typeof window.pageYOffset != 'undefined')
+    {
+      position = [
+      window.pageXOffset,
+      window.pageYOffset
+      ];
+    } 
+  else if (typeof document.documentElement.scrollTop != 'undefined' && document.documentElement.scrollTop > 0) 
+  {
+    position = [
+    document.documentElement.scrollLeft,
+    document.documentElement.scrollTop
+    ];
+  }
+  else if (typeof document.body.scrollTop != 'undefined')
+  {
+    position = [
+    document.body.scrollLeft,
+    document.body.scrollTop
+    ];
+  }
+  return position;
+}
 
-$(function() {
-  $(window).scroll(title_appear);
+function title_appear() {
+    var window_top = getScrollingPosition()[1] + 50;
+    var div_top = $('#main').offset().top;
+    if (window_top > div_top) {
+      $('.menu_title').removeClass('hide_title');
+    } else {
+      $('.menu_title').addClass('hide_title');
+}
+
+window.onscroll = function() 
+{
   title_appear();
-});
-
+    } 
+};

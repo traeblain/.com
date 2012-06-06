@@ -41,6 +41,7 @@ PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 
 DIRECT_TEMPLATES = ('index', 'tags', 'archives')
+STATIC_PATHS = ['images']
 
 RELATIVE_URLS = False
 
