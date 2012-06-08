@@ -3,11 +3,14 @@
 {% block title %}{{ article.title }} - {{ SITENAME }}{% endblock %}
 
 {% block endhead %}
-{% if SITEMODE == "development" %}
 <script type="text/javascript">
+  {% if SITEMODE == "development" %}
   var disqus_developer = 1; // developer mode is on
+  {% endif %}
+  {% if article.date.strftime('%Y%m')|int() <= 201111 %}
+  var disqus_url = '{{ SITEURL }}/{{ article.date.strftime('%Y%m%d')}}/{{ article.slug }}/';
+  {% endif %}
 </script>
-{% endif %}
 {% endblock %}
 
 {% block main %}
