@@ -180,6 +180,7 @@ h5, h6 {
   display: block;
   text-align: center;
   margin: 5px auto;
+  max-width: 820px;
 }
 .article-content p img.alignleft {
   margin: 5px 10px 5px 0;
@@ -248,6 +249,9 @@ iframe {
   border-bottom: 0;
   font-size: 28px;
   line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .post time {
   text-align: right;
@@ -551,6 +555,9 @@ a.menu_link:hover {
     .topnav ul {
       max-width: 420px;
     }
+    .post h1 {
+      white-space: normal;
+    }
     h1 {
       font-size: 28px;
       line-height: 28px;
@@ -648,6 +655,9 @@ a.menu_link:hover {
     }
     .topnav ul {
       max-width: 300px;
+    }
+    .post h1 {
+      white-space: normal;
     }
     h1 {
       font-size: 28px;

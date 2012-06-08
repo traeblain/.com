@@ -2,8 +2,8 @@
 
 AUTHOR = u"Trae Blain"
 SITENAME = u"Trae's Blog"
-SITEURL = 'http://localhost:8000'
-ABOUTURL = 'http://localhost:8000/about'
+SITEURL = 'http://192.168.1.6:8000'
+ABOUTURL = 'http://192.168.1.6:8000/about'
 TIMEZONE = "America/Chicago"
 LOCALE = ('usa')
 DATE_FORMAT = {'en': ('usa', '%B %d, %Y'),}
@@ -14,7 +14,7 @@ DEFAULT_DATE_FORMAT = '%B %d, %Y'
 
 # Menu Links
 NAVLINKS =  (
-    ('Blog', 'http://localhost:8000'),
+    ('Blog', 'http://192.168.1.6:8000'),
     ('Breaking The Bike', 'http://breakingthebike.com/'),
     ('Feed', '/feed')
          )
@@ -46,6 +46,7 @@ STATIC_PATHS = ['images']
 RELATIVE_URLS = False
 
 FEED = 'atom.xml'
+FEED_MAX_ITEMS = 15
 
 TAG_CLOUD_STEPS = 8
 TAG_CLOUD_MAX_ITEMS = 40

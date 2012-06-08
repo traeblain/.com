@@ -11,7 +11,7 @@
 {% endblock %}
 
 {% block main %}
-  <article class="{{ SLUG }}">
+  <article class="{{ article.slug }}">
     <header class="fourteen columns">
       <h1><a href="{{ pagename }}" rel="bookmark" title="Permalink to {{ article.title }}">{{ article.title }}</a></h1>
       <time datetime="{{ article.date.isoformat() }}" class="time five columns alpha">{{ article.locale_date }}</time>
