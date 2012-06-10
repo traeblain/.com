@@ -8,13 +8,6 @@
 })(window.Zepto);
 
 $( function () {
-  $('.menu_link').tap(function(){
-    $('.topnav').toggleClass('topnavdrop');
-  });
-  title_appear();
-});
-
-$( function () {
   var ss = new Array(0);
   for(var index = 0; index < $("img").length; index++) {
     var s = $('img').eq(index).attr("title");
@@ -69,3 +62,10 @@ window.onscroll = function()
   title_appear();
     } 
 };
+
+$( function () {
+  $('.menu_link').tap(function(){
+    $('.topnav').toggleClass('topnavdrop');
+  });
+  title_appear();
+});
