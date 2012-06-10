@@ -71,6 +71,15 @@ h5, h6 {
   margin-bottom: 10px;
 }
 
+hr {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  border: 2px solid #3c5e73;
+  height: 8px;
+  border-radius: 8px;
+}
+
 .topnav, .mobilenav {
   background-color: #000000;
   text-align: center;
@@ -78,6 +87,7 @@ h5, h6 {
   padding-top: 5px;
   position: fixed;
   display: block;
+  z-index: 1000;
 }
 
 .topnav li {
@@ -248,7 +258,7 @@ iframe {
 .post h1 {
   border-bottom: 0;
   font-size: 28px;
-  line-height: 30px;
+  line-height: 31px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -328,6 +338,36 @@ footer span {
 
 #dsq-content {
   padding: 0px 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.tagcloud li {
+  display: inline-block;
+}
+
+.tagcloud .tag-1 {
+  font-size: 40px;
+}
+
+.tagcloud .tag-2 {
+  font-size: 34px;
+}
+
+.tagcloud .tag-3 {
+  font-size: 28px;
+}
+
+.tagcloud .tag-4 {
+  font-size: 22px;
+}
+
+.tagcloud .tag-5 {
+  font-size: 16px;
+}
+
+.tagcloud .tag-6 {
+  font-size: 10px;
 }
 
 .mobilenav {

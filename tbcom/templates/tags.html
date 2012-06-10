@@ -6,7 +6,7 @@
     <h2>Tags:</h2>
     <br />
   </header>
-<ul>
+<ul class="tagcloud">
 {% for tag in tag_cloud %}
   <li><a href="{{ SITEURL }}/{{ tag.0.url }}" class="tag-{{ tag.1 }}">{{ tag.0 }}</a></li>
 {% endfor %}
