@@ -1,6 +1,7 @@
 Title: Trae Loves Diet Mountain Dew
 Description: Diet Mountain Dew... Do the Dew
 Slug: mountaindew
+Area: dtmountaindew
 
 <img class="dtdew" src="/theme/images/dtmtndew-tb.png" />
 

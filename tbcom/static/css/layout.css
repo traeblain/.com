@@ -156,8 +156,14 @@ hr {
 }
 
 .tophead {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 35px;
+}
+
+.main_head {
+  white-space: nowrap;
+  overflow: hidden;
+  padding-top: 10px;
 }
 
 .main_head a {
@@ -172,6 +178,12 @@ hr {
 .main_head a span {
   font-weight: bold;
   color: #D7D05B;
+}
+
+.area {
+  color: #AAA;
+  text-transform: uppercase;
+  font-size: 34px;
 }
 
 .sub_head {
@@ -576,7 +588,7 @@ a.menu_link:hover {
       padding-right: 10px;
     }
     .tophead {
-      margin-top: -5px !important;
+      margin-top: -18px !important;
       text-indent: 5px;
     }
     #searchbox {
@@ -673,7 +685,7 @@ a.menu_link:hover {
       padding-right: 10px;
     }
     .tophead {
-      margin-top: -40px !important;
+      margin-top: -18px !important;
       text-indent: 5px;
     }
     .sub_head {

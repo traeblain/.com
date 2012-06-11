@@ -1,0 +1,57 @@
+AddDefaultCharset UTF-8
+FileETag none
+
+RewriteEngine on
+RewriteCond %{HTTP_USER_AGENT} !(FeedBurner|FeedValidator) [NC]
+RewriteRule ^atom\.xml$ http://feeds.feedburner.com/traeblaincom [R=302,L]
+
+RewriteBase /
+RewriteCond %{THE_REQUEST} \/index.html\ HTTP [NC]
+RewriteRule (.*)index.html$ /$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{THE_REQUEST} ^GET\ /[^?\s]+\.html
+RewriteRule (.*)\.html$ /$1/ [L,R=301]
+
+RewriteRule ^feed/?$ /atom\.xml [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*)/$ $1.html [L]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule .*[^/]$ $0/ [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteRule (.*)$ /$1/ [L,R=301]
+
+
+ErrorDocument 404 /404.html
+
+
+# 480 weeks
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|swf|svg)$">
+Header set Cache-Control "max-age=290304000, public"
+</FilesMatch>
+
+# 2 weeks
+<FilesMatch "\.(js|txt|css)$">
+Header set Cache-Control "max-age=1209600, must-revalidate"
+</FilesMatch>
+
+# 1 day
+<FilesMatch "\.(xml)$">
+Header set Cache-Control "max-age=86400, must-revalidate"
+</FilesMatch>
+
+# 2 hours
+<FilesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=7200, must-revalidate"
+</FilesMatch>
+
+<IfModule mod_deflate.c>
+<FilesMatch "\.(js|css|html|htm)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</IfModule>

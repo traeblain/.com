@@ -42,6 +42,7 @@ PAGE_SAVE_AS = '{slug}.html'
 
 DIRECT_TEMPLATES = ('index', 'tags', 'archives')
 STATIC_PATHS = ['images']
+WEBASSETS = True
 
 RELATIVE_URLS = False
 
@@ -56,3 +57,5 @@ gOOGLE_ANALYTICS = 'UA-8704728-2'
 TWITTER_USERNAME = 'traeblain'
 CHARSET = "utf-8"
 SITEDESCRIPTION = "Engineer. Father. Cyclist. Sexy. Sarcastic. Geek."
+
+FILES_TO_COPY = (('extras/.htaccess','.htaccess'),)

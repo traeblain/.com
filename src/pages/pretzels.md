@@ -1,5 +1,6 @@
 Title: These Pretzels are Making Me Thirsty!
 Slug: pretzels
+Area: pretzels
 
 <a href="http://cargocollective.com/nathanchardy#2471135/Seinfeld-Poster-Series"><img class="pretzelpic" src="/theme/images/pretzels.png" /></a>
 
