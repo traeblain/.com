@@ -1,7 +1,7 @@
 Title: Search
 Description: Search Form
 Slug: search
-Area: search
+Area: /search
 
 
 <div id="cse" style="width: 100%;">Loading</div>

@@ -26,6 +26,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
 RewriteRule (.*)$ /$1/ [L,R=301]
 
+RewriteRule ^2011.*/(.*)$ /2011/$1/ [L,R=301]
 
 ErrorDocument 404 /404.html
 

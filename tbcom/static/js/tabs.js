@@ -26,4 +26,4 @@
   $(window).on('hashchange.skeleton', hashchange);
   hashchange();
   $(hashchange);
-})(jQuery);
+})(Zepto);
