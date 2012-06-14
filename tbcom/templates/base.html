@@ -21,6 +21,11 @@
 
   <!-- CSS
   ================================================== -->
+  {% if not PRODUCTION -%}
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/base.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/skeleton.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/layout.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css">{% else %}
   {% assets filters="cssmin", output="css/base.min.css", "css/base.css" -%}
   <link rel="stylesheet" href="{{ ASSET_URL }}">
   {%- endassets %}
@@ -33,11 +38,6 @@
   {% assets filters="cssmin", output="css/pygments.min.css", "css/pygments.css" -%}
   <link rel="stylesheet" href="{{ ASSET_URL }}">
   {%- endassets %}
-  {% if WEBASSETS == False -%}
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/base.css">
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/skeleton.css">
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/layout.css">
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css">
   {%- endif %}
 
   <!-- Fonts
@@ -121,15 +121,18 @@
   <!-- <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script> -->
   <!-- <script src="{{ SITEURL }}/theme/js/tabs.js"></script> -->
   <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script>
-  {% assets filters="jsmin", output="js/tmb.min.js", "js/tmb.js" -%}
+  {% if not PRODUCTION -%}
+  <script src="{{ SITEURL }}/theme/js/tmb.js"></script>
+  <script src="{{ SITEURL }}/theme/js/tabs.js"></script>
+  {% else %}{% assets filters="jsmin", output="js/tmb.min.js", "js/tmb.js" -%}
   <script type="text/javascript" src="{{ ASSET_URL }}"></script>
   {%- endassets %}
-  {% if WEBASSETS == False -%}
-  <script src="{{ SITEURL }}/theme/js/tmb.js"></script>
-  {%- endif %}
-  <script src="{{ SITEURL }}/theme/js/tabs.js"></script>
+  {% assets filters="jsmin", output="js/tabs.min.js", "js/tabs.js" -%}
+  <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+  {%- endassets %}{%- endif %}
   {% block morescripts %}{% endblock %}
 
+  {% if PRODUCTION -%}
   {% if GOOGLE_ANALYTICS %}
   <!-- Google Analytics
   ================================================ -->
@@ -144,6 +147,7 @@
     })();
   </script>
   {% endif %}
+  {%- endif %}
 
 <!-- End Document
 ================================================== -->

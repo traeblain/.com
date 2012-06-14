@@ -7,7 +7,7 @@ ABOUTURL = 'http://localhost:8000/about'
 TIMEZONE = "America/Chicago"
 LOCALE = ('usa')
 DATE_FORMAT = {'en': ('usa', '%B %d, %Y'),}
-SITEMODE = "development"
+PRODUCTION = False
 
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = '%B %d, %Y'
@@ -53,7 +53,7 @@ TAG_CLOUD_STEPS = 8
 TAG_CLOUD_MAX_ITEMS = 40
 
 DISQUS_SITENAME = 'traeblain'
-gOOGLE_ANALYTICS = 'UA-8704728-2'
+GOOGLE_ANALYTICS = 'UA-8704728-2'
 TWITTER_USERNAME = 'traeblain'
 CHARSET = "utf-8"
 SITEDESCRIPTION = "Engineer. Father. Cyclist. Sexy. Sarcastic. Geek."

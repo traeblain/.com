@@ -13,7 +13,7 @@ Description: What you want to know about me?
 </ul>
 
 <div class="two columns alpha">&nbsp;</div>
-<ul class="tabs-content ten columns">
+<ul class="tabs-content ten columns about-content">
   <li class="active" id="posted"><script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Ffeeds.feedburner.com%2Ftraeblaincom&num=4&utf=y"  charset="UTF-8" type="text/javascript"></script>
 
   <noscript><a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Ffeeds.feedburner.com%2Ftraeblaincom&num=4&utf=y&html=y">View RSS feed</a></noscript></li>

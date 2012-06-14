@@ -6,7 +6,7 @@
 
 {% block endhead %}
 <script type="text/javascript">
-  {% if SITEMODE == "development" %}
+  {% if not PRODUCTION %}
   var disqus_developer = 1; // developer mode is on
   {% endif %}
   {% if article.date.strftime('%Y%m')|int() <= 201111 %}
