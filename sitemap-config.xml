@@ -37,7 +37,7 @@
 -->
  <site
   base_url="http://blog.traeblain.com/"
-  store_into="C:/Users/trae/Dropbox/tbcom-new/sitemap.xml"
+  store_into="sitemap.xml"
   verbose="1"
   sitemap_type="web"
  >
@@ -130,7 +130,7 @@
 <!--
   <directory  path="/var/www/icons"    url="http://www.example.com/images/" /> -->
   <directory
-     path="C:/Users/trae/Dropbox/tbcom-new/output/"
+     path="./output/"
      url="http://blog.traeblain.com/"
      remove_empty_directories="true"
   />
