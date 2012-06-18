@@ -3,7 +3,7 @@
 AUTHOR = u"Trae Blain"
 SITENAME = u"Trae's Blog"
 SITEURL = 'http://localhost:8000'
-ABOUTURL = 'http://localhost:8000/about'
+ABOUTURL = 'http://traeblain.com/'
 TIMEZONE = "America/Chicago"
 LOCALE = ('usa')
 DATE_FORMAT = {'en': ('usa', '%B %d, %Y'),}
@@ -14,7 +14,7 @@ DEFAULT_DATE_FORMAT = '%B %d, %Y'
 
 # Menu Links
 NAVLINKS =  (
-    ('Blog', 'http://localhost:8000'),
+    ('Blog', 'http://blog.traeblain.com/'),
     ('Breaking The Bike', 'http://breakingthebike.com/'),
     ('Feed', '/feed')
          )
@@ -35,13 +35,13 @@ TAG_URL = 'tags/{name}'
 TAG_SAVE_AS = 'tags/{name}.html'
 CATEGORY_SAVE_AS = False
 AUTHOR_SAVE_AS = False
-PAGE_DIR = 'pages'
 
+PAGE_DIR = 'pages'
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 
 DIRECT_TEMPLATES = ('index', 'tags', 'archives')
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'wp-content']
 WEBASSETS = True
 
 RELATIVE_URLS = False

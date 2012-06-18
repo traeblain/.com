@@ -21,8 +21,7 @@
 
   <!-- CSS
   ================================================== -->
-  {% if not PRODUCTION -%}
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/base.css">
+  {% if not PRODUCTION %}<link rel="stylesheet" href="{{ SITEURL }}/theme/css/base.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/skeleton.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/layout.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css">{% else %}
@@ -38,7 +37,7 @@
   {% assets filters="cssmin", output="css/pygments.min.css", "css/pygments.css" -%}
   <link rel="stylesheet" href="{{ ASSET_URL }}">
   {%- endassets %}
-  {%- endif %}
+  {% endif %}
 
   <!-- Fonts
   ================================================== -->

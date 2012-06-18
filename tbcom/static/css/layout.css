@@ -424,6 +424,63 @@ a.menu_link:hover {
 /* #Page Styles
 ================================================== */
 
+  /* About Page === */
+  #posted li, #lastfm li {
+    font-size: 28px;
+    line-height: 57px;
+    background-image: url('/theme/images/apple-touch-icon.png');
+    background-repeat: no-repeat;
+    padding-left: 65px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  #posted, #twitter, #lastfm, #goodreads {
+    margin-bottom: 30px;
+  }
+  #twitter li {
+    min-height: 35px;
+    padding: 3px 0 10px 40px;
+    background-image: url('/theme/images/twitter.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+  #lastfm li {
+    background-image: url('/theme/images/lastfm.jpg');
+  }
+  #garmin li {
+    background-image: none;
+    padding-left: 0;
+  }
+  .gr_grid_book_container {
+    float: left;
+    padding: 0 30px;
+  }
+  .about-facebook, .about-gplus, .about-flickr, .about-youtube, .about-amazon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    height: 57px;
+    width: 57px;
+    margin-bottom: 20px;
+    text-indent: -99999px;
+  }
+  .about-facebook {
+    background-image: url('/theme/images/facebook.jpg');
+  }
+  .about-gplus {
+    background-image: url('/theme/images/googleplus.png');
+  }
+  .about-flickr {
+    background-image: url('/theme/images/flickr.png');
+  }
+  .about-youtube {
+    background-image: url('/theme/images/youtube.png');
+  }
+  .about-amazon {
+    background-image: url('/theme/images/amazon.png');
+  }
+
   /* 404 Page === */
   .fof {
     width: 95%;
@@ -640,6 +697,15 @@ a.menu_link:hover {
     h6.burger{
       background-image: url(/static/images/burger-ratings-small.png);
     }
+    #posted li, #lastfm li, #garmin li {
+      font-size: 20px;
+      line-height: 32px;
+      background-size: 32px;
+      padding-left: 38px;
+    }
+    #twitter_update_list {
+      margin-left: 0;
+    } 
   }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -742,7 +808,15 @@ a.menu_link:hover {
     h6.burger{
       background-image: url(/static/images/burger-ratings-small.png);
     }
-       
+    #posted li, #lastfm li, #garmin li {
+      font-size: 16px;
+      line-height: 24px;
+      background-size: 24px;
+      padding-left: 28px;
+    }
+    #twitter_update_list {
+      margin-left: 0;
+    }       
   }
 
 
