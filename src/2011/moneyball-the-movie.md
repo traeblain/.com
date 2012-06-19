@@ -1,6 +1,6 @@
 Title: 'Moneyball: The Movie'
 Date: 2011-06-16 19:49
-Tags: baseball, movies
+Tags: baseball, movie
 Slug: moneyball-the-movie
 
 <object width="500" height="281"><param name="movie" value="http://d.yimg.com/nl/movies/site/player.swf"></param><param name="flashVars" value="vid=25625800&#038;"></param><param name="allowfullscreen" value="true"></param><param name="wmode" value="transparent"></param><embed width="500" height="281" allowFullScreen="true" src="http://d.yimg.com/nl/movies/site/player.swf" type="application/x-shockwave-flash" flashvars="vid=25625800&#038;"></embed></object>
