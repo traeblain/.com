@@ -1,6 +1,6 @@
 Title: Remove the WPMU DEV Notification
 Date: 2011-07-19 23:42
-Tags: plugin, tool, wordpress
+Tags: plugin, tools, wordpress
 Slug: remove-the-wpmu-dev-notification
 
 ![](http://blog.traeblain.com/wp-content/uploads/anger-annoyed.jpg)

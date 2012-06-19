@@ -1,6 +1,6 @@
 Title: Best Android Apps [Updated]
 Date: 2012-1-14 00:30
-Tags: andoid, apps, mobile
+Tags: android, apps, mobile
 Slug: best-android-apps-updated
 
 <span class="normimg">

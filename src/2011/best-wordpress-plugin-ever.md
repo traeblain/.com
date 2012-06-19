@@ -1,6 +1,6 @@
 Title: Best Wordpress Plugin Ever
 Date: 2011-07-15 20:21
-Tags: plugin, tool, wordpress
+Tags: plugin, tools, wordpress
 Slug: best-wordpress-plugin-ever
 
 ![](http://blog.traeblain.com/wp-content/uploads/wp3-logo.png)

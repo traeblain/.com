@@ -1,6 +1,6 @@
 Title: Windows Text Editors
 Date: 2012-02-27 22:45
-Tags: software, technology, tool
+Tags: software, technology, tools
 Slug: text-editors
 
 Changing from [Wordpress][] to [Hyde][] has put me back into the text editor much more often. I have used a number of text editors, but have found that Linux and even OS X have a better set of text editors. I chalk that up to terminal based systems, as Windows has always been built around the 'graphical experience'.
