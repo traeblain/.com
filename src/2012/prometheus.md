@@ -3,7 +3,7 @@ Date: 2012-06-18 17:13
 Tags: movie, review
 Slug: prometheus
 
-<iframe width="853" height="480" src="http://www.youtube.com/embed/N0WUpsErUBA?rel=0&hd=1&wmode=transparent" frameborder="0" allowfullscreen></iframe>
+<iframe width="820" height="480" src="http://www.youtube.com/embed/N0WUpsErUBA?rel=0&hd=1&wmode=transparent" frameborder="0" allowfullscreen></iframe>
 
 If you haven't seen [Prometheus][] yet, and are an avid Sci-Fi fan, I'd recommend you see it. If you just want to see a movie and get lost in the plot, you might want to consider something else. 
 

@@ -1,4 +1,4 @@
-Title: "Underrated Music: The Beginning"
+Title: Underrated Music: The Beginning
 Date: 2012-03-01 16:09
 Tags: music, cool, radio
 Slug: underrated-music-the-beginning

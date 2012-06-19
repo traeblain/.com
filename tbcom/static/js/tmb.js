@@ -67,5 +67,6 @@ $( function () {
   $('.menu_link').tap(function(){
     $('.topnav').toggleClass('topnavdrop');
   });
+  $('.article-content iframe').wrap('<div class="videoWrapper"></div>')
   title_appear();
 });
