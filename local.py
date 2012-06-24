@@ -2,8 +2,8 @@
 
 AUTHOR = u"Trae Blain"
 SITENAME = u"Trae's Blog"
-SITEURL = 'http://blog.traebla.in'
-ABOUTURL = 'http://traebla.in/'
+SITEURL = 'http://localhost:8000'
+ABOUTURL = 'http://traeblain.com/'
 TIMEZONE = "America/Chicago"
 LOCALE = ('usa')
 DATE_FORMAT = {'en': ('usa', '%B %d, %Y'),}

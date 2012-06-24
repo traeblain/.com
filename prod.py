@@ -6,7 +6,7 @@ SITEURL = 'http://blog.traeblain.com'
 ABOUTURL = 'http://traeblain.com'
 
 NAVLINKS =  (
-    ('Blog', 'http://blog.traeblain.com'),
+    ('Blog', SITEURL),
     ('Breaking The Bike', 'http://breakingthebike.com/'),
     ('Feed', '/feed')
          )
