@@ -16,7 +16,7 @@ DEFAULT_DATE_FORMAT = '%B %d, %Y'
 NAVLINKS =  (
     ('Blog', SITEURL),
     ('Breaking The Bike', 'http://breakingthebike.com/'),
-    ('Feed', '/feed')
+    ('Feed', '/feed/')
          )
 
 # Social widget

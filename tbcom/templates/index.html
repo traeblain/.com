@@ -19,6 +19,7 @@
       </article>
       {% endfor %}
       {% endif %}
+      {% block pagination %}
       {% if DEFAULT_PAGINATION %}
       <div class="paginator">
         <span>
@@ -40,4 +41,5 @@
         </span>
       </div>
       {% endif %}
+      {% endblock %}
 {% endblock %}
