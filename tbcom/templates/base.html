@@ -80,7 +80,7 @@
         <li class="three columns"><a href="{{ link }}">{{ title }}</a></li>
         {% endfor %}
         <li class="search_link four columns">
-          <form id="searchbox" name="searchbox" method="get" action="/search.html"><div class="half-border"></div><input id="searchtext" name="q" type="text" /><div class="half-border"></div><input id="searchbutton" type="submit" value="s" class="traefont" /></form>
+          <form id="searchbox" name="searchbox" method="get" action="/search"><div class="half-border"></div><input id="searchtext" name="q" type="text" /><div class="half-border"></div><input id="searchbutton" type="submit" value="s" class="traefont" /></form>
         </li>
       </ul>
     </nav>
@@ -122,7 +122,6 @@
   <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script>
   {% if not PRODUCTION -%}
   <script src="{{ SITEURL }}/theme/js/tmb.js"></script>
-  <script src="{{ SITEURL }}/theme/js/tabs.js"></script>
   {% else %}{% assets filters="jsmin", output="js/tmb.min.js", "js/tmb.js" -%}
   <script type="text/javascript" src="{{ ASSET_URL }}"></script>
   {%- endassets %}
