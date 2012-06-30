@@ -605,7 +605,7 @@ a.menu_link:hover {
       display: none;
     }
     img, .article_content iframe, .article_content iframe embed, .article_content iframe object {
-      max-width: 650px;
+      max-width: 650px !important;
       height: auto;
     }
     .article_content iframe, .article_content iframe embed, .article_content iframe object {
@@ -669,7 +669,7 @@ a.menu_link:hover {
       margin-bottom: 0;
     }
     img, .article_content iframe, .article_content iframe embed, .article_content iframe object {
-      max-width: 414px;
+      max-width: 414px !important;
       height: auto;
     }
     .article_content iframe, .article_content iframe embed, .article_content iframe object {
@@ -779,7 +779,7 @@ a.menu_link:hover {
       margin-bottom: 0;
     }
     img, .article_content iframe, .article_content iframe embed, .article_content iframe object {
-      max-width: 294px;
+      max-width: 294px !important;
       height: auto;
     }
     .article_content iframe, .article_content iframe embed, .article_content iframe object {
