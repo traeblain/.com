@@ -125,9 +125,7 @@
   {% else %}{% assets filters="jsmin", output="js/tmb.min.js", "js/tmb.js" -%}
   <script type="text/javascript" src="{{ ASSET_URL }}"></script>
   {%- endassets %}
-  {% assets filters="jsmin", output="js/tabs.min.js", "js/tabs.js" -%}
-  <script type="text/javascript" src="{{ ASSET_URL }}"></script>
-  {%- endassets %}{%- endif %}
+  {% endif %}
   {% block morescripts %}{% endblock %}
 
   {% if PRODUCTION -%}
