@@ -1,0 +1,15 @@
++---2011
++---2012
++---feeds
++---static
+|   +---images
+|   |   +---2011
+|   |   \---2012
+|   \---wp-content
+|       \---uploads
++---tags
+\---theme
+    +---.webassets-cache
+    +---css
+    +---images
+    \---js
