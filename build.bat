@@ -29,9 +29,9 @@ echo and pushing to server...
 echo.
 echo.
 cd output
-call hg addremove
-call hg commit -m "%COMMITMSG%"
-call hg push
+call C:\Python27\Scripts\hg addremove
+call C:\Python27\Scripts\hg commit -m "%COMMITMSG%"
+call C:\Python27\Scripts\hg push -f
 
 cd ..
 
