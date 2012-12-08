@@ -9,6 +9,8 @@ LOCALE = ('usa')
 DATE_FORMAT = {'en': ('usa', '%B %d, %Y'),}
 PRODUCTION = True
 
+PLUGINS = ['pelican.plugins.assets',]
+
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = '%B %d, %Y'
 
@@ -43,11 +45,10 @@ PAGE_SAVE_AS = '{slug}.html'
 
 DIRECT_TEMPLATES = ('index', 'tags', 'archives')
 STATIC_PATHS = ['images', 'wp-content']
-WEBASSETS = True
 
 RELATIVE_URLS = False
 
-FEED = 'atom.xml'
+FEED_ATOM = 'atom.xml'
 FEED_MAX_ITEMS = 15
 
 TAG_CLOUD_STEPS = 8
