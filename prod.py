@@ -6,30 +6,31 @@ SITEURL = 'http://blog.traeblain.com'
 ABOUTURL = 'http://traeblain.com/'
 TIMEZONE = "America/Chicago"
 LOCALE = ('usa')
-DATE_FORMAT = {'en': ('usa', '%B %d, %Y'),}
+DATE_FORMAT = {'en': ('usa', '%B %d, %Y'), }
 PRODUCTION = True
 
-PLUGINS = ['pelican.plugins.assets',]
+PLUGINS = ['pelican.plugins.assets', ]
+THEME = 'tbcom'
+PATH = 'src'
+OUTPUT_PATH = 'output'
 
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = '%B %d, %Y'
 
 # Menu Links
-NAVLINKS =  (
+NAVLINKS = (
     ('Blog', SITEURL),
     ('Breaking The Bike', 'http://breakingthebike.com/'),
-    ('Feed', '/feed/')
-         )
+    ('Feed', '/feed/'))
 
 # Social widget
 SOCIAL = (
           ('twitter', 'http://twitter.com/traeblain'),
-          ('facebook', 'http://facebook.com/traeblain'),
-         )
+          ('facebook', 'http://facebook.com/traeblain'), )
 
 DEFAULT_PAGINATION = 15
 
-MD_EXTENSIONS = ['codehilite','extra','toc',]
+MD_EXTENSIONS = ['codehilite', 'extra', 'toc', ]
 
 ARTICLE_URL = '{date:%Y}/{slug}'
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
@@ -60,4 +61,4 @@ TWITTER_USERNAME = 'traeblain'
 CHARSET = "utf-8"
 SITEDESCRIPTION = "Engineer. Father. Cyclist. Sexy. Sarcastic. Geek."
 
-FILES_TO_COPY = (('extras/.htaccess','.htaccess'),)
+FILES_TO_COPY = (('extras/.htaccess', '.htaccess'), )
