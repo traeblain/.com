@@ -4,7 +4,7 @@ REM Batch file to build my blog
 echo Running Pelican Site Generator
 echo.
 echo.
-pelican -t tbcom -s %1 -v src
+pelican -s %1 -v
 if %errorlevel% neq 0 exit /b %errorlevel%
 
 echo.

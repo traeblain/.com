@@ -26,16 +26,16 @@
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/layout.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css">{% else %}
   {% assets filters="cssmin", output="css/base.min.css", "css/base.css" -%}
-  <link rel="stylesheet" href="{{ ASSET_URL }}">
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
   {%- endassets %}
   {% assets filters="cssmin", output="css/skeleton.min.css", "css/skeleton.css" -%}
-  <link rel="stylesheet" href="{{ ASSET_URL }}">
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
   {%- endassets %}
   {% assets filters="cssmin", output="css/layout.min.css", "css/layout.css" -%}
-  <link rel="stylesheet" href="{{ ASSET_URL }}">
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
   {%- endassets %}
   {% assets filters="cssmin", output="css/pygments.min.css", "css/pygments.css" -%}
-  <link rel="stylesheet" href="{{ ASSET_URL }}">
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
   {%- endassets %}
   {% endif %}
 
@@ -123,7 +123,7 @@
   {% if not PRODUCTION -%}
   <script src="{{ SITEURL }}/theme/js/tmb.js"></script>
   {% else %}{% assets filters="jsmin", output="js/tmb.min.js", "js/tmb.js" -%}
-  <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+  <script type="text/javascript" src="{{ SITEURL }}/{{ ASSET_URL }}"></script>
   {%- endassets %}
   {% endif %}
   {% block morescripts %}{% endblock %}
