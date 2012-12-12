@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  {% block prehead %}{% endblock %}
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="{{ CHARSET }}">
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+  <meta name="description" content="{{ SITEDESCRIPTION }}">
+  <meta name="author" content="{{ AUTHOR }}">
+  <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  {% if not PRODUCTION %}<link rel="stylesheet" href="{{ SITEURL }}/theme/css/simplegrid.css">
+  <link rel="stylesheet/less" type="text/css" href="{{ SITEURL }}/theme/css/style.less">
+  <script src="{{ SITEURL }}/theme/js/less.js" type="text/javascript"></script>
+  {% else %}
+  {% assets filters="cssmin", output="css/simplegrid.min.css", "css/simplegrid.css" -%}
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+  {%- endassets %}
+  {% assets filters="less", output="css/style.min.css", "css/style.less" -%}
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+  {%- endassets %}
+  {% endif %}
+
+  <!-- Fonts
+  ================================================== -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico">
+  <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ SITEURL }}/theme/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ SITEURL }}/theme/images/apple-touch-icon-114x114.png">
+
+  <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
+  {% if FEED_RSS %}
+  <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+  {% endif %}
+
+  {% block endhead %}{% endblock %}
+
+</head>
+<body>
+
+
+
+  <!-- Primary Page Layout
+  ================================================== -->
+
+  <!-- Delete everything in this .container and get started on your own site! -->
+
+  <div class="container grid">
+    <header class="col-4-12 header">
+      <div class="headerwrap">
+        <div class="header-avatar"><a class="avatar-link" href="{{ SITEURL }}" style="background-image:url({{ SITEURL }}/theme/images/profilepic.png)"></a></div>
+
+        <hgroup class="header-text">
+          <h2 class="header-name"><a class="home-link" href="{{ SITEURL }}">{{ AUTHOR }}</a></h2>
+          <h3 class="header-title">{{ SITEDESCRIPTION }}</h3>
+        </hgroup>
+
+        <section class="header-social">
+          <ul class="header-social-icons">
+            <li class=""></li>
+            <li class=""></li>
+            <li class=""></li>
+            <li class=""></li>
+          </ul>
+          <ul class="header-social-button">
+            <li class=""></li>
+          </ul>
+        </section>
+      </div><!-- headerwrap -->
+    </header>
+
+    <nav class="nav"><a class="homelink" href="{{ SITEURL }}" title="Home"></a></nav>
+
+    <section class="col-8-12 main" role="main">
+      {% block main %}{% endblock %}
+    </section>
+  </div><!-- container -->
+
+
+
+  <!-- JS
+  ================================================== -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script>
+  {% if not PRODUCTION -%}
+  <script src="{{ SITEURL }}/theme/js/tmb.js"></script>
+  {% else %}{% assets filters="jsmin", output="js/tmb.min.js", "js/tmb.js" -%}
+  <script type="text/javascript" src="{{ SITEURL }}/{{ ASSET_URL }}"></script>
+  {%- endassets %}
+  {% endif %}
+  {% block morescripts %}{% endblock %}
+
+  {% if PRODUCTION -%}
+  {% if GOOGLE_ANALYTICS %}
+  <!-- Google Analytics
+  ================================================ -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '{{ GOOGLE_ANALYTICS }}']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  {% endif %}
+  {%- endif %}
+
+<!-- End Document
+================================================== -->
+</body>
+</html>

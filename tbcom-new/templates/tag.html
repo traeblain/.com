@@ -1,0 +1,33 @@
+{% extends "index.html" %}
+{% block title %}{{ tag }} - {{ SITENAME }}{% endblock %}
+
+{% block listhead %}
+  <header class="tag-header">
+    <h2>Posts tagged with: <em>{{ tag|title }}</em></h2>
+    <br />
+  </header>
+{% endblock %}
+
+{% block pagination %}
+{% if DEFAULT_PAGINATION %}
+<div class="paginator">
+  <span>
+  {% if articles_page.has_previous() %}
+    {% if articles_page.previous_page_number() == 1 %}
+    <a class="prev-page" href="{{ SITEURL }}/tags/{{ tag }}" title="Page 1">&laquo;</a>
+    {% else %}
+    <a class="prev-page" href="{{ SITEURL }}/tags/{{ tag }}{{ articles_page.previous_page_number() }}" title="Page {{ articles_page.previous_page_number() }}">&laquo;</a>
+    {% endif %}
+  {% endif %}
+  <ul>
+    {% for page_number in range(articles_paginator.num_pages) %}
+      <li><a class="{% if loop.index == articles_page.number %}current-page{% endif %}" href="{{ SITEURL }}/tags/{{ tag }}{% if loop.index != 1 %}{{ loop.index }}{% endif %}" title="Page {{ loop.index }}">{{ loop.index }}</a></li>
+    {% endfor %}
+  </ul>
+  {% if articles_page.has_next() %}
+    <a href="{{ SITEURL }}/tags/{{ tag }}{{ articles_page.next_page_number() }}" class="next-page" title="Page {{ articles_page.next_page_number() }}">&raquo;</a>
+  {% endif %}
+  </span>
+</div>
+{% endif %}
+{% endblock %}
