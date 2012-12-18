@@ -21,16 +21,19 @@
 
   <!-- CSS
   ================================================== -->
-  {% if not PRODUCTION %}<link rel="stylesheet" href="{{ SITEURL }}/theme/css/simplegrid.css">
-  <link rel="stylesheet/less" type="text/css" href="{{ SITEURL }}/theme/css/style.less">
-  <script src="{{ SITEURL }}/theme/js/less.js" type="text/javascript"></script>
+  {% if PRODUCTION %}
+    {% assets filters="cssmin", output="css/fullstyle.min.css", "css/reset.css", "css/simplegrid.css", "css/pygments.css" -%}
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+    {%- endassets %}
+    {% assets filters="less,cssmin", output="css/style.min.css", "css/style.less" -%}
+    <link rel="stylesheet" href="{{ STIEURL }}/{{ ASSET_URL }}">
+    {%- endassets %}
   {% else %}
-  {% assets filters="cssmin", output="css/simplegrid.min.css", "css/simplegrid.css" -%}
-  <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
-  {%- endassets %}
-  {% assets filters="less", output="css/style.min.css", "css/style.less" -%}
-  <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
-  {%- endassets %}
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/reset.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/simplegrid.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css">
+    <link rel="stylesheet/less" type="text/css" href="{{ SITEURL }}/theme/css/style.less">
+    <script src="{{ SITEURL }}/theme/js/less.js" type="text/javascript"></script>
   {% endif %}
 
   <!-- Fonts
@@ -58,17 +61,12 @@
 </head>
 <body>
 
-
-
   <!-- Primary Page Layout
   ================================================== -->
-
-  <!-- Delete everything in this .container and get started on your own site! -->
-
   <div class="container grid">
-    <header class="col-4-12 header">
+    <header class="col-3-12 header push-right">
       <div class="headerwrap">
-        <div class="header-avatar"><a class="avatar-link" href="{{ SITEURL }}" style="background-image:url({{ SITEURL }}/theme/images/profilepic.png)"></a></div>
+        <div class="header-avatar"><a class="avatar-link" href="{{ SITEURL }}"><img src="{{ SITEURL }}/theme/images/tblogo.svg" /></a></div>
 
         <hgroup class="header-text">
           <h2 class="header-name"><a class="home-link" href="{{ SITEURL }}">{{ AUTHOR }}</a></h2>
@@ -77,13 +75,13 @@
 
         <section class="header-social">
           <ul class="header-social-icons">
-            <li class=""></li>
-            <li class=""></li>
-            <li class=""></li>
-            <li class=""></li>
+            <li class="twittericon"><a href="{{ SOCIAL.twitter }}" class="twitterlink">Twitter</a></li>
+            <li class="facebookicon"><a href="{{ SOCIAL.facebook }}" class="facebooklink">Facebook</a></li>
+            <li class="">???</li>
+            <li class="rssicon"><a href="{{ SITEURL }}/feed" class="rsslink">RSS</a></li>
           </ul>
           <ul class="header-social-button">
-            <li class=""></li>
+            <li class="social">Button??</li>
           </ul>
         </section>
       </div><!-- headerwrap -->
@@ -91,7 +89,7 @@
 
     <nav class="nav"><a class="homelink" href="{{ SITEURL }}" title="Home"></a></nav>
 
-    <section class="col-8-12 main" role="main">
+    <section class="col-9-12 main" role="main">
       {% block main %}{% endblock %}
     </section>
   </div><!-- container -->
@@ -101,11 +99,12 @@
   <!-- JS
   ================================================== -->
   <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script>
-  {% if not PRODUCTION -%}
-  <script src="{{ SITEURL }}/theme/js/tmb.js"></script>
-  {% else %}{% assets filters="jsmin", output="js/tmb.min.js", "js/tmb.js" -%}
-  <script type="text/javascript" src="{{ SITEURL }}/{{ ASSET_URL }}"></script>
-  {%- endassets %}
+  {% if PRODUCTION %}
+    {% assets filters="jsmin", output="js/tmb.min.js", "js/tmb.js" -%}
+    <script type="text/javascript" src="{{ SITEURL }}/{{ ASSET_URL }}"></script>
+    {%- endassets %}
+  {% else %}
+    <script src="{{ SITEURL }}/theme/js/tmb.js"></script>
   {% endif %}
   {% block morescripts %}{% endblock %}
 
