@@ -57,5 +57,5 @@ $( function() {
 
 
 $( function () {
-  $('.article-content iframe').wrap('<div class="videoWrapper"></div>');
+  $('.article-body iframe').wrap('<div class="videoWrapper"></div>');
 });
