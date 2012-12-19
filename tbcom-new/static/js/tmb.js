@@ -5,7 +5,7 @@
             $(e.target).trigger('tap');
         });
     }
-})(window.Zepto);
+})(window.jQuery);
 
 $( function () {
   var ss = new Array(0);
@@ -58,4 +58,17 @@ $( function() {
 
 $( function () {
   $('.article-body iframe').wrap('<div class="videoWrapper"></div>');
+  // $('.search-button').on('click', function (e) {
+  //   var query = e.prev('.search-form').val();
+  //   var link = e.attr('href');
+  //   var fullsearch = link + query;
+  //   e.attr('href', fullsearch);
+  //   return false;
+  // });
+  $('.search-form').on('keyup', function () {
+    var query = $(this).val();
+    var link = $(this).next('.search-button').attr('href').split('?q=')[0];
+    var fullsearch = link + '?q=' + query;
+    $(this).next('.search-button').attr('href', fullsearch);
+  });
 });
