@@ -64,30 +64,33 @@
   <!-- Primary Page Layout
   ================================================== -->
   <div class="container grid">
-    <header class="col-3-12 header push-right">
-      <div class="headerwrap">
-        <div class="header-avatar"><a class="avatar-link" href="{{ SITEURL }}"><img src="{{ SITEURL }}/theme/images/tblogo.svg" /></a></div>
+    <header class="col-3-12 push-right header">
+      <div class="col-3-12 headerwrap">
+        <div class="header-content">
+          <div class="header-avatar"><a class="avatar-link" href="{{ SITEURL }}"><img src="{{ SITEURL }}/theme/images/tblogo.svg" /></a></div>
 
-        <hgroup class="header-text">
-          <h2 class="header-name"><a class="home-link" href="{{ SITEURL }}">{{ AUTHOR }}</a></h2>
-          <h3 class="header-title">{{ SITEDESCRIPTION }}</h3>
-        </hgroup>
+          <hgroup class="header-text">
+            <h2 class="header-name"><a class="home-link" href="{{ SITEURL }}">{{ AUTHOR }}</a></h2>
+            <h3 class="header-title">{{ SITEDESCRIPTION }}</h3>
+          </hgroup>
 
-        <section class="header-social">
-          <ul class="header-social-icons">
-            <li class="twittericon"><a href="{{ SOCIAL.twitter }}" class="twitterlink">Twitter</a></li>
-            <li class="facebookicon"><a href="{{ SOCIAL.facebook }}" class="facebooklink">Facebook</a></li>
-            <li class="">???</li>
-            <li class="rssicon"><a href="{{ SITEURL }}/feed" class="rsslink">RSS</a></li>
-          </ul>
-          <ul class="header-social-button">
-            <li class="social">Button??</li>
-          </ul>
-        </section>
+          <section class="header-social">
+            <ul class="header-social-icons">
+              <li class="twittericon"><a href="http://twitter.com/traeblain/" class="twitterlink"><i class="icon-twitter"></i></a></li>
+              <li class="facebookicon"><a href="http://facebook.com/traeblain/" class="facebooklink"><i class="icon-facebook"></i></a></li>
+              <li class="btbicon"><a href="http://breakingthebike.com/" class="btblink"><i class="icon-bicycle"></i></a></li>
+              <li class="githubicon"><a href="http://github.com/traeblain/" class="githublink"><i class="icon-github"></i></a></li>
+              <li class="rssicon"><a href="{{ SITEURL }}/feed" class="rsslink"><i class="icon-rss"></i></a></li>
+            </ul>
+            <ul class="header-social-button">
+              <li class="social">Button??</li>
+            </ul>
+          </section>
+        </div><!-- header-content -->
       </div><!-- headerwrap -->
     </header>
 
-    <nav class="nav"><a class="homelink" href="{{ SITEURL }}" title="Home"></a></nav>
+    <nav class="nav"><a class="homelink" href="{{ SITEURL }}" title="Home"><i class="icon-home"></i></a></nav>
 
     <section class="col-9-12 main" role="main">
       {% block main %}{% endblock %}

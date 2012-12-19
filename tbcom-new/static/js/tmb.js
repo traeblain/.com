@@ -1,31 +1,3 @@
-(function ($) {
-  /**
-   * Skeleton V1.1
-   * Copyright 2011, Dave Gamache
-   * www.getskeleton.com
-   * Free to use under the MIT license.
-   * http://www.opensource.org/licenses/mit-license.php
-   * 8/17/2011
-   */
-  // hash change handler
-  function hashchange () {
-    var hash = window.location.hash
-      , el = $('ul.tabs [href*="' + hash + '"]')
-      , content = $(hash)
-
-    if (el.length && !el.hasClass('active') && content.length) {
-      el.closest('.tabs').find('.active').removeClass('active');
-      el.addClass('active');
-      content.show().addClass('active').siblings().hide().removeClass('active');
-    }
-  }
-
-  // listen on event and fire right away
-  $(window).on('hashchange.skeleton', hashchange);
-  hashchange();
-  $(hashchange);
-})(Zepto); //changed from jQuery to Zepto
-
 (function($) {
     // only do this if not on a touch device
     if (!('ontouchend' in window)) {
@@ -50,51 +22,40 @@ $( function () {
   }
 });
 
-function getScrollingPosition() {
-  var position = [0, 0];
-  if (typeof window.pageYOffset != 'undefined')
-    {
-      position = [
-      window.pageXOffset,
-      window.pageYOffset
-      ];
-    } 
-  else if (typeof document.documentElement.scrollTop != 'undefined' && document.documentElement.scrollTop > 0) 
-  {
-    position = [
-    document.documentElement.scrollLeft,
-    document.documentElement.scrollTop
-    ];
-  }
-  else if (typeof document.body.scrollTop != 'undefined')
-  {
-    position = [
-    document.body.scrollLeft,
-    document.body.scrollTop
-    ];
-  }
-  return position;
+
+/*
+function jsPaginator(LoadUrl) {
+  $('.paginator').html('<li><a href="' + LoadUrl + '">Load More Posts</a></li>');
 }
 
-function title_appear() {
-    var window_top = getScrollingPosition()[1] + 50;
-    var div_top = $('#main').offset().top;
-    if (window_top > div_top) {
-      $('.menu_title').removeClass('hide_title');
-    } else {
-      $('.menu_title').addClass('hide_title');
-}
+$( function() {
+  $('.paginator').addClass('postloader');
+  var toLoadUrl = $('.next-page').attr('href');
+  jsPaginator(toLoadUrl);
+  $('.postloader a').on('click', function () {
+    $('#main').append('<div class="addon"><span><i class="icon-spin"></i></span> One Moment Please...</div>');
+    $.ajax({
+      type: 'GET',
+      url: toLoadUrl,
+      dataType: 'html',
+      cache: false,
+      success : function(data){
+        var zObj = $(data);
+        console.log(zObj.html());
+        $('section.main ul').append( zObj.find('section.main ul li.article-list-item') );
+        var newLoadUrl = zObj.find('.next-page').attr('href');
+        jsPaginator(newLoadUrl);
+        $('.addon').remove();
+      },
+      error : function(xhr, errorType, error){
+        $('.paginator').html('<li>No More Posts to Load</li>');
+      }
+    });
+    return false;
+  });
+}); */
 
-window.onscroll = function() 
-{
-  title_appear();
-    } 
-};
 
 $( function () {
-  $('.menu_link').tap(function(){
-    $('.topnav').toggleClass('topnavdrop');
-  });
-  $('.article-content iframe').wrap('<div class="videoWrapper"></div>')
-  title_appear();
+  $('.article-content iframe').wrap('<div class="videoWrapper"></div>');
 });

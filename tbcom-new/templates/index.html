@@ -5,7 +5,7 @@
       <ul class="article-list">
       {% if articles %}
       {% for article in (articles_page.object_list if articles_page else articles) %}
-      <li><article class="article">
+      <li class="article-list-item"><article class="article">
         <header class="article-header">
           <h1 class="article-title"><a class="article-link" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
           <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
@@ -18,27 +18,24 @@
       </article></li>
       {% endfor %}
       {% endif %}
+      </ul>
       {% block pagination %}
       {% if DEFAULT_PAGINATION %}
-      <div class="paginator">
-        <span>
+      <ul class="paginator">
         {% if articles_page.has_previous() %}
           {% if articles_page.previous_page_number() == 1 %}
-          <a class="prev-page" href="{{ SITEURL }}/" title="Page 1">&laquo;</a>
+          <li><a class="prev-page" href="{{ SITEURL }}/" title="Page 1"><i class="icon-left-open"></i></a></li>
           {% else %}
-          <a class="prev-page" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}{% if not PRODUCTION %}.html{% endif %}" title="Page {{ articles_page.previous_page_number() }}">&laquo;</a>
+          <li><a class="prev-page" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}{% if not PRODUCTION %}.html{% endif %}" title="Page {{ articles_page.previous_page_number() }}"><i class="icon-left-open"></i></a></li>
           {% endif %}
         {% endif %}
-        <ul>
-          {% for page_number in range(articles_paginator.num_pages) %}
-            <li><a class="{% if loop.index == articles_page.number %}current-page{% endif %}" href="{{ SITEURL }}/{% if loop.index != 1 %}{{ page_name }}{{ loop.index }}{% if not PRODUCTION %}.html{% endif %}{% endif %}" title="Page {{ loop.index }}">{{ loop.index }}</a></li>
-          {% endfor %}
-        </ul>
+        {% for page_number in range(articles_paginator.num_pages) %}
+          <li><a class="{% if loop.index == articles_page.number %}current-page{% endif %}" href="{{ SITEURL }}/{% if loop.index != 1 %}{{ page_name }}{{ loop.index }}{% if not PRODUCTION %}.html{% endif %}{% endif %}" title="Page {{ loop.index }}">{{ loop.index }}</a></li>
+        {% endfor %}
         {% if articles_page.has_next() %}
-          <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}{% if not PRODUCTION %}.html{% endif %}" class="next-page" title="Page {{ articles_page.next_page_number() }}">&raquo;</a>
+          <li><a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}{% if not PRODUCTION %}.html{% endif %}" class="next-page" title="Page {{ articles_page.next_page_number() }}"><i class="icon-right-open"></i></a></li>
         {% endif %}
-        </span>
-      </div>
+      </ul>
       {% endif %}
       {% endblock %}
 {% endblock %}
