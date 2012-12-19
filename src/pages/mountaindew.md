@@ -9,7 +9,4 @@ Area: /dtmountaindew
 <div id="commits"><img src="/theme/images/loader.gif" class="loader" /></div>
 
 <script src='http://gitlive.com/githublive.min.js'></script>
-<script>var GithubPush = {num_old:8,nodes:['traeblain/traeblain.com']}</script>
-<script type="text/javascript">
-
-</script>
+<script>var GithubPush = {num_old:5,nodes:['traeblain/.com']}</script>
