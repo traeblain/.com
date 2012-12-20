@@ -81,14 +81,15 @@
               <li class="btbicon"><a href="http://breakingthebike.com/" class="btblink"><i class="icon-bicycle"></i></a></li>
               <li class="githubicon"><a href="http://github.com/traeblain/" class="githublink"><i class="icon-github"></i></a></li>
               <li class="rssicon"><a href="{{ SITEURL }}/feed" class="rsslink"><i class="icon-rss"></i></a></li>
+              <li class="searchicon"><a href="{{ SITEURL }}/search{% if not PRODUCTION %}.html{% endif %}" class="searchlink"><i class="icon-search"></i></a></li>
             </ul>
             <ul class="header-search">
-              <li>
-                  <input class="search-form" type="text" /><a href="{{ SITEURL }}/search{% if not PRODUCTION %}.html{% endif %}?q=" class="search-button"><i class="icon-search"></i></a>
-              </li>
+              <li><form action="{{ SITEURL }}/search{% if not PRODUCTION %}.html{% endif %}" method="get">
+                  <input class="search-form" type="text" name="q" /><button type="submit" class="search-button"><i class="icon-search"></i></button>
+              </form></li>
             </ul>
             <ul class="header-social-button">
-              <li class="social">Button??</li>
+              <li class="twitterfollow"><a href="https://twitter.com/traeblain" class="twitter-follow-button" data-show-count="false">Follow @traeblain</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
             </ul>
           </section>
         </div><!-- header-content -->
@@ -106,8 +107,8 @@
 
   <!-- JS
   ================================================== -->
-  <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script> -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0rc1/zepto.min.js"></script>
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
   {% if PRODUCTION %}
     {% assets filters="jsmin", output="js/tmb.min.js", "js/tmb.js" -%}
     <script type="text/javascript" src="{{ SITEURL }}/{{ ASSET_URL }}"></script>

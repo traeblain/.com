@@ -160,7 +160,7 @@ h6 {
       text-decoration: none;
     }
   }
-  &-title {
+  &-title, &-social-button {
     font-size: 0.85rem;
     line-height: 1rem;
     font-weight: normal;
@@ -180,7 +180,13 @@ h6 {
           opacity: 1;
         }
       }
+      &.searchicon {
+        display: none;
+      }
     }
+  }
+  &-social-button {
+    padding-top: 15px;
   }
   &-search {
     input {
@@ -189,17 +195,32 @@ h6 {
       border-width: 1px;
       color: @gcolor;
       border-radius: (@fsize + 4)/2;
-      width: 85%;
-      padding: 0 10px;
-      margin-right: 5px;
+      width: 95%;
+      padding: 0 (@fsize + 4) 0 10px;
+      //margin-right: 5px;
     }
     .search-button {
+      font-size: @fsize;
+      line-height: @fsize;
+      padding: 0;
+      background: none;
+      border: 0;
+      vertical-align: middle;
+      margin-left: -(@fsize + 6);
       color: @pcolor;
       opacity: 0.3;
       .hoverfade;
       &:hover {
         opacity: 1;
       }
+    }
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .header-search {
+    .search-button {
+      margin-left: -(@fsize + 3);
+      vertical-align: baseline;
     }
   }
 }
@@ -421,6 +442,34 @@ a.homelink {
     color: @ocolor !important;
   }
 }
+.tagcloud {
+  li {
+    display: inline-block;
+    list-style: none;
+    line-height: 2em;
+  }
+  & .tag-1 {
+    font-size: 3em;
+  }
+  & .tag-2 {
+    font-size: 2.5em;
+  }
+  & .tag-3 {
+    font-size: 2em;
+  }
+  & .tag-4 {
+    font-size: 1.5em;
+  }
+  & .tag-5 {
+    font-size: 1em;
+  }
+  & .tag-6 {
+    font-size: 0.8em;
+  }
+}
+
+
+
 /* Icon details */
 
 .icon {
@@ -666,7 +715,7 @@ a.homelink {
       position: relative;
       display: block;
       height: 90px;
-      width: 85%;
+      width: 90%;
       bottom: 0;
       margin: 0 auto !important;
       text-align: center;
@@ -682,9 +731,9 @@ a.homelink {
       position: absolute;
       top: 15px;
       left: 50%;
-      margin-left: -193px;
+      margin-left: -225px;
       display: block;
-      width: 163px;
+      width: 195px;
       padding: 0;
     }
     &-name {
@@ -701,17 +750,23 @@ a.homelink {
       position: absolute;
       top: 50%;
       right: 50%;
-      margin-right: -193px;
+      margin-right: -225px;
       margin-top: -10px;
       display: block;
-      width: 163px;
+      width: 195px;
       padding: 0;
       margin-bottom: 0;
       & li {
         width: @fsize * 1.5;
+        &.searchicon {
+          display: inline-block;
+        }
       }
     }
     &-social-button {
+      display: none;
+    }
+    &-search {
       display: none;
     }
   }
@@ -737,6 +792,9 @@ a.homelink {
     }
     &-tags {
       font-size: @fsize * 0.8;
+    }
+    &-list & {
+      margin-bottom: 0 !important;
     }
   }
   .tag-header {
@@ -869,6 +927,9 @@ a.homelink {
     padding-right: @fullpads;
     text-align: center;
     margin-bottom: 25px !important;
+    &-list & {
+      margin-bottom: 0 !important;
+    }
   }
   .tag-header {
     margin-bottom: 0px !important;

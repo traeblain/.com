@@ -3,13 +3,16 @@
 {% block title %}Archives - {{ SITENAME }}{% endblock %}
 
 {% block main %}
-  <h1>Archives for {{ SITENAME }}</h1>
-
-  <dl>
-    {% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href='{{ article.url }}'>{{ article.title }}</a></dd>
-    {% endfor %}
-  </dl>
+  <ul class="article-list">
+  {% for article in dates %}
+    <li class="article-list-item"><article class="article">
+      <header class="article-header">
+        <h1 class="article-title"><a href="{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title }}" class="article-link">{{ article.title }}</a></h1>
+        <time datetime="{{ article.date.isoformat() }}" class="article-date">{{ article.locale_date }}</time>
+      </header>
+    </article></li>
+  {% endfor %}
+  </ul>
+  <br /><br /><br /><br /><br /><br />
 
 {% endblock %}
