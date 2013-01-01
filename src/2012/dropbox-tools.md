@@ -1,8 +1,7 @@
 Title: Dropbox Toolchest
-Date: 2012-12-31 19:30
+Date: 2012-12-31 20:20
 Slug: dropbox-tools
 Tags: software, tools
-Status: draft
 
 ![Dropbox](|filename|../wp-content/uploads/dropbox.png "Dropbox alignright") [Dropbox][] is a great tool for file storage.  If you aren't using it right now...stop reading, follow [the link][Dropbox] and get it setup on your computer right now.  Done?  Ok, so now we can get started.
 
