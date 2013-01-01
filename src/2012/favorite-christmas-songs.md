@@ -1,7 +1,7 @@
 Title: Favorite Christmas Songs
 Date: 2012-12-24 00:01
 Slug: favorite-christmas-songs
-Tag: music, holiday
+Tags: music, holiday
 
 There are some very classic Christmas music out there.  I'm a fan of music, so that makes me an expert on good Christmas music.  Here's a list of my favorites, these are the songs that I actually wouldn't mind listening to year round.
 
@@ -27,8 +27,8 @@ _Carol of the Bells_ is a great song in and of itself, but TSO does something wi
 
 <iframe src="https://embed.spotify.com/?uri=spotify:user:1244599552:playlist:7pyNc8fFX5a9SddOEqYJom" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 
-[Spotify](http://open.spotify.com/user/1244599552/playlist/7pyNc8fFX5a9SddOEqYJom)
+[Spotify Playlist](http://open.spotify.com/user/1244599552/playlist/7pyNc8fFX5a9SddOEqYJom)
 
 [Rdio Playlist](http://rd.io/x/QPvnL15lfQ)
 
-[Grooveshark](http://grooveshark.com/playlist/Favorite+Christmas+Music/81043757)
+[Grooveshark Playlist](http://grooveshark.com/playlist/Favorite+Christmas+Music/81043757)

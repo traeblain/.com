@@ -1,7 +1,7 @@
 Title: If You're Reading This...You're Already Dead
 Date: 2012-12-21 00:01
 Slug: if-you-read-this-you-dead
-Tag: random
+Tags: random
 
 ![2012](/static/images/2012/2012.jpg "2012 End of the World")  If you are reading this, you're already dead.  The world has ended.  Luckily California and major portions of the western United States has fallen into the sea.  Texas is completely flooded, and the only survivors are the crazies that prepared for this.
 
