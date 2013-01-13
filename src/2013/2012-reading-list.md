@@ -17,7 +17,7 @@ I didn't read much in 2012.  At least not as much as I normally do.  There were 
 
 ## I Suck at Girls by Justin Halpern
 
-![I Suck at Girls](/static/images/2013/i-suck-at-girls.jpg  "I Suck at Girls alignright") [I Suck at Girls](http://www.goodreads.com/book/show/13425393-i-suck-at-girls) was a quick grab while it was on sale at [Amazon](http://www.amazon.com/Suck-at-Girls-Justin-Halpern/dp/0062113372/) and I was immediately happy I bought it.  It's a humorous tale of Justin Halpern--of [Sh*t My Dad Says]() fame--as he fights through growing up and dealing with girls, sexual desires, and a marriage proposal.  It's really funny and an easy read (read it in a day and a half).  There were times when I was laughing so hard my wife had to ask me what it was...so I obliged.  It's funny, a bit crass, but completely endearing and a fun read.
+![I Suck at Girls](/static/images/2013/i-suck-at-girls.jpg  "I Suck at Girls alignright") [I Suck at Girls](http://www.goodreads.com/book/show/13425393-i-suck-at-girls) was a quick grab while it was on sale at [Amazon](http://www.amazon.com/Suck-at-Girls-Justin-Halpern/dp/0062113372/) and I was immediately happy I bought it.  It's a humorous tale of Justin Halpern--of [Sh*t My Dad Says](https://twitter.com/shitmydadsays) fame--as he fights through growing up and dealing with girls, sexual desires, and a marriage proposal.  It's really funny and an easy read (read it in a day and a half).  There were times when I was laughing so hard my wife had to ask me what it was...so I obliged.  It's funny, a bit crass, but completely endearing and a fun read.
 
 I give it a **4 out of 5**.  Wish it was a bit longer, but definitely one I could read again.
 
