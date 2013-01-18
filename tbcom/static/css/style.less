@@ -28,12 +28,14 @@ Trae Blain's Website Template Less
   -moz-transition: opacity @easetime ease-in-out;
   -o-transition: opacity @easetime ease-in-out;
   -webkit-transition: opacity @easetime ease-in-out;
+  -ms-transition: opacity @easetime ease-in-out;
   transition: opacity @easetime ease-in-out;
 }
 .linkhover (@easetime: 0.25s) {
   -moz-transition: color @easetime ease-in-out;
   -o-transition: color @easetime ease-in-out;
   -webkit-transition: color @easetime ease-in-out;
+  -ms-transition: color @easetime ease-in-out;
   transition: color @easetime ease-in-out;
 }
 
@@ -145,6 +147,7 @@ h6 {
   &-avatar {
     img {
       width: 100px;
+      height: 115px;
     }
   }
   &-text {
@@ -175,6 +178,7 @@ h6 {
         color: @pcolor;
         opacity: 0.3;
         display: inline-block;
+        text-decoration: none;
         .hoverfade;
         &:hover {
           opacity: 1;
@@ -737,9 +741,10 @@ a.homelink {
     }
     &-avatar {
       width: 74px;
-      margin: 0 auto !important;
+      margin: -5px auto 0 !important;
       img {
         width: 74px;
+        height: 85px;
       }
     }
     &-text {
@@ -921,6 +926,7 @@ a.homelink {
       vertical-align: top;
       img {
         width: 50px;
+        height: 58px;
       }
     }
     &-text {

@@ -1,11 +1,11 @@
-(function($) {
+/*(function($) {
     // only do this if not on a touch device
     if (!('ontouchend' in window)) {
         $(document).delegate('body', 'click', function(e) {
             $(e.target).trigger('tap');
         });
     }
-})(window.Zepto);
+})(window.Zepto);*/
 
 $( function () {
   var ss = new Array(0);
