@@ -7,6 +7,8 @@ from prod import *
 SITEURL = "http://localhost:8000"
 PRODUCTION = False
 
+OUTPUT_PATH = "localoutput"
+
 ARTICLE_URL = "{date:%Y}/{slug}.html"
 TAG_URL = "tags/{name}.html"
 CATEGORY_URL = "{name}"

@@ -481,7 +481,22 @@ a.homelink {
   }
 }
 
-
+/* Footer Details */
+footer {
+  font-size: 0.6em;
+  color: @gcolor;
+  text-align: center;
+  display: block;
+  margin-bottom: @fsize;
+  a {
+    color: @grcolor;
+    text-decoration: none;
+    .linkhover;
+    &:hover {
+      color: @lcolor;
+    }
+  }
+}
 
 /* Icon details */
 
@@ -825,7 +840,6 @@ a.homelink {
   .paginator {
     font-size: @fsize;
     padding-bottom: @fsize * 1.6;
-    margin-bottom: 125px;
     padding-top: @fsize * 1.6;
     .next-page, .prev-page {
       padding-left: @fsize * 1.6;
@@ -862,6 +876,9 @@ a.homelink {
         line-height: @fsize * 1.3 !important;
       }
     }
+  }
+  footer {
+    margin-bottom: 125px !important;
   }
 }
 @media (max-width:481px) {
@@ -962,12 +979,15 @@ a.homelink {
     margin-bottom: 0px !important;
   }
   .paginator {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .post, .page {
     text-align: left;
     img {
       max-height: 200px
     }
+  }
+  footer {
+    margin-bottom: 25px !important;
   }
 }
