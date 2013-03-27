@@ -13,3 +13,9 @@
 
   </article>
 {% endblock %}
+
+{% block morescripts %}
+<script>
+  analytics.track('Opened page: {{ page.slug }}');
+</script>
+{% endblock %}

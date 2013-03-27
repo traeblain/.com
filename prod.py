@@ -46,7 +46,8 @@ AUTHOR_SAVE_AS = False
 
 DIRECT_TEMPLATES = ("index", "tags", "archives")
 STATIC_PATHS = ["images", "wp-content"]
-FILES_TO_COPY = (("extras/.htaccess", ".htaccess"), )
+FILES_TO_COPY = (("extras/.htaccess", ".htaccess"),
+                 ("extras/robots.txt", "robots.txt"), )
 
 RELATIVE_URLS = False
 
@@ -61,3 +62,5 @@ DEFAULT_PAGINATION = 15
 DISQUS_SITENAME = "traeblain"
 GOOGLE_ANALYTICS = "UA-8704728-2"
 TWITTER_USERNAME = "traeblain"
+
+ASSET_CONFIG = (('less_bin', 'lessc.cmd'),)
