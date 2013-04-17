@@ -3,7 +3,7 @@
 AUTHOR = u"Trae Blain"
 SITENAME = u"Trae's Blog"
 SITEDESCRIPTION = "Engineer. Father. Cyclist. Sexy. Sarcastic. Geek."
-SITEURL = "http://blog.traeblain.com"
+SITEURL = "//blog.traeblain.com"
 ABOUTURL = "http://traeblain.com/"
 CHARSET = "utf-8"
 
