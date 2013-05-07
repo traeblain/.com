@@ -111,6 +111,10 @@ h6 {
   padding-bottom: @fsize * 0.75;
   clear: both;
 }
+sup {
+  font-size: small;
+  vertical-align: super;
+}
 
 /* Header Layout and Sizing */
 
@@ -296,6 +300,13 @@ a.homelink {
           color: @ocolor;
         }
       }
+    }
+  }
+  .footnote {
+    margin-bottom: @fsize;
+    li, p {
+      font-size: @fsize * 0.6 !important;
+      line-height: @fsize * 0.8 !important;
     }
   }
 }
