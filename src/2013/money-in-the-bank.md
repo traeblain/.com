@@ -1,6 +1,7 @@
 Title: Money in the Bank
 Slug: money-in-the-bank
 Date: 2013-05-07 17:49
+Modified: 2013-05-07 21:19
 Tags: money, mobile
 
 ![Saving my money](/static/images/2013/mobile-money.jpg "Saving my money") Every year I try to find at least one bill that I can significantly reduce.  I already do things like monitor competitive electricity costs to find cheap providers and the things to naturally look at every year.  But there's also the things that you might not consider every year.  These are the ones I take a long hard look at to see if I can cut that cost significantly.
@@ -65,8 +66,8 @@ Boost was a bit difficult because of it's "Shrinking Payments" plan.  If you pay
 Virgin has one of the cheapest plans available.  I could totally get away with 300 minutes/line (my wife might have to prune a little), which makes the plan $35 per month per line.
 
 * Total savings over 2 years:  **$1728.00**
-* Savings minus EFT:  **$660.00**
-* Payback period: **10 months**
+* Savings minus EFT:  **$1188.00**
+* Payback period: **8 months**
 
 ### [MetroPCS][]
 
@@ -81,7 +82,7 @@ Metro has some good plans, but what they have going against them is that I would
 I heard about Ting not long ago and liked their concept.  But didn't really think about it until they offered to pay your EFT when you switch.  That was back in February and at the time they couldn't accept Sprint _LTE_ phones.  So it meant new phone purchases, so I didn't move to then.  What Ting has for them that the others don't is that for each additional phone it's only $6 more a month, as opposed to a additional full plan.  Here's the numbers now.
 
 * Total savings over 2 years:  **$2100.00**
-* Savings minus EFT:  **$540.00**
+* Savings minus EFT:  **$1560.00**
 * Payback period: **6 months**
 
 ## So What Did I Do?
@@ -96,6 +97,9 @@ I was able to port over my current phone, and even without their ETF deal I will
 I can't say enough about my short time with Ting.  I have also called Customer Service twice for various reasons, I didn't get a machine and choices...I got a person...immediately.  Then the service had to go beyond just the phone conversation, and the person responsible for my issue on the phone was the same person I dealt with online.  I've not had that in a major service provider...ever...
 
 [Ting][] gets it.  They basically took everything you hate about your mobile service and said, "We can fix that!".  And then fixed it.  Let me know if you have any questions about my experience, I'd be happy to help.
+
+Modified:  A couple of the numbers were incorrect, they have since been updated and corrected.
+{ style="font-size: small;" }
 
 [Sprint]: http://www.sprint.com/
 [Verizon]: http://www.verizonwireless.com/b2c/index.html
