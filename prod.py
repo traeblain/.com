@@ -30,7 +30,8 @@ SOCIAL = (
           ("twitter", "http://twitter.com/traeblain"),
           ("facebook", "http://facebook.com/traeblain"), )
 
-PLUGINS = ["pelican.plugins.assets", ]
+PLUGIN_PATH = "../envs/pelican/pelican-plugins"
+PLUGINS = ["assets"]
 MD_EXTENSIONS = ["codehilite", "extra", "toc", ]
 
 ARTICLE_URL = "{date:%Y}/{slug}"
