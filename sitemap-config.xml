@@ -130,7 +130,7 @@
 <!--
   <directory  path="/var/www/icons"    url="http://www.example.com/images/" /> -->
   <directory
-     path="./output/"
+     path="../output/"
      url="http://blog.traeblain.com/"
      remove_empty_directories="true"
   />
