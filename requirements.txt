@@ -1,0 +1,8 @@
+# Pelican
+pelican
+
+# Additional Packages
+Markdown
+webassets
+cssmin
+jsmin
