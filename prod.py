@@ -11,10 +11,10 @@ PRODUCTION = True
 
 THEME = "tbcom"
 PATH = "src"
-OUTPUT_PATH = "output"
+OUTPUT_PATH = "../output"
 
 DEFAULT_LANG = "en"
-LOCALE = "en-US"
+LOCALE = "en_US"
 TIMEZONE = "America/Chicago"
 DATE_FORMAT = {"en": ("usa", "%B %d, %Y"), }
 DEFAULT_DATE_FORMAT = "%B %d, %Y"
@@ -51,8 +51,6 @@ EXTRA_PATH_METADATA = {
     'extras/robots.txt': {'path': 'robots.txt'},
     'extras/.htaccess': {'path': '.htaccess'},
     }
-fILES_TO_COPY = (("extras/.htaccess", ".htaccess"),
-                 ("extras/robots.txt", "robots.txt"), )
 
 RELATIVE_URLS = False
 
