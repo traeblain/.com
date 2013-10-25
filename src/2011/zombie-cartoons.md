@@ -7,4 +7,4 @@ Slug: zombie-cartoons
 
 Since we are so close to Halloween, here's a [great artist](http://andredefreitas.com/) putting together some Zombies from our favorite cartoon characters. From Ironman to Charlie Brown to Waldo. BOO!
 
-[![](http://blog.traeblain.com/wp-content/uploads/Zombie_Charliebrown_web-208x250.jpg)](http://andredefreitas.com/#1353397/Zombie-Portraits)[![](http://blog.traeblain.com/wp-content/uploads/Zombie_Waldo_web-208x250.jpg)](http://andredefreitas.com/#1353397/Zombie-Portraits)
+[![Zombie Charlie](http://blog.traeblain.com/wp-content/uploads/Zombie_Charliebrown_web-208x250.jpg)](http://andredefreitas.com/#1353397/Zombie-Portraits)[![Zombie Waldo](http://blog.traeblain.com/wp-content/uploads/Zombie_Waldo_web-208x250.jpg)](http://andredefreitas.com/#1353397/Zombie-Portraits)

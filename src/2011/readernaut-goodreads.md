@@ -3,7 +3,7 @@ Date: 2011-07-07 17:14
 Tags: books, reading, social
 Slug: readernaut-goodreads
 
-![](http://blog.traeblain.com/wp-content/uploads/classic-bookshelf-e1310073170744.jpg)
+![Bookshelf](http://blog.traeblain.com/wp-content/uploads/classic-bookshelf-e1310073170744.jpg)
 
 So, I've come to the realization that I've dreaded for a while...
 
@@ -31,7 +31,7 @@ That's the reasons I moved. A good API, mobile site, and a huge community. I've 
 
 If you want to hit me up check out my profile here: 
 
-[![](http://www.goodreads.com/assets/press/logo-124ccd11dd525754d738f9529ffed657.png)](http://www.goodreads.com/traeblain/) 
+[![Goodreads](http://www.goodreads.com/assets/press/logo-124ccd11dd525754d738f9529ffed657.png)](http://www.goodreads.com/traeblain/) 
 
 
 

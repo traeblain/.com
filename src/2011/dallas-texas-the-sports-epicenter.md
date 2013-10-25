@@ -3,7 +3,7 @@ Date: 2011-05-26 01:03
 Tags: sports
 Slug: dallas-texas-the-sports-epicenter
 
-[![](http://blog.traeblain.com/wp-content/uploads/larry.jpg)](http://blog.traeblain.com/20110526/dallas-texas-the-sports-epicenter/larry/) 
+[![Larry](http://blog.traeblain.com/wp-content/uploads/larry.jpg)](http://blog.traeblain.com/20110526/dallas-texas-the-sports-epicenter/larry/) 
 
 Crazy isn't it? I'm not sure many people truly understand what's happening right now. What's happened since October. Dallas, Texas has become the epicenter to championship sports. 
 

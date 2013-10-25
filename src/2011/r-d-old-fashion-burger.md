@@ -3,7 +3,7 @@ Date: 2011-09-28 10:46
 Tags: burger, dallas
 Slug: r-d-old-fashion-burger
 
-[![](http://blog.traeblain.com/wp-content/uploads/IMAG0146-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0146.jpg) 
+[![RD 1](http://blog.traeblain.com/wp-content/uploads/IMAG0146-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0146.jpg) 
 
 This time I decided to run up to a local place called [RD Old Fashion Hamburgers](http://www.yelp.com/biz/rds-old-fashion-hamburgers-plano). This place was originally a [Charo Chicken](http://www.charochicken.com/) and now that it's a burger joint, it's on the list. I miss Charo Chicken, hehe. 
 
@@ -11,7 +11,7 @@ At RD's, I ordered the standard burger (1/2 lb, I think) with cheese. It comes o
 
 So, different what some people told me, the meat at RD's either frozen or the grill was amazingly dirty. Frozen meat can be cooked in a way that makes it taste juicy, but you can't hide the "crispy" crust that forms around the edges because the meat has to be cooked longer than it should. If these weren't frozen, the grill must have left the crust. The buns were nicely toasted on the grill and didn't have the crust, so I assume the meat was frozen. 
 
-[![](http://blog.traeblain.com/wp-content/uploads/IMAG0147-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0147.jpg) 
+[![RD 2](http://blog.traeblain.com/wp-content/uploads/IMAG0147-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0147.jpg) 
 
 The veggie bar had great onions, but the lettuce was cold...freezing cold. In other words, the lettuce came out of the freezer...again not fresh. The pickles were pretty limp. There's not much I can say. The burger tasted good, but was pretty mediocre when you have all these other options. 
 

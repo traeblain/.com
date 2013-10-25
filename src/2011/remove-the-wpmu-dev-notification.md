@@ -3,7 +3,7 @@ Date: 2011-07-19 23:42
 Tags: plugin, tools, wordpress
 Slug: remove-the-wpmu-dev-notification
 
-![](http://blog.traeblain.com/wp-content/uploads/anger-annoyed.jpg)
+![Anger](http://blog.traeblain.com/wp-content/uploads/anger-annoyed.jpg)
 
 Something's been annoying me. Moving to Wordpress I got everything setup nicely, working well then a few months ago in my admin area, I start getting this horrible error message that says:
 

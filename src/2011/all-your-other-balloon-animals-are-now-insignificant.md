@@ -4,7 +4,7 @@ Tags: image, wow
 Slug: all-your-other-balloon-animals-are-now-insignificant
   
 
-![](http://fastcache.gawkerassets.com/assets/images/4/2011/06/xlarge_larry-moss-spinosaurus.jpg)
+![Crazy Balloon Animal](http://fastcache.gawkerassets.com/assets/images/4/2011/06/xlarge_larry-moss-spinosaurus.jpg)
 
     Massive Dinosaur Bone Balloon Sculpture
 

@@ -7,13 +7,13 @@ First post for the [Great Dallas Burger Search](http://blog.traeblain.com/201107
 
 This would be my first time to go back to [Snuffer's](http://snuffers.com/) in over a year. I remember when I lived in Addison that the Snuffer's on Midway was not only a great burger but a great atmosphere. This time I attended a different Snuffers in the area and was excited to see how it compared when paying attention to the meal instead of just going and eating and lollygagging. Pursuant to the rules, I ordered a Classic Cheeseburger (1/2lb) and an order of Cheese Fries. No option was chosen as the Green Chili Cheeseburger would have changed enough not to be the standard burger for comparison. 
 
-![](http://blog.traeblain.com/wp-content/uploads/snuffers1-500x327.jpg)
+![Snuffers 1](http://blog.traeblain.com/wp-content/uploads/snuffers1-500x327.jpg)
 
     No longer use this bun
 
 Let's get to the point. I was underwhelmed. First off the heart of the burger, the meat was undercooked and therefore extremely greasy. Normally that wouldn't necessarily be a bad thing, but a well cooked (not necessarily _well done_) burger patty doesn't have just a ton of grease. The lettuce/onion/pickle didn't taste particularly fresh, but didn't hurt the burger. Due to the fact that Snuffer's uses shredded lettuce, you really couldn't get a good taste for the crispness that iceberg can provide. The bun is also different from what I remembered. They now use one covered in poppy seeds instead of sesame seeds. This wouldn't be a problem if it wasn't for the fact that it is covered in poppy seeds...covered. 
 
-![](http://blog.traeblain.com/wp-content/uploads/snuffers3.jpg)
+![Snuffers 2](http://blog.traeblain.com/wp-content/uploads/snuffers3.jpg)
 
     Poppy Seed Bun on a Bacon Cheeseburger
 
@@ -21,7 +21,7 @@ These made the bun actually gritty in your mouth and really made me wish for a s
 
 But the Cheese Fries....holy moly. Snuffer's cheese fries almost made up for all the wrongs of the burger. A massive bowl of fries smothered in cheese...rich aged cheddar cheese. And unlike many places that once you get through the top layer of cheese you are left with just a bunch of soggy fries, Snuffer's layers the cheese making every bite filled with awesome cheesy-ness. 
 
-![](http://blog.traeblain.com/wp-content/uploads/snuffers2-500x375.jpg)
+![Snuffers 3](http://blog.traeblain.com/wp-content/uploads/snuffers2-500x375.jpg)
 
     Cheese Fries
 

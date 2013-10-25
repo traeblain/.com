@@ -3,7 +3,7 @@ Date: 2011-09-24 10:44
 Tags: burger, dallas
 Slug: j-c-burger-house
 
-[![](http://blog.traeblain.com/wp-content/uploads/IMAG0144-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0144.jpg) 
+[![JC 1](http://blog.traeblain.com/wp-content/uploads/IMAG0144-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0144.jpg) 
 
 Sorry for the delay, but here's the next installment of the [Great Dallas Burger Search](http://blog.traeblain.com/20110704/the-great-dallas-burger-search/). Today's run is [J.C. Burger House](http://www.jcsburgerhouse.com/) which has won a few awards locally. The original J.C.'s was a little known place in an older shopping center that blew up pretty quickly. J.C.'s doesn't advertise, but has done well enough to grow into about 6 locations locally. 
 
@@ -11,7 +11,7 @@ Let's hit the burger. I ordered the 1/2 lb. burger, mustard, lettuce, red onions
 
 The meat is great and tasty. Nice and juicy with a fresh great taste.  The cheese was melted nicely over the meat and delicious. This a pretty standard burger, but delicious. The bun was warmed, but not toasted which would have been nice. The shredded lettuce was good, but again you lose the crispness of a solid slices. I feel like I'm rehashing the same stuff over and over. 
 
-[![](http://blog.traeblain.com/wp-content/uploads/IMAG0145-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0145.jpg) 
+[![JC 2](http://blog.traeblain.com/wp-content/uploads/IMAG0145-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0145.jpg) 
 
 With that said, the burgers are good. And J.C.'s has options like green chilies (yum) that many other places neglect. If I were to put this place into a ranking in comparison to the other places I've been to, I'd say it is in a dead heat with Five Guys Burgers and Fries. I'd put Five Guys just a little higher because of the fresh fries. J.C.'s appears to use frozen. 
 

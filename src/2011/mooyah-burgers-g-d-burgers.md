@@ -5,17 +5,17 @@ Slug: mooyah-burgers-g-d-burgers
 
 Mooyah...Mooooooyah. Ok, let's get down to exactly what I want to say about this place. Best burger yet. Seriously awesome. Now on with the review.
 
-[![](http://blog.traeblain.com/wp-content/uploads/IMG00072-20110806-1129-500x375.jpg)](http://blog.traeblain.com/wp-content/uploads/IMG00072-20110806-1129.jpg)
+[![Mooyah 1](http://blog.traeblain.com/wp-content/uploads/IMG00072-20110806-1129-500x375.jpg)](http://blog.traeblain.com/wp-content/uploads/IMG00072-20110806-1129.jpg)
 
 With the current West Coast/East Coast argument over which is better, In-N-Out or [Five Guys Burgers and Fries](http://blog.traeblain.com/20110726/five-guys-burgers-and-fries-g-d-burgers/), Central America now has its contender...and a heavyweight at that. Mooyah Burgers is a Texas-based company that is currently in a Nationwide expansion. Primarily placed in Texas, with locations in Tennessee, Connecticut, and a California location opening soon, Mooyah might be coming to your town.
 
 So I ordered the basic Mooyah burger (double meat) with cheese (cheddar), lettuce, onion, pickles, and Mooyah sauce. This should give me the best comparison point. The meat was delicious, it was definitely not frozen and perfectly prepared. Extremely juicy and well cooked. The cheese was well melted over the meat. And although many places feel they are safe with the classic American cheese, Cheddar can make a ton of difference.
 
-[![](http://blog.traeblain.com/wp-content/uploads/IMG00073-20110806-1131-500x375.jpg)](http://blog.traeblain.com/wp-content/uploads/IMG00073-20110806-1131.jpg)
+[![Mooyah 2](http://blog.traeblain.com/wp-content/uploads/IMG00073-20110806-1131-500x375.jpg)](http://blog.traeblain.com/wp-content/uploads/IMG00073-20110806-1131.jpg)
 
 The toppings were fresh. The lettuce was iceberg and crisp, the onions were fresh but chopped which looses some of its bite. The pickles were a surprise actually. They were fresh and crisp, not soggy, and was not overly tangy. Now the bun. Mooyah makes their own buns...this is a first from most any place I've visited, even before I decided to do these posts...and it does make a difference. The bun was toasted and tasted different from any other bun I've eaten, and oh so delicious.
 
-[![](http://blog.traeblain.com/wp-content/uploads/IMG00076-20110806-1135-500x375.jpg)](http://blog.traeblain.com/wp-content/uploads/IMG00076-20110806-1135.jpg)
+[![Mooyah 3](http://blog.traeblain.com/wp-content/uploads/IMG00076-20110806-1135-500x375.jpg)](http://blog.traeblain.com/wp-content/uploads/IMG00076-20110806-1135.jpg)
 
 Lastly, I do want to say something about the fries. As they are a compliment to the burger, Mooyah freshly cuts their fries everyday. They are also well fried and salted. They hit the perfect timing on these fries where the little ones weren't burnt, but the big ones weren't crunchy. The fries weren't cooked where they were all soggy and limp.
 

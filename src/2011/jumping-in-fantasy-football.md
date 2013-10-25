@@ -3,7 +3,7 @@ Date: 2011-09-07 14:11
 Tags: espn, fantasy, football
 Slug: jumping-in-fantasy-football
 
-![](http://dailypostal.com/wp-content/uploads/2011/08/espn-fantasy-football.png "ESPN Fantasy Football alignleft")I've never done Fantasy Football before, but for some reason this year I decided to bug a few of my friends and see if we can get a league going. Turns out there was a good amount of interest so off we went. Again, I've never done this before nor did I really know how to pick my poisons. I went off and read a few helpful guides and grabbed a few analyst studies to hopefully form a strategy. 
+![Fantasy Football](http://dailypostal.com/wp-content/uploads/2011/08/espn-fantasy-football.png "ESPN Fantasy Football alignleft")I've never done Fantasy Football before, but for some reason this year I decided to bug a few of my friends and see if we can get a league going. Turns out there was a good amount of interest so off we went. Again, I've never done this before nor did I really know how to pick my poisons. I went off and read a few helpful guides and grabbed a few analyst studies to hopefully form a strategy. 
 
 The most I really did was grab 6 or 7 ranking cheat sheets and compiled them together into one "Super Ranking". The problem was, after the first 4 rounds, I could not realistically keep up and make decisions off my super ranking. I also missed some of my "must haves" to other people. All in all, I feel like I have a decent team but we will see how things go. 
 

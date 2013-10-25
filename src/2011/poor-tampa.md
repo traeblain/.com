@@ -3,7 +3,7 @@ Date: 2011-10-05 10:41
 Tags: mlb, rangers, rays, sports
 Slug: poor-tampa
 
-[![](http://blog.traeblain.com/wp-content/uploads/tampa_bay_rays_logo-250x247.jpg "Tampa Rays alignleft")](http://blog.traeblain.com/wp-content/uploads/tampa_bay_rays_logo.jpg)Alright, Tampa. _You officially don't deserve the Rays._ After numerous winning seasons, you can't even sell out your possible last game at The Trop (which by the way, I have affectionately renamed to [Rangers Ballpark East](http://imgur.com/9UkE5)). Granted, on a Tuesday, mid-afternoon game you only put up 28,000 in attendance, but the television ratings dropped 30% as well. Here's the thing, you are not supporting one of the most exciting teams in baseball, that has done all that winning with the [next to last Opening Day salary](http://content.usatoday.com/sportsdata/baseball/mlb/salaries/team) in Major League Baseball, just above the Kansas City Royals. 
+[![Tampa Rays](http://blog.traeblain.com/wp-content/uploads/tampa_bay_rays_logo-250x247.jpg "Tampa Rays alignleft")](http://blog.traeblain.com/wp-content/uploads/tampa_bay_rays_logo.jpg)Alright, Tampa. _You officially don't deserve the Rays._ After numerous winning seasons, you can't even sell out your possible last game at The Trop (which by the way, I have affectionately renamed to [Rangers Ballpark East](http://imgur.com/9UkE5)). Granted, on a Tuesday, mid-afternoon game you only put up 28,000 in attendance, but the television ratings dropped 30% as well. Here's the thing, you are not supporting one of the most exciting teams in baseball, that has done all that winning with the [next to last Opening Day salary](http://content.usatoday.com/sportsdata/baseball/mlb/salaries/team) in Major League Baseball, just above the Kansas City Royals. 
 
 Yes, it's official, the Tampa Rays are too good for your city. Period. I hope they move. It would be great for baseball if they find a home in a better city and if at all possible keep the organization together. Because the arguably best run organization in baseball needs people to support it. 
 
@@ -17,4 +17,4 @@ It would still suck for Texas (and if Tampa moves to San Antonio or Oklahoma Cit
 
 That's my plan. Let's go Portland (or Vegas or OKC or San Antonio) and start talking with Sternberg and get that team somewhere that will support them! And out west. And hopefully the league situation will solve itself. 
 
-[![](http://blog.traeblain.com/wp-content/uploads/tampa-bay-rays-attendance-baseball-sports-ecards-someecards.png)](http://blog.traeblain.com/wp-content/uploads/tampa-bay-rays-attendance-baseball-sports-ecards-someecards.png) 
+[![Rays Attendance](http://blog.traeblain.com/wp-content/uploads/tampa-bay-rays-attendance-baseball-sports-ecards-someecards.png)](http://blog.traeblain.com/wp-content/uploads/tampa-bay-rays-attendance-baseball-sports-ecards-someecards.png) 

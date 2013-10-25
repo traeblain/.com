@@ -3,7 +3,7 @@ Date: 2011-07-17 17:22
 Tags: burger, dallas, food, scotty_p
 Slug: scotty-ps-g-d-burgers
 
-[![](http://blog.traeblain.com/wp-content/uploads/IMAG0125-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0125.jpg)
+[![Scotty P 1](http://blog.traeblain.com/wp-content/uploads/IMAG0125-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0125.jpg)
 
 This time's [Great Dallas Burger Search](http://blog.traeblain.com/20110704/the-great-dallas-burger-search/) participant is [ScottyP's](http://www.scottyps.com/WebSite/HomePage.aspx) which is primarily in the north Dallas area. Locations in Frisco (2), Allen, McKinney, Plano, Garland (Firewheel), and Preston Forest in Dallas. ScottyP's sets itself as a hometown menu, making each menu custom to the location of the shop. I've normally enjoyed a ScottyP's burger, but what would I think when I'm really paying attention.
 
@@ -11,13 +11,13 @@ Again, according to the rules, I ordered a ScottyP's Original Hamburger w/cheese
 
 Back on the burger. The meat is not frozen and definitely tasted seasoned as opposed to just cooked up.  I can really appreciate a well seasoned burger. One of my personal favorites has a number of seasonings in it. This burger, though, tasted a bit salty. It was perfectly cooked...juicy but not greasy. Cheese was melted well over the burger and tasted nice. Could have done with a little less salt, though.
 
-[![](http://blog.traeblain.com/wp-content/uploads/IMAG0127-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0127.jpg)
+[![Scotty P 2](http://blog.traeblain.com/wp-content/uploads/IMAG0127-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0127.jpg)
 
 The toppings were relatively fresh. The pickle pretty standard. The lettuce and onions were shredded/diced. If you've read my [previous review](http://blog.traeblain.com/20110710/snuffers-g-d-burgers/), you'd know I feel (even if it's fresh) shredded lettuce doesn't give you that awesome crisp bite that an unchopped slice of iceberg provides. Onions are the same. When you bite in you want that crunch to facilitate the softness of the meat and bun. Finally the bun was well toasted if just a little under toasted. But better that than burnt.
 
 The fries were hard to take...they might have been fresh but I highly doubt it. The excessive crispness of the edges and internals made me believe they were dumped in the fryer while still frozen. They were well seasoned, but not great. I believe their onion rings are fresh, but I find onion rings don't compliment a burger as well.
 
-[![](http://blog.traeblain.com/wp-content/uploads/IMAG0123-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0123.jpg)
+[![Scotty P 3](http://blog.traeblain.com/wp-content/uploads/IMAG0123-500x299.jpg)](http://blog.traeblain.com/wp-content/uploads/IMAG0123.jpg)
 
 Overall, I give ScottyP's burger a:
 

@@ -3,7 +3,7 @@ Date: 2011-10-25 10:01
 Tags: android, apps, mobile, sports
 Slug: yahoo-sportacular
 
-[![](http://blog.traeblain.com/wp-content/uploads/sportacular_01-e1318627986725-500x291.png)](https://market.android.com/details?id=com.protrade.sportacular&hl=en)We have some [list movement](http://blog.traeblain.com/20110626/the-best-android-apps/). Time to move and shift my list of Best Android Apps. And what does it? [Yahoo!](http://yahoo.com/) has a great program [Sportacular](https://market.android.com/details?id=com.protrade.sportacular&hl=en) which they picked up with the acquisition of [CitizenSports](http://www.citizensports.com/). 
+[![Yahoo Sportacular](http://blog.traeblain.com/wp-content/uploads/sportacular_01-e1318627986725-500x291.png)](https://market.android.com/details?id=com.protrade.sportacular&hl=en)We have some [list movement](http://blog.traeblain.com/20110626/the-best-android-apps/). Time to move and shift my list of Best Android Apps. And what does it? [Yahoo!](http://yahoo.com/) has a great program [Sportacular](https://market.android.com/details?id=com.protrade.sportacular&hl=en) which they picked up with the acquisition of [CitizenSports](http://www.citizensports.com/). 
 
 What does Sportacular replace? SportsTap. Sports tap is a great little program, it does things well, has a great widget, and does have a number of sports. But Sportacular matches SportsTap on the level of sports (close enough) and widget. In fact Sportacular has multiple widgets that you can choose from. 
 
@@ -17,7 +17,7 @@ SportsTap has also had a problem lately with its alerts. I've found that during 
 
 ### Summary 
 
-[![](http://blog.traeblain.com/wp-content/uploads/yahoo-sportacular-150x150.jpg)](https://market.android.com/details?id=com.protrade.sportacular&hl=en) 
+[![Yahoo Sportacular](http://blog.traeblain.com/wp-content/uploads/yahoo-sportacular-150x150.jpg)](https://market.android.com/details?id=com.protrade.sportacular&hl=en) 
 
 [Sportacular](https://market.android.com/details?id=com.protrade.sportacular&hl=en) is a really nice app. In fact, it's made me re-consider some of the Yahoo! apps. I've avoided many of them because I was leery of Yahoo! products. But this is so nice, I may have to see some of the others. 
 

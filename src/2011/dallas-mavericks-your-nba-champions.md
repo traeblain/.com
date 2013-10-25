@@ -3,7 +3,7 @@ Date: 2011-06-12 23:27
 Tags: dallas, mavericks, nba
 Slug: dallas-mavericks-your-nba-champions
 
-![](http://blog.traeblain.com/wp-content/uploads/mav-towel.jpg) 
+![Mav Towel](http://blog.traeblain.com/wp-content/uploads/mav-towel.jpg) 
 
 It's finally here. After over 30 years in existence, the Dallas Mavericks have won a National Championship.  And it's the first championship Dallas has had since the Dallas Stars 1999 victory for the Stanley Cup. Congrats to the great group of veterans that finally have won their rings. 
 
@@ -19,9 +19,9 @@ In my mind, Riley should fire Spoelstra. Eric Spoelstra has no business being an
 
 ### And Finally: 
 
-![](http://img151.imageshack.us/img151/9563/yyjhn6y.png)![](http://i55.tinypic.com/2zoktxy.gif)![](http://i.imgur.com/uoXca.jpg)![](http://i.imgur.com/YNlaZ.png) 
+![Mavs 1](http://img151.imageshack.us/img151/9563/yyjhn6y.png)![](http://i55.tinypic.com/2zoktxy.gif)![Mavs 2](http://i.imgur.com/uoXca.jpg)![](http://i.imgur.com/YNlaZ.png) 
 
-![](http://img842.imageshack.us/img842/4928/scaledphptn0server611fip.jpg) 
+![Mavs 3](http://img842.imageshack.us/img842/4928/scaledphptn0server611fip.jpg) 
 
 http://www.youtube.com/watch?v=NwYTF7bhOwE
 

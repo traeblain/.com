@@ -3,7 +3,7 @@ Date: 2011-07-15 20:21
 Tags: plugin, tools, wordpress
 Slug: best-wordpress-plugin-ever
 
-![](http://blog.traeblain.com/wp-content/uploads/wp3-logo.png)
+![Wordpress](http://blog.traeblain.com/wp-content/uploads/wp3-logo.png)
 
 Wordpress plugins are a love/hate relationship with me. There are a ton of plugins out there, but ultimately what you risk from every plugin you install is:
 
