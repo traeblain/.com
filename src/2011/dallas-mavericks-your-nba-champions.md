@@ -19,9 +19,9 @@ In my mind, Riley should fire Spoelstra. Eric Spoelstra has no business being an
 
 ### And Finally: 
 
-![Mavs 1](http://img151.imageshack.us/img151/9563/yyjhn6y.png)![](http://i55.tinypic.com/2zoktxy.gif)![Mavs 2](http://i.imgur.com/uoXca.jpg)![](http://i.imgur.com/YNlaZ.png) 
+![Mavs 1](http://img151.imageshack.us/img151/9563/yyjhn6y.png)![Mavs 2](http://i55.tinypic.com/2zoktxy.gif)![Mavs 3](http://i.imgur.com/uoXca.jpg)![Mavs 4](http://i.imgur.com/YNlaZ.png) 
 
-![Mavs 3](http://img842.imageshack.us/img842/4928/scaledphptn0server611fip.jpg) 
+![Mavs 5](http://img842.imageshack.us/img842/4928/scaledphptn0server611fip.jpg) 
 
 http://www.youtube.com/watch?v=NwYTF7bhOwE
 
