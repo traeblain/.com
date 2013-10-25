@@ -14,7 +14,7 @@ PATH = "src"
 OUTPUT_PATH = "output"
 
 DEFAULT_LANG = "en"
-LOCALE = ("usa")
+LOCALE = "en-US"
 TIMEZONE = "America/Chicago"
 DATE_FORMAT = {"en": ("usa", "%B %d, %Y"), }
 DEFAULT_DATE_FORMAT = "%B %d, %Y"
@@ -30,7 +30,7 @@ SOCIAL = (
           ("twitter", "http://twitter.com/traeblain"),
           ("facebook", "http://facebook.com/traeblain"), )
 
-PLUGIN_PATH = "../envs/pelican/pelican-plugins"
+PLUGIN_PATH = "pelican-plugins"
 PLUGINS = ["assets"]
 MD_EXTENSIONS = ["codehilite", "extra", "toc", ]
 
@@ -46,8 +46,12 @@ PAGE_SAVE_AS = "{slug}.html"
 AUTHOR_SAVE_AS = False
 
 DIRECT_TEMPLATES = ("index", "tags", "archives")
-STATIC_PATHS = ["images", "wp-content"]
-FILES_TO_COPY = (("extras/.htaccess", ".htaccess"),
+STATIC_PATHS = ["images", "wp-content", "extras/.htaccess", "extras/robots.txt"]
+EXTRA_PATH_METADATA = {
+    'extras/robots.txt': {'path': 'robots.txt'},
+    'extras/.htaccess': {'path': '.htaccess'},
+    }
+fILES_TO_COPY = (("extras/.htaccess", ".htaccess"),
                  ("extras/robots.txt", "robots.txt"), )
 
 RELATIVE_URLS = False
@@ -64,4 +68,4 @@ DISQUS_SITENAME = "traeblain"
 gOOGLE_ANALYTICS = "UA-8704728-2"
 TWITTER_USERNAME = "traeblain"
 
-ASSET_CONFIG = (('less_bin', 'lessc.cmd'),)
+aSSET_CONFIG = (('less_bin', 'lessc.cmd'),)
