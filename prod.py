@@ -50,6 +50,8 @@ STATIC_PATHS = ["images", "wp-content", "extras/.htaccess", "extras/robots.txt"]
 EXTRA_PATH_METADATA = {
     'extras/robots.txt': {'path': 'robots.txt'},
     'extras/.htaccess': {'path': '.htaccess'},
+    'images': {'path': 'static/images'},
+    'wp-content': {'path': 'static/wp-content'},
     }
 
 RELATIVE_URLS = False
