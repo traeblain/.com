@@ -4,14 +4,7 @@ import sys
 sys.path.append(".")
 from prod import *
 
-SITEURL = "//tbcom.site44.com"
-ABOUTURL = "//tbcom.site44.com/"
-PRODUCTION = False
+SITEURL = "//devblog.traeblain.com"
+ABOUTURL = "//devblog.traeblain.com/"
 
-OUTPUT_PATH = "..\\Apps\\site44\\tbcom.site44.com"
-
-ARTICLE_URL = "{date:%Y}/{slug}.html"
-TAG_URL = "tags/{name}.html"
-CATEGORY_URL = "{name}"
-
-PAGE_URL = "{slug}.html"
+SEGMENTIO_ID = ""
