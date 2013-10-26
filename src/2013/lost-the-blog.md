@@ -1,7 +1,7 @@
 Title: Lost the Blog
 Date: 2013-08-13 21:58
 Slug: lost-the-blog
-Tags: blog, pelican, website
+Tags: pelican, website
 
 ![Lost](/static/images/2013/lost.jpg "Lost") Where have the posts gone?  What happened to Trae?  Doesn't he still want to offer useless information to the masses?  Was he lost in a Sharknado?  A Squirrelcano?  A Snakeicane?  A Spidernami?
 
