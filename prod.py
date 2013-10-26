@@ -63,7 +63,7 @@ TAG_CLOUD_MAX_ITEMS = 40
 DEFAULT_PAGINATION = 15
 
 DISQUS_SITENAME = "traeblain"
-gOOGLE_ANALYTICS = "UA-8704728-2"
+SEGMENTIO_ID = "kylrycylld"
 TWITTER_USERNAME = "traeblain"
 
 aSSET_CONFIG = (('less_bin', 'lessc.cmd'),)
