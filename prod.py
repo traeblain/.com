@@ -46,12 +46,17 @@ PAGE_SAVE_AS = "{slug}.html"
 AUTHOR_SAVE_AS = False
 
 DIRECT_TEMPLATES = ("index", "tags", "archives")
-STATIC_SAVE_AS = "static/{path}"
-STATIC_URL = "static/{path}"
-STATIC_PATHS = ["images", "wp-content", "extras/.htaccess", "extras/robots.txt"]
+STATIC_PATHS = [
+               "images",
+               "wp-content",
+               "extras/.htaccess",
+               "extras/robots.txt"
+               ]
 EXTRA_PATH_METADATA = {
     'extras/robots.txt': {'path': 'robots.txt'},
     'extras/.htaccess': {'path': '.htaccess'},
+    'images/': {'path': 'static/images/'},
+    'wp-content/': {'path': 'static/wp-content/'},
     }
 
 RELATIVE_URLS = False
