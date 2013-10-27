@@ -46,6 +46,7 @@ PAGE_SAVE_AS = "{slug}.html"
 AUTHOR_SAVE_AS = False
 
 DIRECT_TEMPLATES = ("index", "tags", "archives")
+STATIC_SAVE_AS = "static/{path}"
 STATIC_URL = "static/{path}"
 STATIC_PATHS = ["images", "wp-content", "extras/.htaccess", "extras/robots.txt"]
 EXTRA_PATH_METADATA = {
