@@ -25,7 +25,7 @@ So there is so much I have to do just to get things setup.  Also, what if I'm on
 
 I'm not a programmer, but noticing all the things you could do with Continuous Integration tools I thought this could do exactly what I want.  I initially started with [Travis-CI][travis] but couldn't find any good way to deploy to my server.  If I was using Heroku or Amazon S3, I could...but not if you have a personal server.  I also didn't want to offer up any of my server access details in my _.travis.yml_ file.  But [CodeShip][cs] came to the rescue.  It runs the same tests that Travis does.  They also provide a RSA key that makes SSH'ing into my server simple...as well as using an rsync command so that it only transfers the changed files so the transfer is super quick.  
 
-[ ![Codeship Status for traeblain/.com](https://www.codeship.io/projects/d43f7420-1f54-0131-b40b-2adc9d90452f/status?branch=master "Codeship Status alignleft")](https://www.codeship.io/projects/8558)
+[ ![Codeship Status for traeblain/.com](https://www.codeship.io/projects/d43f7420-1f54-0131-b40b-2adc9d90452f/status?branch=master "Codeship Status")](https://www.codeship.io/projects/8558)
 
 I'm really like what Codeship does and how they do it.  I may integrate a few more tools with true tests with it.  Again, this is pretty amazing.
 
@@ -38,7 +38,7 @@ So with that complete, I can post from almost anywhere.  I can even write a post
 [Skrivr]: http://skrivr.com/
 [Ghost]: http://ghost.org/
 [Python]: https://store.continuum.io/cshop/anaconda/
-[Pelican]: http://getpelican.org/
-[travis]: http://travisci.org/
+[Pelican]: http://getpelican.com/
+[travis]: http://travis-ci.org/
 [cs]: https://www.codeship.io/
 [Github]: https://www.github.com/
