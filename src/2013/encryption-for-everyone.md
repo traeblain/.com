@@ -18,7 +18,7 @@ I figured I'd simply list out the tools you need to keep the private eyes from w
 
 Even with good encryption, most all your data/communication is only as safe as a password supplied.  So we should get away from 'ChildsName92' and 'WearGucci200' as our passwords and start using ones like: 'IHNxZ4yWo1zY' and 'mGB9C1A9nBpT'.  But how do you remember these?
 
-[LastPass][] and [Dashlane][] have you covered.  I like LastPass because it's been vetted and they are very open about how they keep your passwords secure.  LassPass tends to have more universal usability (devices/applications/etc.).  You no longer have to even know your passwords any more.  You just need to remember one, so that one can be something like "Kidsname-Dog-vacationspot-date-nascardriverand#-nickname-random".  This is long, pretty secure, and memorable.  All your other passwords can now be completely random and secure.
+[LastPass][] and [Dashlane][] have you covered.  I like LastPass because [it's been vetted][src] and they are very open about how they keep your passwords secure.  LassPass tends to have more universal usability (devices/applications/etc.).  You no longer have to even know your passwords any more.  You just need to remember one, so that one can be something like "Kidsname-Dog-vacationspot-date-nascardriverand#-nickname-random".  This is long, pretty secure, and memorable.  All your other passwords can now be completely random and secure.
 
 ### Threema
 
@@ -30,11 +30,11 @@ It's so simple, but a model for anything using encryption.  Where the keys are o
 
 ### Red Phone
 
-So there isn't anything at a decent cost for encrypted phone conversations.  Great services like [SilentCircle][] and [Secure Mobile][securemobile] require subscriptions for this.  If you really need it, then you should.  But for regular people, [Red Phone][red] will get the job done between Android devices.  There aren't many good cross-platform choices, so this is what it is...
+So there isn't anything at a decent cost for encrypted phone conversations.  Great services like [SilentCircle][] and [Secure Mobile][securemobile] require subscriptions for this.  If you really need it, then you should pay for it.  But for regular people, [Red Phone][red] will get the job done between Android devices.  There aren't many good cross-platform choices, so this is what it is...
 
 ### SMS
 
-See Threema.  It's not SMS, but it does the same thing.
+See Threema.  It's not SMS, but it does the same thing.  Due to the way encryption causes the message to expand past the 160 character maximum, encrypting SMS is difficult. I'd use Threema instead.
 
 ### Cloud Storage
 
@@ -61,10 +61,11 @@ Am I missing anything else?
 [silentcircle]: https://silentcircle.com/
 [securemobile]: http://www.securemobile.com/
 [red]: https://whispersystems.org/
-[tresorit]: http://www.tresorit.com/
+[tresorit]: https://register.tresorit.com/download?mode=1&ref=UCtnuV
 [truecrypt]: http://www.truecrypt.org/
 [boxcryptor]: http://www.boxcryptor.com/
 [tresoritpass]: https://support.tresorit.com/entries/23577091-How-is-my-password-managed-in-Tresorit-
 [pgpkey]: http://traeblain.com/dl/PGPkeyTraeBlain.asc
 [lastpass]: http://www.lastpass.com/
 [dashlane]: http://www.dashlane.com/
+[src]: http://blog.lastpass.com/2010/07/lastpass-gets-green-light-from-security.html
