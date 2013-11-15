@@ -15,9 +15,9 @@ I figured I'd simply list out the tools you need to keep the private eyes from w
 
 ### Password Tools
 
-Even with good encryption, most all your data/communication is only as safe as a password supplied.  So we should get away from 'ChildsName92' and 'WearGucci200' as our passwords and start using ones like: 'IHNxZ4yWo1zY' and 'mGB9C1A9nBpT'.  But how do you remember these?
+Even with good encryption, most all your data/communication is only as safe as a password supplied.  So we should get away from **'ChildsName92'** and **'WearGucci200'** as our passwords and start using ones like: **'IHNxZ4yWo1zY'** and **'mGB9C1A9nBpT'**.  But how do you remember these?
 
-[LastPass][] and [Dashlane][] have you covered.  I like LastPass because [it's been vetted][src] and they are very open about how they keep your passwords secure.  LassPass tends to have more universal usability (devices/applications/etc.).  You no longer have to even know your passwords any more.  You just need to remember one, so that one can be something like "Kidsname-Dog-vacationspot-date-nascardriverand#-nickname-random".  This is long, pretty secure, and memorable.  All your other passwords can now be completely random and secure.
+[LastPass][] and [Dashlane][] have you covered.  I like LastPass because [it's been vetted][src] and they are very open about how they keep your passwords secure.  LassPass tends to have more universal usability (devices/applications/etc.).  You no longer have to even know your passwords any more.  You just need to remember one, so that one can be something like **'Kidsname-Dog-vacationspot-date-nascardriverand#-nickname-random'**.  This is long, pretty secure, and memorable.  All your other passwords can now be completely random and secure.
 
 ### Threema
 
@@ -68,3 +68,7 @@ Am I missing anything else?
 [lastpass]: http://www.lastpass.com/
 [dashlane]: http://www.dashlane.com/
 [src]: http://blog.lastpass.com/2010/07/lastpass-gets-green-light-from-security.html
+[Gpg4Win]: http://gpg4win.org/
+[Thunderbird]: https://www.mozilla.org/en-US/thunderbird
+[Enigmail]: http://www.enigmail.net/
+[Mailvelope]: http://www.mailvelope.com/
