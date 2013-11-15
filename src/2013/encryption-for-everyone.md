@@ -1,6 +1,6 @@
 Title: Encryption for Everyone
 Slug: encryption-for-everyone
-Date: 2013-11-01 17:01:37
+Date: 2013-11-14 23:01:37
 Tags: email, internet, commentary
 
 ![Encryption for Everyone]({filename}/static/images/2013/security-lock.jpg "Encryption for Everyone")
