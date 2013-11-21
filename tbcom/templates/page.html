@@ -16,6 +16,6 @@
 
 {% block morescripts %}
 <script>
-  analytics.track('Opened page: {{ page.slug }}');
+  window.analytics.page('Opened page: {{ page.slug }}');
 </script>
 {% endblock %}
