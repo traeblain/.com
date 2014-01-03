@@ -11,7 +11,7 @@ then continue on to the rest of the books in follow-up posts.  Hope you enjoy.
 
 ### Previous Reviews
 
-* [Ready Player One]({filename}../2013/really-fast-book-reviews.md/2013/really-fast-book-reviews/#ready-player-one-by-ernest-cline)
+* [Ready Player One]({filename}../2013/really-fast-book-reviews.md#ready-player-one-by-ernest-cline)
 * [Neverwhere](/2013/really-fast-book-reviews/#neverwhere-by-neil-gaiman)
 * [Feast for Crows](/2013/really-fast-book-reviews/#feast-for-crows-by-george-r-r-martin)
 * [The Secrets of the Immortal Nicholas Flamel Series](/2013/really-fast-book-reviews/#the-secrets-of-the-immortal-nicholas-flamel-series-by-michael-scott)
