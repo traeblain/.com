@@ -5,7 +5,7 @@ Status: draft
 
 So I succeeded in reading more books in 2013.  My [grand total is 47][goodreads] according to GoodReads.  That's great, especially since I only read like 7 books the previous year.  So now how do I rate and discuss 47 books.  I'll start with the few I already spoke about in [this post][quickreview] and embelish a bit, then continue on to the rest of the books in follow-up posts.  Hope you enjoy.
 
-### Previous Reviews, as [Read Here][quickreview]
+#### Previous Reviews, as [Read Here][quickreview]
 
 * [Ready Player One](/2013/really-fast-book-reviews/#ready-player-one-by-ernest-cline)
 * [Neverwhere](/2013/really-fast-book-reviews/#neverwhere-by-neil-gaiman)
@@ -18,10 +18,11 @@ So I succeeded in reading more books in 2013.  My [grand total is 47][goodreads]
 * [The Wise Man's Fear](/2013/really-fast-book-reviews/#the-wise-mans-fear-by-patrick-rothfuss)
 * [Star Wars: Dark Force Rising](/2013/really-fast-book-reviews/#star-wars-dark-force-rising-by-timothy-zahn)
 
-# More Reviews
+#### More Reviews
 
 * [Swign Your Sword](#swing-your-sword-by-mike-leach)
 * [Snow Crash](#snow-crash-by-neal-stephenson)
+{: style="font-size: smaller" }
 
 ## Swing Your Sword by Mike Leach
 
@@ -98,7 +99,7 @@ After reading Suarez's first two novels, I went ahead and grabbed his latest.  [
 ## American Sniper by Chris Kyle
 
 ![American Sniper](http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00CO4GO7I&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=traeblain-20 "American Sniper"){: .alignleft }
-The late Chris Kyle was labeled the most lethal snipe in U.S. Military history.  A term he is proud of although admits it was not because he was the best sniper, just the luckiest.  [American Sniper][ussniper] was not quite what I was expecting.  The story of the most lethal sniper is rather boring in places.  There are very interesting times and aspects, but the description makes you feel like you are about to read a story about a guy that could manipulate a bullet in flight to hit anything he pleases.  But it's actually just a story about a guy that always was in the right place at the right time.  Still and interesting read, there are great components like the toll it took on his family.  This book should be read by any young man looking at a future in the military, it would serve them good.  Highlights both the great and negative aspects of Kyle's time in the military.
+The late Chris Kyle was labeled the most lethal snipe in U.S. Military history.  A term he is proud of although admits it was not because he was the best sniper, just the luckiest.  [American Sniper][ussniper] was not quite what I was expecting.  The story of the most lethal sniper is rather boring in places.  There are very interesting times and aspects, but the description makes you feel like you are about to read a story about a guy that could manipulate a bullet in flight to hit anything he pleases.  But it's actually just a story about a guy that always was in the right place at the right time.  Still and interesting read, there are great components like the toll it took on his family.  This book should be read by any young man looking at a future in the military, it would serve them good.  Highlights both the great and negative aspects of Kyle's time in the military. ![](http://ir-na.amazon-adsystem.com/e/ir?t=traeblain-20&l=as2&o=1&a=B00CO4GO7I){: width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"}
 
 **3 Stars**
 {: style="text-align: right;" }
