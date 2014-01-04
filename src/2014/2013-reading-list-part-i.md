@@ -1,7 +1,6 @@
 Title: 2013 Reading List (Part I)
 Date: 2014-01-03 13:55
 Tags: books, review
-Status: draft
 
 So I succeeded in reading more books in 2013.  My [grand total is 47][goodreads] according to GoodReads.  That's great, especially since I only read like 7 books the previous year.  So now how do I rate and discuss 47 books.  I'll start with the few I already spoke about in [this post][quickreview] and embelish a bit, then continue on to the rest of the books in follow-up posts.  Hope you enjoy.
 
@@ -70,7 +69,7 @@ Here's where I lose all my geek credibility.  So, I'm not real sure what the big
 ## Mockingjay by Suzanne Collins {: #mockingjay }
 
 ![Mockingjay]({filename}/static/images/2014/mockingjay.jpg "Mockingjay"){: .alignleft }
-Ok!  Yeah, I read the entire series!  [Mockingjay][] has to be the best.  It actually had a thought thread, didn't rehash old narratives, and concluded the series with a sense of finality.  It was very refreshing.  Many novel series these days are strung out to 4-5 novels when the storyline doesn't support it or they end the series with vague hints at leaving things open for more.  Mockingjay does neither.  It finishes the story (even though a new story in the same universe is capable) and does so within the stories limits.  I'd also venture that this one is the best of the 3.  It appears that Collins really took to heart some criticism of the 2nd book and didn't make that mistake again.  Props.
+Ok!  Yeah, I read the entire series!  [Mockingjay][] is actually pretty good.  It actually had a thought thread, didn't rehash old narratives, and concluded the series with a sense of finality.  It was very refreshing.  Many novel series these days are strung out to 4-5 novels when the storyline doesn't support it or they end the series with vague hints at leaving things open for more.  Mockingjay does neither.  It finishes the story (even though a new story in the same universe is capable) and does so within the stories limits.  I'd also venture that this one is the best of the 3.  It appears that Collins really took to heart some criticism of the 2nd book and didn't make that mistake again.  Props.
 
 **4 Stars**
 {: style="text-align: right;" }
@@ -86,7 +85,7 @@ After reading the second Enderverse novel, I naturally picked up [Xenocide][], t
 ## Dimension of Miracles by Robert Sheckley {: #dimmiracles }
 
 ![Dimension of Miracles]({filename}/static/images/2014/dimensionofmiracles.jpg "Dimension of Miracles"){: .alignleft }
-I picked [Dimension of Miracles][dim] up on a whim and it was a enjoyable read.  Dubbed: "The American Hitchhicker's Guide" I thought I'd give it a chance.  And where it doesn't live up to a comparison to Douglas Adams' story, it is a worthy book on it's own.  It is amusing, but not funny.  Interesting, but not engrossing.  Enjoyable, but not a favorite.  It's worth picking up if you are interested in the genre.  I'd also recommend getting the Audible audiobook version, as John Hodgeman was the perfect reader for this type of story.
+I picked [Dimension of Miracles][dim] up on a whim and it was a enjoyable read.  Dubbed: "The American Hitchhicker's Guide" I thought I'd give it a chance.  And where it doesn't live up to a comparison to Douglas Adams' story, it is a worthy book on it's own.  It is amusing, but not funny.  Interesting, but not engrossing.  Enjoyable, but not a favorite.  It's worth picking up if you are interested in the genre.  I'd also recommend getting the Audible audiobook version, as John Hodgman was the perfect reader for this type of story.
 
 **3 Stars**
 {: style="text-align: right;" }
@@ -102,7 +101,7 @@ I picked [Dimension of Miracles][dim] up on a whim and it was a enjoyable read. 
 ## Killing Floor by Lee Child {: #killingfloor }
 
 ![Killing Floor]({filename}/static/images/2014/killingfloor.jpg "Killing Floor"){: .alignleft }
-Again after seeing the Jack Reacher movie, I thought I'd give Lee Child a go.  [Killing Floor][killingfloor] is the first novel in a long string of novels with the main character being Jack Reacher.  I can see how people like these books.  I'll call it a "Romance Novel of the Mystery Genre".  There's a macho protagonist that gets pulled into something he wants nothing to do with, corrupt businessmen and law enforcement, protagonist has hot girl falling all over him within 24 hours, bad guy diatribe, and explosions.  The writing isn't bad, it's just all fluff...and I know people lap this stuff up.
+Again after seeing a movie---Jack Reacher this time---I thought I'd give Lee Child a go.  [Killing Floor][killingfloor] is the first novel in a long string of novels with the main character being Mr. Reacher.  I can see how people like these books.  I'll call it a "Romance Novel of the Mystery Genre".  There's a macho protagonist that gets pulled into something he wants nothing to do with, corrupt businessmen and law enforcement, protagonist has hot girl falling all over him within 24 hours, bad guy diatribe, and explosions.  The writing isn't bad, it's just all fluff...and I know people lap this stuff up.
 
 **2 Stars**
 {: style="text-align: right;" }
@@ -126,7 +125,7 @@ After reading Suarez's first two novels, I went ahead and grabbed his latest.  [
 ## American Sniper by Chris Kyle {: #americansniper }
 
 ![American Sniper]({filename}/static/images/2014/americansniper.jpg "American Sniper"){: .alignleft }
-The late Chris Kyle was labeled the most lethal snipe in U.S. Military history.  A term he is proud of although admits it was not because he was the best sniper, just the luckiest.  [American Sniper][ussniper] was not quite what I was expecting.  The story of the most lethal sniper is rather boring in places.  There are very interesting times and aspects, but the description makes you feel like you are about to read a story about a guy that could manipulate a bullet in flight to hit anything he pleases.  But it's actually just a story about a guy that always was in the right place at the right time.  Still and interesting read, there are great components like the toll it took on his family.  This book should be read by any young man looking at a future in the military, it would serve them good.  Highlights both the great and negative aspects of Kyle's time in the military.
+The late Chris Kyle was labeled the most lethal sniper in U.S. Military history.  A term he is proud of although admits it was not because he was the best sniper, just the luckiest.  [American Sniper][ussniper] was not quite what I was expecting.  The story of the most lethal sniper is rather boring in places.  There are very interesting times and aspects, but the description makes you feel like you are about to read a story about a guy that could manipulate a bullet in flight to hit anything he pleases.  But it's actually just a story about a guy that always was in the right place at the right time.  Still and interesting read, there are great components like the toll it took on his family.  This book should be read by any young man looking at a future in the military, it would serve them good.  Highlights both the great and negative aspects of Kyle's time in the military.
 
 **3 Stars**
 {: style="text-align: right;" }
