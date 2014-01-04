@@ -7,30 +7,29 @@ So I succeeded in reading more books in 2013.  My [grand total is 47][goodreads]
 
 #### Previous Reviews, as [Read Here][quickreview]
 
-* [Ready Player One](/2013/really-fast-book-reviews/#ready-player-one-by-ernest-cline)
-* [Neverwhere](/2013/really-fast-book-reviews/#neverwhere-by-neil-gaiman)
-* [Feast for Crows](/2013/really-fast-book-reviews/#feast-for-crows-by-george-r-r-martin)
-* [The Secrets of the Immortal Nicholas Flamel Series](/2013/really-fast-book-reviews/#the-secrets-of-the-immortal-nicholas-flamel-series-by-michael-scott)
-* [Legion](/2013/really-fast-book-reviews/#legion-by-brandon-sanderson)
-* [Catching Fire](/2013/really-fast-book-reviews/#catching-fire-by-suzanne-collins)
-* [Codex](/2013/really-fast-book-reviews/#codex-by-lev-grossman)
-* [The Name of the Wind](/2013/really-fast-book-reviews/#the-name-of-the-wind-by-patrick-rothfuss)
-* [The Wise Man's Fear](/2013/really-fast-book-reviews/#the-wise-mans-fear-by-patrick-rothfuss)
-* [Star Wars: Dark Force Rising](/2013/really-fast-book-reviews/#star-wars-dark-force-rising-by-timothy-zahn)
+* [Ready Player One](/2013/really-fast-book-reviews/#ready-player-one-by-ernest-cline) {: style="font-size: smaller; line-height: 80%;" }
+* [Neverwhere](/2013/really-fast-book-reviews/#neverwhere-by-neil-gaiman) {: style="font-size: smaller; line-height: 80%;" }
+* [Feast for Crows](/2013/really-fast-book-reviews/#feast-for-crows-by-george-r-r-martin) {: style="font-size: smaller; line-height: 80%;" }
+* [The Secrets of the Immortal Nicholas Flamel Series](/2013/really-fast-book-reviews/#the-secrets-of-the-immortal-nicholas-flamel-series-by-michael-scott) {: style="font-size: smaller; line-height: 80%;" }
+* [Legion](/2013/really-fast-book-reviews/#legion-by-brandon-sanderson) {: style="font-size: smaller; line-height: 80%;" }
+* [Catching Fire](/2013/really-fast-book-reviews/#catching-fire-by-suzanne-collins) {: style="font-size: smaller; line-height: 80%;" }
+* [Codex](/2013/really-fast-book-reviews/#codex-by-lev-grossman) {: style="font-size: smaller; line-height: 80%;" }
+* [The Name of the Wind](/2013/really-fast-book-reviews/#the-name-of-the-wind-by-patrick-rothfuss) {: style="font-size: smaller; line-height: 80%;" }
+* [The Wise Man's Fear](/2013/really-fast-book-reviews/#the-wise-mans-fear-by-patrick-rothfuss) {: style="font-size: smaller; line-height: 80%;" }
+* [Star Wars: Dark Force Rising](/2013/really-fast-book-reviews/#star-wars-dark-force-rising-by-timothy-zahn) {: style="font-size: smaller; line-height: 80%;" }
 
 #### More Reviews
 
-* [Swign Your Sword](#swingsword)
-* [Snow Crash](#snowcrash)
-* [Mockingjay](#mockingjay)
-* [Xenocide](#xenocide)
-* [Dimension of Miracles](#dimmiracles)
-* [Noe Easy Day](#noeasyday)
-* [Killing Floor](#killingfloor)
-* [The Last Command](#lastcommand)
-* [Kill Decision](#killdecision)
-* [American Sniper](#americansniper)
-{: style="font-size: smaller" }
+* [Swign Your Sword](#swingsword) {: style="font-size: smaller; line-height: 80%;" }
+* [Snow Crash](#snowcrash) {: style="font-size: smaller; line-height: 80%;" }
+* [Mockingjay](#mockingjay) {: style="font-size: smaller; line-height: 80%;" }
+* [Xenocide](#xenocide) {: style="font-size: smaller; line-height: 80%;" }
+* [Dimension of Miracles](#dimmiracles) {: style="font-size: smaller; line-height: 80%;" }
+* [Noe Easy Day](#noeasyday) {: style="font-size: smaller; line-height: 80%;" }
+* [Killing Floor](#killingfloor) {: style="font-size: smaller; line-height: 80%;" }
+* [The Last Command](#lastcommand) {: style="font-size: smaller; line-height: 80%;" }
+* [Kill Decision](#killdecision) {: style="font-size: smaller; line-height: 80%;" }
+* [American Sniper](#americansniper) {: style="font-size: smaller; line-height: 80%;" }
 
 ## Swing Your Sword by Mike Leach {: #swingsword }
 
