@@ -7,8 +7,8 @@ Status: draft
 ![World's Columbian Exposition Chicago]({filename}../static/images/2014/columbianexposition.jpg "World's Columbian Exposition Chicago")
 
 I was lucky enough to find this book years ago, but stupid enough not to read
-it until 2013.  Erik Larson's [The Devil in the White City][devil]: Murder,
-Magic, and Madness at the Fair that Changed America is the story on two fronts.
+it until 2013.  Erik Larson's _[The Devil in the White City][devil]: Murder,
+Magic, and Madness at the Fair that Changed America_ is the story on two fronts.
 One is the story of Daniel Burnham, the chief architect in charge of America's
 second major exposition in particular after France's unveiling of the Eiffel
 Tower.  The second story is of H. H. Holmes, known as America's first serial
@@ -18,7 +18,7 @@ odd, but Larson weaves their stories fantastically and maintains a constant
 thread throughout the entire book.
 
 ![The Devil in the White City]({filename}../static/images/2014/devilinwhitecity.jpg "The Devil in the White City"){: .alignleft }
-Daniel Burnham---in a amazingly short amount of time---has to design, construct
+Daniel Burnham--in a amazingly short amount of time--has to design, construct
 and prepare nearly 200 buildings as well as oversee the construction of
 numerous canals, lagoons, and parks.  He had to handle groups wanting to get
 too involved, getting together something that would rival Eiffel's magnificent
@@ -47,7 +47,7 @@ and be the benefactor.  With all the amazing stories around this, it's crazy
 to hear what he was able do what he did under such little suspicion.  Different
 times.
 
-I have to say, The Devil in the White City is the best non-fiction book I have
+I have to say, _The Devil in the White City_ is the best non-fiction book I have
 ever read.  It is an absolute amazing pair of stories, well constructed and
 exquisitely narrated.  Larson does take artistic license in piecing together
 some of the reports and creating plausible situations.  In particular, Larson
@@ -57,7 +57,7 @@ plausibility of reports, letters, interviews, and the times.  It is a great
 book.  One I would recommend to anyone, non-fiction fans or not.  It really got
 me thinking about Chicago as well.  It is an absolute shame that the "White
 City" wasn't constructed for, nor allowed to permanently stand.  Photos from
-the event---[best I could find is this from the Brooklyn Museum][photos]---are
+the event--[best I could find is this from the Brooklyn Museum][photos]--are
 absolutely stunning.  I'd love to be able to see the buildings in color to get
 the full feel of the event.  I think of this book to this day and sit in awe of
 the events of the 1893 World's Columbian Exposition in Chicago, Illinois.
