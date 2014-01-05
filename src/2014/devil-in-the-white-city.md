@@ -4,7 +4,7 @@ Date: 2014-01-04 22:41:56
 Tags: reviews, books
 Status: draft
 
-![World's Columbian Exposition Chicago]({filename}../static/2014/columbianexposition.jpg "World's Columbian Exposition Chicago")
+![World's Columbian Exposition Chicago]({filename}../static/images/2014/columbianexposition.jpg "World's Columbian Exposition Chicago")
 
 I was lucky enough to find this book years ago, but stupid enough not to read
 it until 2013.  Erik Larson's [The Devil in the White City][devil]: Murder,
@@ -17,7 +17,7 @@ there stories are intertwined.  The story of an architect and a murderer sounds
 odd, but Larson weaves their stories fantastically and maintains a constant
 thread throughout the entire book.
 
-![The Devil in the White City]({filename}../static/2014/devilinwhitecity.jpg "The Devil in the White City"){: .alignleft }
+![The Devil in the White City]({filename}../static/images/2014/devilinwhitecity.jpg "The Devil in the White City"){: .alignleft }
 Daniel Burnham---in a amazingly short amount of time---has to design, construct
 and prepare nearly 200 buildings as well as oversee the construction of
 numerous canals, lagoons, and parks.  He had to handle groups wanting to get
@@ -32,7 +32,7 @@ spot due to both the indecision and the fear that it would not work.  It's an
 amazing story in and of itself, but only a side discussion this this packed
 book.
 
-![H. H. Holmes]({filename}../static/2014/hhholmes.jpg "H. H. Holmes"){ .alignright }
+![H. H. Holmes]({filename}../static/images/2014/hhholmes.jpg "H. H. Holmes"){ .alignright }
 Dr. Henry Howard Holmes is known as America's first serial killer (or in a more
 detailed description "first documented serial killer").  Holmes was able build
 a "hotel" only a few miles away from the fair and, using his electric
