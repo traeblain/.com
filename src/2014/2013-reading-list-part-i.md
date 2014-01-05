@@ -1,5 +1,5 @@
 Title: 2013 Reading List (Part I)
-Date: 2014-01-03 13:55
+Date: 2014-01-04 22:07:14
 Tags: books, review
 
 So I succeeded in reading more books in 2013.  My [grand total is 47][goodreads] according to GoodReads.  That's great, especially since I only read like 7 books the previous year.  So now how do I rate and discuss 47 books.  I'll start with the few I already spoke about in [this post][quickreview] and embelish a bit, then continue on to the rest of the books in follow-up posts.  Hope you enjoy.
