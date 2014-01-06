@@ -1,6 +1,6 @@
-Title: Devil in the White City (2013 Reading Part II)
+Title: Devil in the White City (2013 Reading List Part II)
 Slug: devil-in-the-white-city
-Date: 2014-01-04 22:41:56
+Date: 2014-01-05 19:24:57
 Tags: reviews, books
 Status: draft
 
@@ -18,7 +18,7 @@ odd, but Larson weaves their stories fantastically and maintains a constant
 thread throughout the entire book.
 
 ![The Devil in the White City]({filename}../static/images/2014/devilinwhitecity.jpg "The Devil in the White City"){: .alignleft }
-Daniel Burnham--in a amazingly short amount of time--has to design, construct
+Daniel Burnham--in an amazingly short amount of time--has to design, construct
 and prepare nearly 200 buildings as well as oversee the construction of
 numerous canals, lagoons, and parks.  He had to handle groups wanting to get
 too involved, getting together something that would rival Eiffel's magnificent
