@@ -1,8 +1,7 @@
 Title: Devil in the White City (2013 Reading List Part II)
 Slug: devil-in-the-white-city
-Date: 2014-01-05 19:24:57
+Date: 2014-01-08 10:24:57
 Tags: reviews, books
-Status: draft
 
 ![World's Columbian Exposition Chicago]({filename}../static/images/2014/columbianexposition.jpg "World's Columbian Exposition Chicago")
 
