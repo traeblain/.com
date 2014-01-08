@@ -1,6 +1,6 @@
 Title: 2013 Reading List (Part III)
 Slug: 2013-reading-list-part-iii
-Date: 2014-01-05 19:25:23
+Date: 2014-01-08 11:02:40
 Tags: review, books
 Status: draft
 
@@ -113,7 +113,9 @@ information gathered by the people and the time.  This was really more just a
 narration of the situations and events around the US Ambassador to Germany
 during Hitler's rise to power.  It is interesting and the Dodd family is
 wrapped in controversy, but again it was more of a "here are the facts" style
-of book instead of Larson wrapping stories around those facts.  It was too bad.
+of book instead of Larson wrapping stories around those facts.  It was too 
+bad, there is so much potential here.  I do think I will still look for other 
+books by Larson...hopefully more like the previous book.
 
 **2 Stars**
 {: style="text-align: right;" }
@@ -123,8 +125,8 @@ of book instead of Larson wrapping stories around those facts.  It was too bad.
 ![The Girl with the Dragon Tattoo]({filename}../static/images/2014/dragontattoo.jpg "The Girl with the Dragon Tattoo"){: .alignleft }
 I felt it was time to stop ignoring this series.  After two movies are made
 about a book, you really question why you haven't read it yet.  It lives up to
-the hype.  If you've seen both the movies, there's really nothing left (story-
-wise) in [this book][dragontattoo].  There is much better (of course) 
+the hype.  If you've seen both the movies, there's really nothing left 
+(story-wise) in [this book][dragontattoo].  There is much better (of course) 
 character development and insight into why characters did what they did.  I 
 liked the expanded time-line, but felt some of the event were a bit 
 "convenient".  All in all, still a worthy read.  There are some heavy 
@@ -157,8 +159,21 @@ anyone to read it, it was simply a good read.
 
 ![Going Clear]({filename}../static/images/2014/goingclear.jpg "Going Clear"){: .alignleft }
 Two words, Cra-zy.  There's two stories in _[Going Clear][goingclear]:
-Scientology, Hollywood, and the Prison of Belief_.  One is of the genius madman, L. Ron Hubbard, and the other is of the current leader, David Miscavige.  It talks of what drove Hubbard, his early life, and his final days.  After reading this book and by other reports and stories, I'm come to the following conclusion: L. Ron Hubbard was a genius, deeply troubled, and horribly misguided.  Everything started out good.  Hubbard was looking for a form of psychotherapy during a time of really bad psychotherapy practices.  He felt he was on the path of stopping some of the egregious practices of the time, and help people out of their mental troubles.  But due to his warped state of mind and greed, he transformed from his initial noble efforts and developed a religion that  literally imprisons people.  Then there is Miscavige, who is the poster boy for small man syndrome, and how he usurped the reigns of the church from it's leaders and brought Hollywood into the folds of the church.  It's impeccably researched and well sited.  If you are interested in the goings
-on of the Church of Scientology, I'd start here.
+Scientology, Hollywood, and the Prison of Belief_.  One is of the genius 
+madman, L. Ron Hubbard, and the other is of the current leader, David 
+Miscavige.  It talks of what drove Hubbard, his early life, and his final days.
+ After reading this book and other reports and stories, I'm come to the 
+following conclusion: L. Ron Hubbard was a genius, deeply troubled, and 
+horribly misguided.  Everything started out good.  Hubbard was looking for a 
+form of psychotherapy during a time of really bad psychotherapy practices.  He 
+felt he was on the path of stopping some of the egregious practices of the 
+time, and help people out of their mental troubles.  But due to his warped 
+state of mind and greed, he transformed from his initial noble efforts and 
+developed a religion that  literally imprisons people.  Then there is 
+Miscavige, who is the poster boy for small man syndrome, and how he usurped 
+the reigns of the church from it's leaders and brought Hollywood into the 
+folds of the church.  It's impeccably researched and well sited.  If you are 
+interested in the goings on of the Church of Scientology, I'd start here.
 
 **4 Stars**
 {: style="text-align: right;" }
@@ -175,7 +190,7 @@ insanely good plotting.  I keep thinking about all the information Hurwitz had
 to keep in mind to make sure no holes were left in the plot.  Everything is
 there and well placed.  Step-by-step events unfold and you think it can't do
 more...but it does.  But don't worry all plot points are well understood and
-kept in place, the are next no zero holes in what is a surprisingly intricate
+kept in place, there are next no zero holes in what is a surprisingly intricate
 story.  I'm definitely going to find more from Hurwitz...maybe _You're Next_.
 
 **5 Stars**
@@ -234,3 +249,6 @@ go a long way to making this book more bearable.
 [theywatching]: http://www.amazon.com/gp/product/B003P9WEN4/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003P9WEN4&linkCode=as2&tag=traeblain-20
 [darkplaces]: http://www.amazon.com/gp/product/B0027MJU00/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0027MJU00&linkCode=as2&tag=traeblain-20
 [shadows]: http://www.amazon.com/gp/product/B0089LOFS0/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0089LOFS0&linkCode=as2&tag=traeblain-20
+[child44]: http://www.amazon.com/gp/product/B0011UJMK2/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0011UJMK2&linkCode=as2&tag=traeblain-20
+[legion]: http://www.amazon.com/gp/product/B0099D4KEG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0099D4KEG&linkCode=as2&tag=traeblain-20
+[brick]: http://scottbrick.net/about
