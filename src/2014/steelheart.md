@@ -17,7 +17,9 @@ It's part superhero story, part coming-of-age story, and part action-thriller.  
 
 Steelheart has to be the best book I read all year.  It's really hard to describe what made it so great other than, you connect with the characters, empathize with their situations, and find their struggle...your struggle.  Sanderson does an amazing job by flowing in action components that aren't there for simple jollies, but flesh out various characters and define their train of thought.  The dialog is very conversational, real, and natural.  And the plotting is done well.  Due to the superhero nature of the story, Sanderson does make a few leaps in logic, but they still fit within the nature of the story being told so they do not feel outright misplaced.
 
-Any Sci-Fi/Fantasy fan should pick up Steelheart and give it a read.   There's a [companion story][mitosis] out that I haven't gotten to read yet, but I will.  I really think I will be reading this one again in 2014 just to re-experience the story.
+The last thing I want to say about this book is that the reader chosen for the audiobook was perfect.  [Macleod Andrews][mandrews] perfectly fits the storytelling from David's perspective.  The other characters are well done without anyone of them being too campy.
+
+Any Sci-Fi/Fantasy fan should pick up Steelheart and give it a read.   There's a [companion story][mitosis] out that I just finished reading and it has developed my excitement for the series all over again.  I really think I will be reading this one again in 2014 just to re-experience the story.
 
 **5 Stars**
 {: style="text-align: right;" }
@@ -25,3 +27,4 @@ Any Sci-Fi/Fantasy fan should pick up Steelheart and give it a read.   There's a
 [partIII]: {filename}./2013-reading-list-part-iii.md
 [Steelheart]: http://www.amazon.com/gp/product/B00ARHAAZ6/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00ARHAAZ6&linkCode=as2&tag=traeblain-20
 [mitosis]: http://www.amazon.com/gp/product/B00GQAMAK6/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00GQAMAK6&linkCode=as2&tag=traeblain-20
+[mandrews]: https://www.goodreads.com/author/show/2962128.MacLeod_Andrews
