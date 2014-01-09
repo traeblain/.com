@@ -6,14 +6,10 @@ Status: draft
 
 ![Desolation of Smaug]({filename}../static/images/2014/hobbit-title.jpg "Desolation of Smaug")
 
-**RottenTomatoes: _76%_**
-{: .alignright }
-
-**MetaCritic: _66_**
-{: .alignright }
-
-**Trae Blain: _3 Stars_**
-{: .alignright }
+**RottenTomatoes: _76%_**<br />
+**MetaCritic: _66_**<br />
+**Trae Blain: _3 Stars_**<br />
+{: .alignright style="border: solid 1px #CCC;" }
 
 The [second film][hobbit] of Peter Jackson's absurd stretching of J.R.R. Tolkien's short book, _[The Hobbit][hobbitbook]_, picks up right where the [first one][journey] left off.  Bilbo and 13 Dwarves lead by the would-be king Thorin Oakenshield are crossing Middle Earth to confront the dragon Smaug who's taken over the dwarves historic home.  Gandalf has other things to do and suddenly Legolas is in the picture.  Instead of finding additional content from Tolkien's other stories ([Silmarillion][], etc.) and unpublished notes, Jackson decides to invent new characters to fill his expanded story/movie series.
 
