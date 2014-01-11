@@ -1,7 +1,7 @@
 Title: The Hobbit: The Desolation of Smaug
 Slug: the-hobbit-the-desolation-of-smaug
 Date: 2014-01-06 20:55
-Tags: books, review
+Tags: movie, review
 Status: draft
 
 ![Desolation of Smaug]({filename}../static/images/2014/hobbit-title.jpg "Desolation of Smaug")
@@ -9,7 +9,7 @@ Status: draft
 **RottenTomatoes: _76%_**<br />
 **MetaCritic: _66_**<br />
 **Trae Blain: _3 Stars_**<br />
-{: .alignright style="border: solid 1px #CCC;padding: 15px 25px" }
+{: .alignright style="border: solid 1px #CCC;padding: 15px 25px;" }
 
 The [second film][hobbit] of Peter Jackson's absurd stretching of J.R.R. Tolkien's short book, _[The Hobbit][hobbitbook]_, picks up right where the [first one][journey] left off.  Bilbo and 13 Dwarves lead by the would-be king Thorin Oakenshield are crossing Middle Earth to confront the dragon Smaug who's taken over the dwarves historic home.  Gandalf has other things to do and suddenly Legolas is in the picture.  Instead of finding additional content from Tolkien's other stories ([Silmarillion][], etc.) and unpublished notes, Jackson decides to invent new characters to fill his expanded story/movie series.
 
