@@ -1,8 +1,7 @@
 Title: The Hobbit: The Desolation of Smaug
 Slug: the-hobbit-the-desolation-of-smaug
-Date: 2014-01-13 18:12:23
+Date: 2014-01-13 20:15:26
 Tags: movie, review, lmmr
-Status: draft
 
 ![Desolation of Smaug]({filename}../static/images/2014/hobbit-title.jpg "Desolation of Smaug")
 
