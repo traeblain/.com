@@ -1,7 +1,7 @@
 Title: The Hobbit: The Desolation of Smaug
 Slug: the-hobbit-the-desolation-of-smaug
-Date: 2014-01-06 20:55
-Tags: movie, review
+Date: 2014-01-13 18:12:23
+Tags: movie, review, lmmr
 Status: draft
 
 ![Desolation of Smaug]({filename}../static/images/2014/hobbit-title.jpg "Desolation of Smaug")
@@ -18,6 +18,8 @@ As you might have noticed from my previous paragraph, I not the biggest fan of a
 It upsets me that Peter Jackson felt Tolkien's book was unfinished and under-filled.  I understand some expansion to fit a movie narrative, but I really feel he went a bit overboard.  The movie is decent on it's own.  The new character of Tauriel is excellently acted and actually a decent character, although the "love triangle" was a bit much.  The other problem is that due to all the new storylines and extra people, the movie is surprisingly not very character driven.  The fight scenes are very Michael Bay-esque in that they are there for visual stimulation instead of plot advancement and character development (i.e. Lord of the Rings Trilogy).
 
 The Hobbit 2 is entertaining and visually stunning, but it's only that.  The LotR series was entertaining, moving, deep, and true to fans of Tolkien's work.  This second installation of The Hobbit is nothing but visually entertaining.  Sure there are great performances such as [Evangeline Lilly][lilly], [Martin Freeman][freeman], and [Lee Pace][pace] (insane!).  Yet, the spackling of these great performances doesn't drown out the problems the movie contains.  It's a middle of the pack film...oh but the [credit's song][fire] is killer!
+
+_**Note:** This starts the beginning of my LMMR ( **L**ast **M**inute **M**ovie **R**eviews...pronounced Lemur ) series.  These reviews will be of In Theater movies, but after you've read everyone else take on the film and probably have seen the movie...and might not even care._
 
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/uf8Fwiy0Bkc" frameborder="0" allowfullscreen></iframe>
 
