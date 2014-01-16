@@ -70,10 +70,10 @@ whole book was forced.  He needed a third and really had nothing to go on.
 
 ![Cryptonomicon]({filename}../static/images/2014/cryptonomicon.jpg "Cryptonomicon"){: .alignright }
 Again, for some reason I feel somewhat ashamed to say I don't think I'm a Neal
-Stephenson fan.  This book was interesting and half of it was really good.
-The other half is slow and honestly adds no real value to the real story.
-There's some history there, but all that history could have been done
-differently.  Some of it could have been thrown out and made the book much
+Stephenson fan.  [This book][cryptonomicon] was interesting and half of it was
+really good.  The other half is slow and honestly adds no real value to the
+real story.  There's some history there, but all that history could have been
+done differently.  Some of it could have been thrown out and made the book much
 better.  It's a great story, very pertinent to today's BitCoin rush.  I think
 it really had the makings of being a great book, but Stephenson's writing got
 in the way of the story.  I'm pretty sure this will be my last Stephenson
