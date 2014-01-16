@@ -1,6 +1,6 @@
 Title: 2013 Reading List (Part III)
 Slug: 2013-reading-list-part-iii
-Date: 2014-01-08 11:02:40
+Date: 2014-01-16 11:59:22
 Tags: review, books
 
 More books in my Reading list from 2013.  The first few I read are shown [in
