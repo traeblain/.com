@@ -2,11 +2,12 @@ Title: 2013 Reading List (Part III)
 Slug: 2013-reading-list-part-iii
 Date: 2014-01-08 11:02:40
 Tags: review, books
-Status: draft
 
 More books in my Reading list from 2013.  The first few I read are shown [in
 this review][quick], the second set is located [in this set of reviews][II],
-and my review of [The Devil in the White City][III] was last review.  Now I've compiled together a few more of my reviews from last year's reading rampage.
+and my review of [The Devil in the White City][III] was my previous review.
+ Now I've compiled together a few more of my reviews from last year's reading
+rampage.
 
 #### Quick Links
 
@@ -90,7 +91,7 @@ else of his to read.  I knew he finished Robert Jordan's series after his
 death, but I didn't like the Wheel of Time books so I never grabbed a Sanderson
 book.  I'm sad I didn't.  [The Way of Kings][wayofkings] is an amazing epic.
 It is full of intrigue and fantasy and not too heavy on the politics.  The
-three characters the book follows each have some great qualities in their own
+three characters the book follows, all have some great qualities in their own
 right.  The only reason I didn't give this book 5 Stars is because the main
 female character, Shalan, is a very week and awkward character.  The decisions
 she makes feel out of place based on her reasoning.  But Kaladin, Dalinar, and
