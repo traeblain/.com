@@ -1,8 +1,7 @@
 Title: Steelheart (2013 Reading List Part IV)
 Slug: steelheart
-Date: 2014-01-08 11:07:25
+Date: 2014-01-22 17:56:06
 Tags: books, review
-Status: draft
 
 ![Steelheart]({filename}../static/images/2014/steelheart-title.jpg "Steelheart")
 
@@ -13,9 +12,9 @@ work sooner.  But after reading _The Way of Kings_, I pre-ordered
 ![Steelheart]({filename}../static/images/2014/steelheart.jpg "Steelheart"){: .alignleft }
 Steelheart is a "post-apocalyptic" type story where in the future, somehow (I 
 believe it is intentionally left vague), certain humans begin to form 
-superhero-type powers.  Instead of a world where these superhero protect the 
+superhero-type powers.  Instead of a world where these superheros protect the 
 average people from bad, they all tend to be evil.  It starts off with one of
-the most powerful of these Epics (super-humans) trying to assert his territory 
+the most powerful of these super-humans, Epics, trying to assert his territory 
 over another Epic in front of a young man, David, and his father.  As David 
 grows up, he wants to be a part of the only group that tries to stand up 
 against these Epics, the Reckoners.  The book follows David in is quest to 
@@ -26,18 +25,19 @@ It's part superhero story, part coming-of-age story, and part action-thriller.
 David is a wild kid, he's often flying off and doing crazy things.  He thinks 
 on his feet and only plans for the next step ahead of him.  He joins up with a 
 group of Reckoners who carefully plan out every move, plan contingencies upon 
-contingencies, and don't take unnecessary risks.  David grows up in the book 
-by gaining role models and adult figures that challenge his orphaned thinking 
-and lifestyle.  It is an amazing read.
+contingencies, and don't take unnecessary risks.  David grows up in the book
+by gaining role models and adult figures that challenge his thinking and
+lifestyle, somewhat developed due to his experiance as an orphan.  It is an
+amazing read.
 
 ![Steelheart Storyboard]({filename}../static/images/2014/steelheart-storyboard.jpg "Steelheart Storyboard")
 
 Steelheart has to be the best book I read all year.  It's really hard to 
 describe what made it so great other than, you connect with the characters, 
-empathize with their situations, and find their struggle...your struggle.  
+empathize with their situations, and find their struggle...your struggle. 
 Sanderson does an amazing job by flowing in action components that aren't 
-there for simple jollies, but flesh out various characters and define their 
-train of thought.  The dialog is very conversational, real, and natural.  And 
+there for simple jollies, but fleshes out various characters and define their 
+trains of thought.  The dialog is very conversational, real, and natural.  And 
 the plotting is done well.  Due to the superhero nature of the story, 
 Sanderson does make a few leaps in logic, but they still fit within the nature 
 of the story being told so they do not feel outright misplaced.
