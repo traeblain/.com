@@ -2,7 +2,6 @@ Title: Anchorman 2: The Legend Continues
 Slug: anchorman-2-the-legend-continues
 Date: 2014-01-27 19:22:35
 Tags: movie, review, lmmr
-Status: draft
 
 ![Anchorman 2: The Legend Continues]({filename}../static/images/2014/anchorman2-title.jpg "Anchorman 2: The Legend Continues")
 
