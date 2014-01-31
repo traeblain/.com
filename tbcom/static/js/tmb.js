@@ -29,8 +29,8 @@ $( function () {
 
 $( function () {
   var ranks = $("[class^=stars]");
-  var starbuild = "";
   for (var i = ranks.length - 1; i >= 0; i--) {
+    var starbuild = "";
     var rank = parseInt(ranks.eq(i).attr('class').substr(-1))
     for (var j = rank; j >= 1; j--) {
       var starbuild = starbuild + '<i class="icon-star"></i>';
