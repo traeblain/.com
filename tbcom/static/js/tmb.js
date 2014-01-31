@@ -26,3 +26,18 @@ $( function () {
 $( function () {
   $('.article-body iframe').wrap('<div class="videoWrapper"></div>');
 });
+
+$( function () {
+  var ranks = $("[class^=stars]");
+  var starbuild = "";
+  for (var i = ranks.length - 1; i >= 0; i--) {
+    var rank = parseInt(ranks.eq(i).attr('class').substr(-1))
+    for (var j = rank; j >= 1; j--) {
+      var starbuild = starbuild + '<i class="icon-star"></i>';
+    }
+    for (var j = 5 - rank; j >= 1; j--) {
+      var starbuild = starbuild + '<i class="icon-star-empty"></i>';
+    }
+    ranks.eq(i).children('strong').html(starbuild);
+  };
+});
