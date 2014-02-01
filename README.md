@@ -12,12 +12,12 @@ Site Features:
 - Blog w/[Disqus][] comments
 - Responsive layout based on [SimpleGrid][]
 - [Webassets][] utilizing [LessCSS][], [JSmin][] and [CSSmin][]
-- No [jQuery][] instead using the smaller [Zepto][] library
+- No [jQuery][], no more [Zepto][], just [VanillaJS][]
 - <del>[Twitter][], [Facebook][], and [Google+][] Sharing</del> (Suspended until I integrate it better)
 - Sitemaps handled with [Google's Sitemap Generator][gsmg]
 - Design unashamedly replicated from [Segment.io][] founders: [Peter Reinhardt](http://rein.pk/) and [Ian Storm Taylor](http://ianstormtaylor.com/).
 
-Original content and source is licensed by [Creative Commons CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/). Some items (including but not limited to, [Zepto][], [SimpleGrid][], etc.) are licensed by their respective lawyers accordingly.
+Original content and source is licensed by [Creative Commons CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/). Some items (including but not limited to, [SimpleGrid][], etc.) are licensed by their respective lawyers accordingly.
 
 [Pelican]: https://github.com/getpelican/pelican/
 [Python]: http://python.org/
@@ -34,3 +34,4 @@ Original content and source is licensed by [Creative Commons CC BY-NC-SA 3.0](ht
 [gsmg]: https://code.google.com/p/sitemap-generators/
 [LessCSS]: http://lesscss.org/
 [Segment.io]: http://segment.io/
+[VanillaJS]: http://vanilla-js.com/
