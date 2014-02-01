@@ -1,43 +1,51 @@
-/*(function($) {
-    // only do this if not on a touch device
-    if (!('ontouchend' in window)) {
-        $(document).delegate('body', 'click', function(e) {
-            $(e.target).trigger('tap');
-        });
-    }
-})(window.Zepto);*/
+function videowrapper (element) {
+  var wrapper = document.createElement('div');
+  wrapper.className = 'videoWrapper';
+  wrapper.appendChild(element.cloneNode(true));
+  element.parentNode.replaceChild(wrapper, element);
+}
 
-$( function () {
+document.addEventListener('DOMContentLoaded', function() {
+  // Wraps Videos so that they remain responsive
+  var elements = document.querySelectorAll('.article-body iframe')
+  Array.prototype.forEach.call(elements, function(el, i){
+    videowrapper(el);
+  });
+
+  // If the image title has alignment class, this makes it a class
   var ss = new Array(0);
-  for(var index = 0; index < $("img").length; index++) {
-    var s = $('img').eq(index).attr("title");
+  var imagelist = document.querySelectorAll('img');
+  for (var index = 0; index < imagelist.length; index++) {
+    var s = imagelist.item(index).getAttribute('title');
     ss.push(s);
     if (s) {
       if (s.indexOf( "alignright" ) >= 0) {
-        $("img").eq(index).addClass("alignright");
+        if (imagelist.item(index).classList) {
+          imagelist.item(index).classList.add("alignright");
+        } else {
+          imagelist.item(index).className += ' alignright';
+        }
       } else if (s.indexOf( "alignleft" ) >= 0) {
-        $("img").eq(index).addClass("alignleft");
+        if (imagelist.item(index).classList) {
+          imagelist.item(index).classList.add("alignleft");
+        } else {
+          imagelist.item(index).className += ' alignleft';
+        }
       }
     }
-  }
-});
+  };
 
-
-$( function () {
-  $('.article-body iframe').wrap('<div class="videoWrapper"></div>');
-});
-
-$( function () {
-  var ranks = $("[class^=stars]");
+  // Replaces the Ranking text with Stars (requires it to be sole class)
+  var ranks = document.querySelectorAll("[class^=stars]");
   for (var i = ranks.length - 1; i >= 0; i--) {
-    var starbuild = "";
-    var rank = parseInt(ranks.eq(i).attr('class').substr(-1))
+    var starbuild = "<strong>";
+    var rank = parseInt(ranks.item(i).getAttribute('class').substr(-1));
     for (var j = rank; j >= 1; j--) {
       var starbuild = starbuild + '<i class="icon-star"></i>';
     }
     for (var j = 5 - rank; j >= 1; j--) {
       var starbuild = starbuild + '<i class="icon-star-empty"></i>';
     }
-    ranks.eq(i).children('strong').html(starbuild);
-  };
+    ranks.item(i).innerHTML = starbuild + '</strong>';
+  }
 });
