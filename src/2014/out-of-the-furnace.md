@@ -2,7 +2,7 @@ Title: Out of the Furnace
 Slug: out-of-the-furnace
 Date: 2014-02-02 14:27:52
 Tags: movie, review, lmmr
-Status: drafts
+Status: draft
 
 ![Out of the Furnace]({filename}../static/images/2014/outofthefurnace.jpg "Out of the Furnace")
 
