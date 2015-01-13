@@ -25,4 +25,5 @@ There's more...I haven't posted everything, but this covers the basics.  I have 
 
 אף פעם לא לובשים תחתונים מלוכלכים
 {: style="text-align: right;" }
-![Trae]({filename}../../tbcom/static/images/tblogo.svg "Trae"){ .alignright }
+
+![Trae](/theme/images/tblogo.svg "Trae"){ .alignright }
