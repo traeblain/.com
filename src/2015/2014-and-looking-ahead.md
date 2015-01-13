@@ -4,7 +4,6 @@ Date: 2015-01-13 12:36:00
 Tags: commentary, geek
 
 ![Travels]({filename}../static/images/2015/road-less-traveled.jpg "On the Road")
-
 The year started off with a bang.  At work I was finishing up one project and starting a new interesting on with a peer and mentor.  I had a new child on the way and a ton of things planned.  Then suddenly my job asked for some travel...excessive travel.  Then I had to take a sharp turn on my plans and make new one.  That's the kind of year it was.  A year full of twist and course corrections.  A plan today was changed tomorrow.  And 2015 doesn't look like it's going to be any different.
 
 I did quite a bit in 2014.  I read 47 books (you'll hear about those later), mainly because of plenty of time to read on airplanes.  Learned all about the construction industry and some crazy things architects have to do.  Fell in love with another beautiful girl.  Tried to better myself and family in some small ways.  Can't say I always succeeded, but I can say I tried.
@@ -24,6 +23,9 @@ These aren't resolutions and by no means does it mean failure if I do not accomp
 There's more...I haven't posted everything, but this covers the basics.  I have some small short term goals that I want to see as well and some that I've luckily already knocked out for the year.
 
 אף פעם לא לובשים תחתונים מלוכלכים
-{: style="text-align: right;" }
+{: style="text-align: right; padding-bottom: 0;" }
 
-![Trae](/theme/images/tblogo.svg "Trae"){ .alignright }
+![Trae](/theme/images/tblogo.svg "Trae"){ .alignright style="margin: 0;"}
+{: style="padding-top: 0;"}
+
+---
