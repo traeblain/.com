@@ -2,7 +2,7 @@
 
 AUTHOR = u"Trae Blain"
 SITENAME = u"Trae's Blog"
-SITEDESCRIPTION = "Engineer. Father. Cyclist. Sexy. Sarcastic. Geek."
+SITEDESCRIPTION = "Father. Engineer. Cyclist. Sexy. Sarcastic. Geek."
 SITEURL = "http://blog.traeblain.com"
 ABOUTURL = "http://traeblain.com/"
 CHARSET = "utf-8"
@@ -14,7 +14,7 @@ PATH = "src"
 OUTPUT_PATH = "../output"
 
 DEFAULT_LANG = "en"
-LOCALE = "en_US"
+LOCALE = ("usa", "en_US")
 TIMEZONE = "America/Chicago"
 DATE_FORMAT = {"en": ("usa", "%B %d, %Y"), }
 DEFAULT_DATE_FORMAT = "%B %d, %Y"
@@ -27,10 +27,10 @@ NAVLINKS = (
 
 # Social widget
 SOCIAL = (
-          ("twitter", "http://twitter.com/traeblain"),
-          ("facebook", "http://facebook.com/traeblain"), )
+    ("twitter", "http://twitter.com/traeblain"),
+    ("facebook", "http://facebook.com/traeblain"), )
 
-PLUGIN_PATH = "pelican-plugins"
+PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ["assets"]
 MD_EXTENSIONS = ["codehilite", "extra", "toc", ]
 
@@ -40,17 +40,17 @@ TAG_URL = "tags/{name}"
 TAG_SAVE_AS = "tags/{name}.html"
 CATEGORY_URL = "{name}"
 CATEGORY_SAVE_AS = "{name}/index.html"
-PAGE_DIR = "pages"
+PAGE_PATHS = ["pages"]
 PAGE_URL = "{slug}"
 PAGE_SAVE_AS = "{slug}.html"
-AUTHOR_SAVE_AS = False
+AUTHOR_SAVE_AS = ''
 
 DIRECT_TEMPLATES = ("index", "tags", "archives")
 STATIC_PATHS = [
-               "static",
-               "extras/.htaccess",
-               "extras/robots.txt"
-               ]
+    "static",
+    "extras/.htaccess",
+    "extras/robots.txt"
+    ]
 EXTRA_PATH_METADATA = {
     'extras/robots.txt': {'path': 'robots.txt'},
     'extras/.htaccess': {'path': '.htaccess'},
