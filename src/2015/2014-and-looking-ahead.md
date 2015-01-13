@@ -26,6 +26,6 @@ There's more...I haven't posted everything, but this covers the basics.  I have 
 {: style="text-align: right; padding-bottom: 0;" }
 
 ![Trae](/theme/images/tblogo.svg "Trae"){ .alignright style="margin: 0; width: 50px;"}
-{: style="padding-top: 0;"}
+{: style="padding-top: 0; margin-bottom: 40px;"}
 
 ---
