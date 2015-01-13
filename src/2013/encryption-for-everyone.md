@@ -3,7 +3,7 @@ Slug: encryption-for-everyone
 Date: 2013-11-14 23:01:37
 Tags: email, internet, commentary
 
-![Encryption for Everyone]({filename}/static/images/2013/security-lock.jpg "Encryption for Everyone")
+![Encryption for Everyone]({filename}../static/images/2013/security-lock.jpg "Encryption for Everyone")
 
 Ok, everyone knows the [NSA is watching us][1].  They are actively pulling our information and under the guise of terrorist surveillance they are watching everyone.  [As Lavabit has shown][2], the courts and the government are no longer simply watching the terrorists, but asking for the tools for mass surveillance.  I liken the situation with Lavabit to asking the telephone company for access to an entire apartment complexes phone lines and they will "pick and choose" who they actually listen to.
 
