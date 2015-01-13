@@ -1,6 +1,6 @@
 Title: 2014 and Looking Ahead
 Slug: 2014-and-looking-ahead
-Date: 2015-01-13 12:36:00
+Date: 2015-01-13 15:14:40
 Tags: commentary, geek
 
 ![Travels]({filename}../static/images/2015/road-less-traveled.jpg "On the Road")
