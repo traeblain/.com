@@ -3,9 +3,9 @@ Date: 2011-12-17 21:11
 Tags: batman, math
 Slug: batman-equation-revisited
 
-[![Batman Equation](http://blog.traeblain.com/wp-content/uploads/batman-equation-500x164.png)](http://blog.traeblain.com/wp-content/uploads/batman-equation.png)
+[![Batman Equation](http://blog.traeblain.com/static/wp-content/uploads/batman-equation-500x164.png)](http://blog.traeblain.com/wp-content/uploads/batman-equation.png)
 
-I decided to revisit the [Batman Equation](http://blog.traeblain.com/20110801/batman-equation/) briefly, but this time at a [Python][] approach, instead of [Matlab][]. The languages are close enough that it shouldn't take very to plug the info in and run...or so I thought.
+I decided to revisit the [Batman Equation](http://blog.traeblain.com/2011/batman-equation/) briefly, but this time at a [Python][] approach, instead of [Matlab][]. The languages are close enough that it shouldn't take very to plug the info in and run...or so I thought.
 
 ### Giving it an Initial Go
 
