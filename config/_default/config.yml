@@ -1,0 +1,49 @@
+baseURL: https://traeblain.com/
+languageCode: en-us
+title: Trae Blain
+theme: traeblain
+copyright: This work is licensed under a Creative Commons Attribution 4.0 International License
+enableEmoji: true
+enableGitInfo: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
+timeZone: America/Chicago
+rssLimit: 15
+paginate: 15
+
+author:
+  name: Trae Blain
+  commonname: traeblain
+
+social:
+  twitter: traeblain
+
+params:
+  mainSections:
+    - blog
+    - image
+    - link
+    - quote
+    - status
+    - video
+
+markup:
+  highlight:
+    lineNos: true
+    style: nord
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+
+outputs:
+  section:
+    - HTML
+    - JSON
+    - RSS
+  page:
+    - HTML
+    - JSON

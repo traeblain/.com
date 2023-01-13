@@ -1,0 +1,12 @@
+{{if .Params.author}}
+  <p>by {{.Params.author}}</p>
+{{else if .Site.Params.author}}
+  <p>by {{.Site.Params.author}}</p>
+{{end}}
+
+{{ if not .Date.IsZero }}
+  {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+  {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+
+  <p>{{ .PublishDate.Format $dateFormat }}</p>
+{{end}}

@@ -1,0 +1,11 @@
+---
+title: "Draft Page"
+date: 2023-01-12T07:04:13-06:00
+draft: true
+tags:
+  - first
+  - second
+background: https://res.cloudinary.com/dixwznarl/image/upload/v1673041131/notebook/writing-typewriter.jpg
+---
+
+I just needed a draft file to make sure things aren't getting propogated into all the other systems...

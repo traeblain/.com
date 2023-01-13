@@ -1,0 +1,9 @@
+<script type="text/javascript">
+  const changeHeaderHeight = () => {
+    let nav = document.querySelector("nav")
+    let block = document.querySelector("article.home blockquote")
+    this.scrollY > 3 ? nav.classList.add('scrolled') : nav.classList.remove('scrolled')
+    this.scrollY > 60 ? block.classList.add('scrolled') : block.classList.remove('scrolled')
+  }
+  window.addEventListener("scroll", changeHeaderHeight, false)
+</script>

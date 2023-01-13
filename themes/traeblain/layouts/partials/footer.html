@@ -1,0 +1,17 @@
+<footer>
+  <div>
+    <img class="cc-footer" src="https://res.cloudinary.com/dixwznarl/image/upload/tbcom/by.svg" title="CC-BY-4.0: Creative Commons Attribution 4.0" alt="CC-BY-4.0: Creative Commons Attribution 4.0">
+    {{ now.Format "2006" }} <a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a> | <a href="https://creativecommons.org/licenses/by/4.0/">Some Rights Reserved</a>
+  </div>
+  <div>
+    <a href="/blog/index.xml">RSS</a> <a href="/blog/index.json">JSON</a> <a style="color:black;" href="/random/">🎲</a>
+  </div>
+</footer>
+{{ if .Params.background }}
+<div class="img-modal">
+  <img src="{{ .Params.background }}" />
+  <label>
+    <input type="checkbox" name="imgModal" id="imgModal" style="display: none;"/>
+  </label>
+</div>
+{{ end }}

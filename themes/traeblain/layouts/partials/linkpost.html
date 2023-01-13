@@ -1,0 +1,10 @@
+{{- $place := (.Scratch.Get "is-section") }}
+{{ if $place }}
+<h3>🔗 {{ else }}<h1>🔗 {{ end }} 
+  <a href="{{ .Params.source }}">{{ .Title }}</a>
+{{ if $place }}</h3>{{ else }}</h1>{{ end }}
+
+{{ if $place }}{{ $rawcontent := print (chomp .RawContent) " [#](" .Permalink ")" -}}
+<p>{{ .RenderString $rawcontent }}</p>
+{{ else }}{{ .Content }}{{ end }}
+{{ partial "endofarticle.html" . }}

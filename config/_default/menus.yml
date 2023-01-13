@@ -1,0 +1,63 @@
+main:
+  - identifier: about
+    name: About
+    pre: <svg class='svg'><use xlink:href='#taglink'></use></svg>
+    url: /about/
+    weight: 100
+  - identifier: notebook
+    name: Digital Garden
+    pre: <svg class='svg'><use xlink:href='#taglink'></use></svg>
+    url: /notebook/
+    weight: 101
+  - identifier: blog
+    name: Blog
+    pre: <svg class='svg'><use xlink:href='#taglink'></use></svg>
+    url: /blog/
+    weight: 102
+  - identifier: links
+    name: Links
+    pre: <svg class='svg'><use xlink:href='#taglink'></use></svg>
+    weight: 103
+  - identifier: twitter
+    name: Twitter
+    pre: <svg class='svg'><use xlink:href='#twitter'></use></svg>
+    url: https://twitter.com/traeblain
+    weight: 201
+    parent: links
+  - identifier: mastodon
+    name: Mastodon
+    pre: <svg class='svg'><use xlink:href='#mastodon'></use></svg>
+    url: https://social.lol/@trae
+    weight: 202
+    parent: links
+  - identifier: linkedin
+    name: LinkedIn
+    pre: <svg class='svg'><use xlink:href='#linkedin'></use></svg>
+    url: https://linkedin.com/in/traeblain
+    weight: 203
+    parent: links
+  - identifier: github
+    name: GitHub
+    pre: <svg class='svg'><use xlink:href='#github'></use></svg>
+    url: https://github.com/traeblain
+    weight: 204
+    parent: links
+  - identifier: Instagram
+    name: Instagram
+    pre: <svg class='svg'><use xlink:href='#instagram'></use></svg>
+    url: https://instagram.com/traeblina
+    weight: 205
+    parent: links
+  - identifier: pgp
+    name: PGP Key
+    pre: <svg class='svg'><use xlink:href='#lock'></use></svg>
+    url: http://keybase.io/traeblain
+    weight: 206
+    parent: links
+  - identifier: rss
+    name: RSS Feed
+    pre: <svg class='svg'><use xlink:href='#rss'></use></svg>
+    url: /blog/index.xml
+    weight: 206
+    parent: links
+  

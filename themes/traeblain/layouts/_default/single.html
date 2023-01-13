@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="single">
+  {{- if (eq .Type "image") }}
+    {{ partial "imagepost.html" . }}
+  {{- else if (eq .Type "link") }}
+    {{ partial "linkpost.html" . }}
+  {{- else if (eq .Type "quote") }}
+    {{ partial "quotepost.html" . }}
+  {{- else if (eq .Type "status") }}
+    {{ partial "statuspost.html" . }}
+  {{- else if (eq .Type "video") }}
+    {{ partial "videopost.html" . }}
+  {{ else }}
+    {{ partial "blogpost.html" . }}
+  {{ end -}}
+</article>
+{{ end }}

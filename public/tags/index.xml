@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Trae Blain</title>
+    <link>https://traeblain.com/tags/</link>
+    <description>Recent content in Tags on Trae Blain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License</copyright>
+    <lastBuildDate>Tue, 10 Jan 2023 14:04:13 -0600</lastBuildDate><atom:link href="https://traeblain.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>first</title>
+      <link>https://traeblain.com/tags/first/</link>
+      <pubDate>Tue, 10 Jan 2023 14:04:13 -0600</pubDate>
+      
+      <guid>https://traeblain.com/tags/first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>second</title>
+      <link>https://traeblain.com/tags/second/</link>
+      <pubDate>Tue, 10 Jan 2023 14:04:13 -0600</pubDate>
+      
+      <guid>https://traeblain.com/tags/second/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

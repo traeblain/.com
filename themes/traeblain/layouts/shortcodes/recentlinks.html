@@ -1,0 +1,20 @@
+<ul class="link-list">
+  {{- range first 4 (where .Site.Pages "Type" "=" "link") -}}
+  {{- .Scratch.Set "title" (.Summary | safeHTML | truncate 50) -}}
+  {{- if .Title }}{{ .Scratch.Set "title" .Title }}{{ end -}}
+  {{- $t := .Scratch.Get "title" -}}
+  <li class="link-item">
+    <table>
+      <tr>
+        <td><a href="{{ .Params.source }}" title="{{ $t }}"><img src="http://placeimg.com/150/84/arch" alt="{{ $t }}"/></a></td>
+        <td><strong><a href="{{ .Params.source }}" title="{{ $t }}">
+          {{ $t }}
+        </a></strong> |&nbsp;<a href="{{ .Permalink }}" title="Local Permalink" alt="Local Permalink">#</a></td>
+      </tr>
+      <tr>
+        <td colspan="2">{{ .Content }}</td>
+      </tr>
+    </table>
+  </li>
+{{ end -}}
+</ul>

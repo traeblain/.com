@@ -1,0 +1,3 @@
+User-agent: *
+
+https://traeblain.com/sitemap.xml

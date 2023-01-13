@@ -1,0 +1,14 @@
+<ul class="shortlist">
+{{ range first 4 (where .Site.Pages "Params.favorite" "=" true) }}
+  <li class="shortlist {{ .Type }}">
+    <a href="{{ .Permalink }}">
+      {{- if .Title -}}
+        {{ .Title }}
+      {{- else -}}
+        {{ .Summary | safeHTML | truncate 45 }}
+      {{- end -}}
+    </a>
+    {{ .Date.Format "2006.01.02" }}
+  </li>
+{{ end -}}
+</ul>

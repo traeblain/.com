@@ -1,0 +1,26 @@
+{{ define "main" }}
+<h1 class="center-title">{{ .Title }}</h1>
+{{/*  {{- $pages := where .Pages "Type" "in" site.Params.mainSections }}  */}}
+{{- $pages := (.Paginate (where .RegularPagesRecursive "Draft" false)).Pages }}
+{{- $isSection := .IsSection }}
+{{/*  {{- range (where $pages.ByPublishDate.Reverse "Draft" false) }}  */}}
+{{- range $pages }}
+  {{ .Scratch.Set "is-section" $isSection }}
+  <article>
+  {{- if (eq .Type "image") }}
+    {{ partial "imagepost.html" . }}
+  {{- else if (eq .Type "link") }}
+    {{ partial "linkpost.html" . }}
+  {{- else if (eq .Type "quote") }}
+    {{ partial "quotepost.html" . }}
+  {{- else if (eq .Type "status") }}
+    {{ partial "statuspost.html" . }}
+  {{- else if (eq .Type "video") }}
+    {{ partial "videopost.html" . }}
+  {{ else }}
+    {{ partial "blogpost.html" . }}
+  {{ end -}}
+  </article>
+{{ end }}
+{{ template "_internal/pagination.html" . }}
+{{ end }}

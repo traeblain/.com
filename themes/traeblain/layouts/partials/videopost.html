@@ -1,0 +1,21 @@
+{{- $place := (.Scratch.Get "is-section") }}
+{{ if $place }}{{ else }}<hr class="hr-clear">{{ end -}}
+{{- $url := urls.Parse .Params.source -}}
+{{- if in .Params.source "youtube" }}
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src='https://www.youtube.com/embed/{{ delimit $url.Query.v "" }}' style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+{{ else if in .Params.source "youtu.be" }}
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src='https://www.youtube.com/embed/{{ path.Base $url.Path }}' style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+{{ else }}
+<video class="post-video">
+  <source src="{{ .Params.source }}" />
+</video>
+{{ end -}}
+{{- $place := (.Scratch.Get "is-section") }}
+{{ if $place }}{{ $rawcontent := print (chomp .RawContent) " [#](" .Permalink ")" -}}
+<p>{{ .RenderString $rawcontent }}</p>
+{{ else }}{{ .Content }}{{ end }}
+{{ partial "endofarticle.html" . }}

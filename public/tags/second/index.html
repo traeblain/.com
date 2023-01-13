@@ -1,0 +1,561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <link rel="alternate" type="application/rss+xml" href="https://traeblain.com/tags/second/index.xml" title="Trae Blain" />
+    
+    
+    <title>Trae Blain | second</title>
+    <style type="text/css">
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('/fonts/AmaticSC-Bold.eot');
+  src: url('/fonts/AmaticSC-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/AmaticSC-Bold.woff2') format('woff2'),
+      url('/fonts/AmaticSC-Bold.woff') format('woff'),
+      url('/fonts/AmaticSC-Bold.svg#AmaticSC-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('/fonts/AmaticSC-Regular.eot');
+  src: url('/fonts/AmaticSC-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/AmaticSC-Regular.woff2') format('woff2'),
+      url('/fonts/AmaticSC-Regular.woff') format('woff'),
+      url('/fonts/AmaticSC-Regular.svg#AmaticSC-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Grand';
+  src: url("https://d33wubrfki0l68.cloudfront.net/dde6236850afbead39a22aa6b0f2e9bb281a19fd/2861f/fonts/ntf-grand-regular.woff2") format('woff2'),
+    url("https://d33wubrfki0l68.cloudfront.net/4e96df4d2f6bc1ce4832cc39da109830e3a5b9f0/20e67/fonts/ntf-grand-regular.woff") format('woff'),
+    url("https://d33wubrfki0l68.cloudfront.net/f14720cbce6185ee16c26634822d3cf85e89a327/03748/fonts/ntf-grand-regular.otf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+  :root {
+    --font-family-sans-serif: muli, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    --font-family-monospace: 'Source Code Pro', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --font-family-headline: 'Grand', 'Impact', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-family-condensed: 'Amatic SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --background: white;
+    --text-color: #1d1d1d;
+    --dark: #3b4252;
+    --dark-alpha: #3b4252e6;
+    --gray-dark: #434c5e;
+    --nord: #4c566a;
+    --secondary: #d8dee9;
+    --nord-light: #e5e9f0;
+    --nord-light-alpha: #e5e9f0e6;
+    --light: #eceff4;
+    --primary: #5e81ac;
+    --blue: #81a1c1;
+    --info: #88c0d0;
+    --teal: #8fbcbb;
+    --red: #bf616a;
+    --danger: #bf616a;
+    --orange: #d08770;
+    --yellow: #ebcb8b;
+    --warning: #ebcb8b;
+    --green: #a3be8c;
+    --success: #a3be8c;
+    --purple: #b48ead;
+    --indigo: #6610f2;
+    --pink: #e83e8c;
+    --cyan: #29abe0;
+    --white: #fff;
+    --gray: #6c757d;
+    --darkmode: white;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-max: 1600px;
+    font-family: var(--font-family-sans-serif);
+    line-height: 1.75;
+    font-size: 1.25em;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    overflow: overlay;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100vw;
+    background: var(--background);
+    padding: 1em;
+  }
+  main {
+    max-width: 70ch;
+    padding: 3em 0;
+    margin: auto;
+    color: var(--text-color);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 1rem 0;
+    color: var(--text-color);
+    font-family: var(--font-family-headline);
+  }
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 46.8px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+  h5 {
+    font-size: 33.2px;
+  }
+  h6 {
+    font-size: 26.8px;
+  }
+
+  p {
+    margin-bottom: 2em;
+  }
+  blockquote {
+    margin: 0;
+  }
+  strong {
+    color: var(--text-color);
+  }
+  a, a:visited, a:active {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, var(--primary), var(--blue));
+    fill: url(#fillGradient);
+    background-size: 200%;
+    background-position: 0%; 
+    animation: animated-gradient 6s infinite alternate;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; 
+    transition: background-image 0.7s ease-in-out;
+  }
+  .lin-fill-start {
+    stop-color: var(--primary);
+  }
+  .lin-fill-end {
+    stop-color: var(--blue);
+  }
+  a:hover {
+    background-image: linear-gradient(45deg, var(--nord), var(--nord));
+  }
+  p a:hover {
+    text-decoration: underline 1px solid var(--text-color);
+  }
+  a:hover svg {
+    fill: var(--nord);
+  }
+  @keyframes animated-gradient{
+    to{
+      background-position: 100%;
+    }
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, var(--primary), transparent);
+    margin: 4ch 0 7ch;
+  }
+  p img {
+    max-width: 100%;
+  }
+  p > code {
+    background-color: var(--nord);
+    color: var(--light);
+    padding: 0.1em;
+    border: 2px solid var(--text-color);
+    border-radius: 3px;
+  }
+  nav.mainmenu {
+    width: 100vw;
+    overflow: overlay;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 0 7px rgb(0 0 0 / 10%);
+  }
+  nav.mainmenu ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: var(--background);
+    padding: 0.5em 1em;
+    margin: 0;
+  }
+  nav.mainmenu ul li {
+    display: block;
+    margin: 0.5em;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: var(--font-family-headline);
+    font-size: 135%;
+    line-height: 1;
+  }
+  nav.mainmenu ul ul {
+    display: none;
+  }
+  nav li.navlogo {
+    flex-grow: 1;
+  }
+  nav li.navlogo, nav li.navsearch {
+    height: 1em;
+  }
+  nav li.navlogo svg, nav li.navsearch svg {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: -0.25em;
+    vertical-align: middle;
+  }
+  nav li.navlogo a span {
+    font-family: var(--font-family-sans-serif);
+    font-size: 80%;
+    font-stretch: ultra-condensed;
+    padding-left: 1ch;
+    color: var(--text-color);
+  }
+
+
+  .tag-list {
+    border-bottom: var(--text-color) 1px solid;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: -1.5em;
+  }
+  a.continue-reading {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+  .svg-taglink {
+    width: 1.5ch;
+    height: 1.5ch;
+    margin: 0 0.75ch;
+    fill: var(--secondary);
+  }
+  .share-links {
+    display: none;
+  }
+  article footer {
+    font-family: var(--font-family-headline);
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 150%;
+    text-align: center;
+  }
+  article footer svg {
+    width: 4ch;
+    height: 4ch;
+    vertical-align: middle;
+    margin: 0 1ch 0 0;
+  }
+  article footer a:last-of-type {
+    margin-left: 4ch;
+  }
+  .hero {
+    width: 100vw;
+    max-height: 25vh;
+    overflow: hidden;
+    margin: 3ch 0 0 calc((100vw - 70ch) / -2);
+  }
+  .hero img {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .hero.post-image {
+    max-height: 50vh;
+    transition: max-height 0.75s ease-in-out;
+  }
+  .hero.post-image img {
+    transition: transform 0.75s ease-in-out;
+  }
+  figure.hero.post-image:hover, figure.hero.post-image:active {
+    max-height: 100vh;
+  }
+  figure.hero.post-image:hover img, figure.hero.post-image:active img {
+    transform: translateY(0);
+  }
+  figure.quote {
+    width: 90ch;
+    max-width: calc(100vw - 2em);
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  figure blockquote p::before {
+    content: open-quote;
+  }
+  figure blockquote p::after {
+    content: close-quote;
+  }
+  figure blockquote p {
+    quotes: "“" "”" "‘" "’";
+    margin-bottom: 0;
+  }
+  figure.quote blockquote {
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.3;
+    font-family: var(--font-family-condensed);
+    transform: rotate(-3deg);
+    padding: 0.25em 1ch;
+  }
+  figure.quote figcaption {
+    font-family: var(--font-family-condensed);
+    font-size: 200%;
+    text-align: center;
+  }
+  @media (max-width: 103ch) {
+    .hero {
+      margin-left: -2em;
+    }
+  }
+</style>
+
+</head>
+<body>
+    <main><nav class="mainmenu">
+  <ul>
+    <li class="navlogo">
+      <a href="/">
+        <svg class='svg'><use xlink:href='#monogram'></use></svg><span>Trae Blain</span>
+      </a>
+    </li>
+    
+    
+      
+        <li>
+          <a href="/about/">
+            <span>About</span>
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a href="/notebook/">
+            <span>Digital Garden</span>
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a href="/blog/">
+            <span>Blog</span>
+          </a>
+        </li>
+      
+    
+      
+        <li class="">
+          <a>
+            <span>Links</span>
+          </a>
+        </li>
+        <ul class="sub-menu">
+          
+            <li class="">
+              <a href="https://twitter.com/traeblain" title="Twitter" target="_blank"><svg class='svg'><use xlink:href='#taglink'></use></svg></a>
+            </li>
+          
+            <li class="">
+              <a href="https://social.lol/@trae" title="Mastodon" target="_blank"><svg class='svg'><use xlink:href='#taglink'></use></svg></a>
+            </li>
+          
+            <li class="">
+              <a href="https://linkedin.com/in/traeblain" title="LinkedIn" target="_blank"><svg class='svg'><use xlink:href='#taglink'></use></svg></a>
+            </li>
+          
+            <li class="">
+              <a href="https://github.com/traeblain" title="GitHub" target="_blank"><svg class='svg'><use xlink:href='#taglink'></use></svg></a>
+            </li>
+          
+            <li class="">
+              <a href="https://instagram.com/traeblina" title="Instagram" target="_blank"><svg class='svg'><use xlink:href='#taglink'></use></svg></a>
+            </li>
+          
+            <li class="">
+              <a href="http://keybase.io/traeblain" title="PGP Key" target="_blank"><svg class='svg'><use xlink:href='#taglink'></use></svg></a>
+            </li>
+          
+            <li class="">
+              <a href="/blog/index.xml" title="RSS Feed" target="_blank"><svg class='svg'><use xlink:href='#taglink'></use></svg></a>
+            </li>
+          
+        </ul>
+      
+    
+    <li>
+      <a href="#" target="_blank">Dark</a>
+    </li>
+    <li class="navsearch">
+      <a href="#" target="_blank" title="Search"><svg class='svg'><use xlink:href='#taglink'></use></svg></a>
+    </li>
+  </ul>
+</nav>
+
+
+
+
+<h1>second</h1>
+
+
+
+    
+      <article class="list">
+  <figure class="hero"><img src="https://res.cloudinary.com/dixwznarl/image/upload/v1673041131/notebook/writing-typewriter.jpg" /></figure>
+  <h3>
+    <a href="/blog/my-first-post/">Markdown Example</a>
+  </h3>
+  <div class="tag-list">
+      
+      <svg class="svg svg-taglink"><use xlink:href="#taglink"></use></svg><a href='/tags/first'>first</a>
+      
+      <svg class="svg svg-taglink"><use xlink:href="#taglink"></use></svg><a href='/tags/second'>second</a>
+      
+      
+  </div>
+  
+    <p>
+      Headings Paragraphs Blockquotes Lists Horizontal rule Table Code Inline elements Headings Heading one Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat commodo id sunt. Nostrud enim ad commodo incididunt cupidatat in ullamco ullamco Lorem cupidatat velit enim et Lorem. Ut laborum cillum laboris fugiat culpa sint irure do reprehenderit culpa occaecat. Exercitation esse mollit tempor magna aliqua in occaecat aliquip veniam reprehenderit nisi dolor in laboris dolore velit.
+
+      <a href="/blog/my-first-post/" class="continue-reading">continue reading...</a>
+    </p>
+  
+  <footer>
+  <a href='#'><svg class="svg"><use xlink:href="#cheers"></use></svg> Kudos</a>
+  <a href='#'><svg class="svg"><use xlink:href="#shareicon" style="transform: translateX(1ch)"></use></svg> Share</a>
+  <div class="share-links">
+    <a href="#"><svg class="svg"><use xlink:href="#taglink"></use></svg></a>
+    <a href="#"><svg class="svg"><use xlink:href="#taglink"></use></svg></a>
+    <a href="#"><svg class="svg"><use xlink:href="#taglink"></use></svg></a>
+    <a href="#"><svg class="svg"><use xlink:href="#taglink"></use></svg></a>
+    <a href="#"><svg class="svg"><use xlink:href="#taglink"></use></svg></a>
+    <a href="#"><svg class="svg"><use xlink:href="#taglink"></use></svg></a>
+  </div>
+  <hr class="seperator">
+</footer>
+
+</article>
+    
+
+<p><a name="nav-menu" id="nav-menu"><strong>Site menu</strong></a></p>
+
+<ul>
+    
+    <li>
+      <a href="/about/">
+      
+      About
+      </a>
+    </li>
+    
+    <li>
+      <a href="/notebook/">
+      
+      Digital Garden
+      </a>
+    </li>
+    
+    <li>
+      <a href="/blog/">
+      
+      Blog
+      </a>
+    </li>
+    
+    <li>
+      <a href="">
+      
+      Links
+      </a>
+    </li>
+    
+</ul>
+
+<p><a href="#">Back to top</a></p>
+</main>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  style="position: absolute; width: 0; height: 0; overflow: hidden;"
+>
+  <defs>
+    <symbol id="monogram" viewBox="0 0 1000 1000">
+      <title>TB Monogram</title>
+      <path
+        style="
+          fill-opacity: 1;
+          stroke-width: 1px;
+          stroke-linecap: butt;
+          stroke-linejoin: miter;
+          stroke-opacity: 1;
+        "
+        d="M 50 47.625 L 50 197.625 L 150 197.625 L 150 147.625 L 425 147.625 L 425 422.625 L 575 422.625 L 575 147.625 L 850 147.625 L 850 197.625 L 950 197.625 L 950 47.625 L 50 47.625 z M 425 572.625 L 425 847.625 L 300 847.625 L 300 947.625 L 500 947.625 L 700 947.625 L 700 847.625 L 575 847.625 L 575 572.625 L 425 572.625 z "
+        id="monogramT"
+      />
+      <path
+        style="
+          fill-opacity: 1;
+          stroke-width: 1px;
+          stroke-linecap: butt;
+          stroke-linejoin: miter;
+          stroke-opacity: 1;
+        "
+        d="M 175 172.625 L 175 822.625 L 400 822.625 L 400 722.625 L 300 722.625 L 300 547.625 L 625 547.625 L 700 622.625 L 700 722.625 L 600 722.625 L 600 822.625 L 825 822.625 L 825 572.625 L 750 497.625 L 825 422.625 L 825 172.625 L 600 172.625 L 600 272.625 L 700 272.625 L 700 372.625 L 625 447.625 L 300 447.625 L 300 272.625 L 400 272.625 L 400 172.625 L 175 172.625 z "
+        id="monogramB"
+      />
+    </symbol>
+    <symbol id="taglink" viewBox="0 0 512 512">
+      <title>Tag Links</title>
+      <path
+        d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"
+      ></path>
+    </symbol>
+    <symbol id="cheers" viewBox="0 0 1.755 1.8737500000000002">
+      <title>Send Cheers</title>
+      <path
+        d="M0.788 0.19l-0.062 -0.132c-0.007,-0.016 -0.027,-0.024 -0.044,-0.016 -0.016,0.008 -0.023,0.027 -0.016,0.044l0.062 0.132c0.008,0.016 0.027,0.023 0.044,0.016 0.016,-0.008 0.023,-0.028 0.016,-0.044zm0.211 -0.008l0.026 -0.143c0.003,-0.018 -0.009,-0.035 -0.027,-0.038 -0.018,-0.004 -0.035,0.008 -0.038,0.026l-0.026 0.144c-0.003,0.018 0.009,0.035 0.027,0.038 0.018,0.003 0.035,-0.009 0.038,-0.027zm0.132 0.068c-0.013,0.013 -0.013,0.034 0,0.047 0.013,0.013 0.033,0.013 0.046,0l0.103 -0.103c0.013,-0.013 0.013,-0.034 0,-0.047 -0.013,-0.012 -0.034,-0.012 -0.047,0l-0.102 0.103zm-0.859 0.492c-0.037,-0.008 -0.071,-0.022 -0.105,-0.046l0.082 -0.403 0.606 0.163 -0.09 0.268c-0.091,-0.005 -0.166,0.004 -0.237,0.013 -0.038,0.005 -0.074,0.01 -0.11,0.012 -0.054,0.003 -0.102,0.002 -0.146,-0.007zm1.251 -0.4l-0.615 0.165 0.021 -0.064c0.006,-0.018 -0.004,-0.036 -0.023,-0.042l-0.674 -0.181c-0.018,-0.005 -0.036,0.006 -0.04,0.024l-0.191 0.944c-0.004,0.017 0.007,0.034 0.023,0.039l0.559 0.149c0.017,0.005 0.035,-0.005 0.04,-0.023l0.234 -0.695 0.275 0.817c0.004,0.017 0.022,0.028 0.04,0.023l0.558 -0.15c0.017,-0.004 0.027,-0.021 0.024,-0.038l-0.191 -0.945c-0.005,-0.017 -0.023,-0.028 -0.04,-0.023zm-0.533 0.504l-0.091 -0.269 0.607 -0.162 0.081 0.403c-0.033,0.023 -0.067,0.037 -0.104,0.045 -0.044,0.01 -0.093,0.011 -0.147,0.007 -0.035,-0.002 -0.072,-0.006 -0.109,-0.011 -0.072,-0.009 -0.146,-0.018 -0.237,-0.013z"
+      />
+    </symbol>
+    
+    <symbol id="shareicon" viewBox="0 0 640 512">
+      <title>flame</title>
+      <path
+        d="M216 24.01c0-23.8-31.16-33.11-44.15-13.04C76.55 158.25 200 238.73 200 288c0 22.06-17.94 40-40 40s-40-17.94-40-40V182.13c0-19.39-21.85-30.76-37.73-19.68C30.75 198.38 0 257.28 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-192.85-168-295.99zM192 480c-88.22 0-160-71.78-160-160 0-46.94 20.68-97.75 56-128v96c0 39.7 32.3 72 72 72s72-32.3 72-72c0-65.11-112-128-45.41-248C208 160 352 175.3 352 320c0 88.22-71.78 160-160 160z"
+      ></path>
+    </symbol>
+    <linearGradient id="fillGradient">
+      <stop class="lin-fill-start" offset="0%" />
+      <stop class="lin-fill-end" offset="100%" />
+    </linearGradient>
+    
+</svg></body>
+</html>

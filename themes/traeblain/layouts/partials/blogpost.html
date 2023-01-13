@@ -1,0 +1,23 @@
+<figure class="hero"><img src="{{ .Params.background }}" /></figure>
+{{- $place := (.Scratch.Get "is-section") }}
+{{ if $place }}<h3>
+  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</h3>
+<div class="tag-list">
+  {{ range .Params.tags -}}
+  <svg class="svg svg-taglink"><use xlink:href="#taglink"></use></svg><a href='{{ "/tags/" | relURL }}{{ . | urlize }}'>{{ . }}</a>
+  {{- end -}}
+  <time>{{ .Lastmod.Format "2006.01.02" }}</time>
+</div>
+{{ if gt (len .Summary) 0 -}}
+  <p>
+    {{ .Summary | safeHTML }}
+    <a href="{{ .RelPermalink }}" class="continue-reading">continue reading...</a>
+  </p>
+{{ end }}
+{{ else }}
+<h1 class="center-title">{{ .Title }}</h1>
+<time>{{ .Lastmod.Format "2006.01.02" }}</time>
+{{ .Content }}
+{{ end -}}
+{{ partial "endofarticle.html" . }}

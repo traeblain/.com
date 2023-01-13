@@ -1,0 +1,12 @@
+{{- $place := (.Scratch.Get "is-section") }}
+{{ if $place }}<figure class="hero post-image">
+  <a href="{{ .RelPermalink }}"><img src="{{ .Params.background }}" /></a>
+  <span class="modal">
+    <a class="button" href="{{ .RelPermalink }}">View Image</a>
+  </span>
+</figure>
+{{ else }}
+{{ .RenderString (print "![" .Title "](" .Params.background " '" .Title "')")}}
+{{ end }}
+{{ .Content }}
+{{ partial "endofarticle.html" . }}

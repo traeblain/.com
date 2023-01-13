@@ -1,0 +1,12 @@
+{{- $place := (.Scratch.Get "is-section") }}
+{{ if $place }}{{ else }}<hr class="hr-clean">{{ end }}
+<figure class="status">
+  {{ if .Params.emoji }}<svg viewBox="0 0 15 15">
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle">{{ .Params.emoji }}</text>
+  </svg>{{ end }}
+  <blockquote>{{ .Content }}</blockquote>
+  <figcaption>
+    &mdash; <a href="{{ .Params.source }}">Trae Blain</a>
+  </figcaption>
+</figure>
+{{ partial "endofarticle.html" . }}

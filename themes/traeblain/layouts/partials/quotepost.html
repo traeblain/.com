@@ -1,0 +1,7 @@
+<figure class="quote">
+  <blockquote>{{ .Content }}</blockquote>
+  <figcaption>
+    &mdash; {{ .Params.cite | default "Unknown" }}
+  </figcaption>
+</figure>
+{{ partial "endofarticle.html" . }}
