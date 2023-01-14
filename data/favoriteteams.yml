@@ -1,0 +1,145 @@
+Name: favoriteteams
+Description: Easy to update list of my favorite sports ball teams...hehe.
+Modified: 2017-12-12
+Sports:
+  - sport: football
+    info:
+      - league: National Football League
+        favorite: Dallas Cowboys
+        link: http://www.dallascowboys.com/
+        comment: Of course I pull for the Cowboys.  Always have always 
+          will...even in the really crappy times.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/cowboys.png
+  - sport: baseball
+    info:
+      - league: Major League Baseball
+        favorite: Texas Ranger
+        link: https://www.mlb.com/rangers
+        comment: I wasn't always a Ranger fan.  I had family in Houston and saw my
+          first MLB game at the Astrodome.  But in High School and more in College
+          my fandom went to the true Texas team.  And haven't looked back.  Also
+          got my Mom enjoying the games!
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/texasrangers.png
+  - sport: basketball
+    info:
+      - league: National Basketball Association
+        favorite: Dallas Mavericks
+        link: https://www.mavs.com/
+        comment: Another team I didn't always support.  I didn't have a true team
+          for a long time, and since the San Antonio Spurs and Houston Rockets were
+          both better teams than the Mavericks throughout the 90's, I waffled
+          between the three.  Around 2002, I finally committed to the Mavericks...
+          don't know why (they still weren't all that great at that time), but have
+          enjoyed watching them ever since.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/mavericks.png
+  - sport: hockey
+    info:
+      - league: National Hockey League
+        favorite: Dallas Stars
+        link: https://www.nhl.com/stars/
+        comment: I was a Boston Bruins fan for no reason for a long time.  Texas
+          didn't have a real hockey team and when the North Stars moved south, I
+          didn't join in.  I didn't even move over when they won the Stanley Cup!
+          I've only been a Stars fan for around 5 years (at the time of this
+          writing), and can't say I miss the Bruins.  Even when they weren't doing
+          well, watching the young team find there identity and deal with some of
+          the _veteran_ leadership they supposedly brought in was entertaining.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/stars.png
+  - sport: soccer
+    info:
+      - league: Major League Soccer
+        favorite: FC Dallas
+        link: https://www.fcdallas.com/
+        comment: I held no soccer allegiance before moving to Dallas and as such
+          never really followed the _Hoops_.  But around 2010-2011-ish, I started
+          following because of Brek Shea was doing some crazy awesome stuff prior
+          to his English and Klinsmann meltdown.  Since then I've kept up with
+          their progress.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/fcdallas.gif
+      - league: English Premier League
+        favorite: Liverpool FC
+        link: http://www.liverpoolfc.com/
+        comment: Because I can unite in a group of people that maintain an extreme
+          dislike for Tom Hicks.  I figure that commonality would allow me to
+          overlook any cultural differences if I were to attend a match...ever.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/liverpool.png
+  - sport: motorsports
+    info:
+      - league: NASCAR
+        favorite: Joey Logano
+        link: http://www.joeylogano.com/
+        comment: Sliced Bread my friends.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/logano.png
+      - league: Formula One
+        favorite: Daniel Ricciardo
+        link: http://danielricciardo.com/
+        comment: Great driver, rough team.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_crop,w_500/c_scale,w_300/favorite-sports/ricciardo.jpg
+  - sport: cycling
+    info:
+      - league: International Cycling Organization
+        favorite: Trek-Segafredo
+        link: http://www.treksegafredo.com/
+        comment: Evolved from a US/Euro team and the makeup is great.  Hard choice
+          between this and [BMC Racing Team](http://www.bmcracingteam.com/).
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/treksegafredo.png
+      - league: Individual
+        favorite: Tejay van Garderen
+        link: https://en.wikipedia.org/wiki/Tejay_van_Garderen
+        comment: This guy is a beast.  I expect to see him on the podium soon in a
+          grand tour.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/bmc-racing.jpg
+  - sport: lacrosse
+    info:
+      - league: Major League Lacrosse
+        favorite: Dallas Rattlers
+        link: http://dallasrattlers.com/
+        comment: So didn't pay much attention to Lacrosse until my son started
+          playing.  Then I was guessing we could be a Denver Outlaws fan based on
+          relative proximity versus other teams...and Outlaws...you know, I'm from
+          Texas. But Rochester moved to Dallas, so now I'm a Rattlers fan.  Being
+          they were 3rd place prior to moving, it's even a plus that it's not a
+          basement team.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/dallas-rattlers.png
+  - sport: golf
+    info:
+      - league: Professional Golfers Association
+        favorite: Jordan Spieth
+        link: http://www.jordanspiethgolf.com/
+        comment: Local boy, but who has time to keep up with golf.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/jordan-spieth.png
+  - sport: rugby
+    info:
+      - league: Pro14
+        favorite: Munster
+        link: http://www.munsterrugby.ie/
+        comment: The Red Army, and by extension the Irish National Team...although
+          I really should be pulling for the US.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/munster.png
+  - sport: cricket
+    info:
+      - league: Indian Premier League
+        favorite: Kolkata Knight Riders
+        link: http://www.kkr.in/
+        comment: "[Dodo-dodo-dodo-dodo...dodo-dodo-dodo-dodo...](https://youtu.be/oNyXYPhnUIs)"
+        image: https://res.cloudinary.com/dixwznarl/image/upload/q_auto:eco/favorite-sports/kolkata-knight-riders.jpg
+  - sport: tennis
+    info:
+      - league: World Tour
+        favorite: Jo-Wilfried Tsonga
+        link: http://www.jowilfriedtsonga.com/
+        comment: Big dude...and that's awesome.  Although liking this
+          [Sock guy](https://en.wikipedia.org/wiki/Jack_Sock).
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_crop,h_300,w_300/favorite-sports/tsonga-camp.png
+  - sport: fighting
+    info:
+      - league: All the Boxing Leagues
+        favorite: Deontay Wilder
+        link: https://en.wikipedia.org/wiki/Deontay_Wilder
+        comment: Power...raw power.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_crop,w_600,x_80,y_90/c_scale,w_300/favorite-sports/deontay-wilder.jpg
+      - league: Ultimate Fighting Championship
+        favorite: Tyron Woodley
+        link: http://www.tyronwoodley.com/
+        comment: Welterweight is the best MMA division. Most fun to watch.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/401438-tyron.jpg

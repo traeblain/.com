@@ -1,0 +1,77 @@
+<!-- Favorite Sports -->
+{{ $t := $.Site.Data.favoriteteams }}
+<div class="sportflex">
+  {{ range $t.Sports }}
+  <div class="flexrow">
+    <div class="title sport">{{ .sport | title }}</div>
+  </div>
+  {{ range .info }}
+  <div class="flexrow mobilewrap">
+    <div class="upper">
+      <div class="flexrow">
+        <div>
+          <a href="{{ .link }}" target="_blank" rel="noopener">{{ .favorite}}</a>
+        </div>
+        <div>{{ .league | title }}</div>
+      </div>
+      <div class="flexrow">
+        <div>
+          {{ .comment | markdownify }}
+        </div>
+      </div>
+    </div>
+    <div class="sportimage">
+      <img src="{{ .image }}" />
+    </div>
+  </div>
+  {{- end }}{{ end -}}
+</div>
+
+<div>
+<em>Updated: {{ dateFormat "Monday - January 2, 2006" $t.Modified }}</em>
+</div>
+
+<style>
+  .flexrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    border-bottom: 2px solid #555;
+  }
+  .flexrow div {
+    flex: 1 100%;
+    padding: 1.25rem 1rem;
+    /* flex-grow: 1; */
+    /* text-align: center; */
+  }
+  div.upper {
+    flex: 1 275%;
+  }
+  .upper div.flexrow {
+    border: 0;
+  }
+  .title {
+    font-weight: 800;
+  }
+  .sport {
+    background: #8c8c8c;
+    text-indent: 1rem;
+  }
+  .updated {
+    color: #555;
+  }
+  .sportimage{
+    text-align: center;
+  }
+  @media only screen and (max-device-width: 640px) {
+    div.mobilewrap {
+      flex-wrap: wrap-reverse;
+    }
+  }
+  main blockquote {
+    display: none;
+  }
+</style>
