@@ -1,6 +1,5 @@
-<figure class="hero"><img src="{{ .Params.background }}" /></figure>
-{{- $place := (.Scratch.Get "is-section") }}
-{{ if $place }}<h3>
+<figure class="hero"><img src="{{ index .Params.images 0 }}" /></figure>
+<h3>
   <a href="{{ .RelPermalink }}">{{ .Title }}</a>
 </h3>
 <div class="tag-list">
@@ -15,9 +14,4 @@
     <a href="{{ .RelPermalink }}" class="continue-reading">continue reading...</a>
   </p>
 {{ end }}
-{{ else }}
-<h1 class="center-title">{{ .Title }}</h1>
-<time>{{ .Lastmod.Format "2006.01.02" }}</time>
-{{ .Content }}
-{{ end -}}
 {{ partial "endofarticle.html" . }}

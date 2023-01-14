@@ -4,7 +4,8 @@ date: {{ .Date }}
 tags:
   - default
 draft: true
-background: 
+images:
+  -
 script: 
 ---
 

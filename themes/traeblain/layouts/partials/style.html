@@ -147,6 +147,9 @@
   h1.center-title {
     text-align: center;
   }
+  h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+    scroll-margin-top: 50px;
+  }
   p {
     margin-bottom: 2em;
     color: var(--text-color);
@@ -792,52 +795,6 @@
     bottom: 0;
     right: -2px;
   }
-  ul.link-list {
-    display: flex;
-    padding: 0;
-    list-style: none;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  ul.link-list li.link-item {
-    border: 1px solid var(--primary);
-    border-radius: 5px;
-    border-image: linear-gradient( to bottom, var(--primary), transparent ) 1 100%;
-    flex-basis: calc(50% - 1ch);
-    position: relative;
-    margin: 0.5ch;
-    padding: 0.5ch;
-  }
-  ul.link-list li.link-item::before {
-    content: '';
-    border-top: solid;
-    border-left: solid;
-    border-right: solid;
-    border-width: 1px;
-    border-color: var(--primary);
-    border-radius: 5px 5px 0 0;
-    height: 20px;
-    width: calc(100% + 1ch + 2px);
-    display: block;
-    margin-left: calc(-0.5ch - 1px);
-    margin-top: -10px;
-  }
-  ul.link-list li.link-item img {
-    margin-right: 1.5ch;
-  }
-  ul.link-list li.link-item tr td {
-    background-color: var(--background);
-    padding-bottom: 0.25em;
-    vertical-align: top;
-    line-height: 1.1
-  }
-  ul.link-list li.link-item tr td img {
-    max-width: 150px;
-  }
-  ul.link-list li.link-item tr td > * {
-    line-height: 1;
-    margin: 0;
-  }
 
   /*------ HOME STYLES --------*/
   /* Remove from other page needs */
@@ -894,7 +851,95 @@
   li.shortlist.image::before {
     content: '📸 ';
   }
+  ul.link-list {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  ul.link-list li.link-item {
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    border-image: linear-gradient( to bottom, var(--primary), transparent ) 1 100%;
+    flex-basis: calc(50% - 1ch);
+    position: relative;
+    margin: 0.5ch;
+    padding: 0.5ch;
+  }
+  ul.link-list li.link-item::before {
+    content: '';
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    border-color: var(--primary);
+    border-radius: 5px 5px 0 0;
+    height: 20px;
+    width: calc(100% + 1ch + 2px);
+    display: block;
+    margin-left: calc(-0.5ch - 1px);
+    margin-top: -10px;
+  }
+  ul.link-list li.link-item tr td {
+    background-color: var(--background);
+    padding-bottom: 0.25em;
+    vertical-align: top;
+    line-height: 1.1
+  }
+  ul.link-list li.link-item tr td img {
+    width: 150px;
+    max-width: 150px;
+  }
+  ul.link-list li.link-item tr td > * {
+    line-height: 1;
+    margin: 0;
+  }
+  ul.link-list li.link-item tr:first-child td:first-child {
+    width: 150px;
+  }
   /*--------------------------------*/
+
+
+  /*------ GARDEN STYLES --------*/
+  /* Remove from other page needs */
+
+  ul.garden-tags {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  ul.garden-tags li {
+    display: block;
+    width: 16ch;
+    min-width: 16ch;
+    height: 2.5em;
+    border: 1px solid var(--nord-light);
+    text-align: center;
+    line-height: 2.5em;
+    margin: 0.4em 0.5ch;
+    border-radius: 5px;
+    white-space: nowrap;
+    transition: border-color 0.5s ease-in-out;
+  }
+  ul.garden-tags li:hover {
+    border-color: var(--nord);
+  }
+  ul.tax-list time {
+    display: inline-block;
+    font-size: 1em;
+    margin-left: 2ch;
+  }
+  ul.tax-list em {
+    color: var(--nord-light);
+    text-transform: uppercase;
+    font-family: var(--font-family-headline);
+    margin-left: 1ch;
+  }
+
+  /*------------------------------*/
   @media (max-width: 720px) {
     nav.mainmenu li.hamburger {
       display: block;

@@ -1,0 +1,5 @@
+<figure class="hero"><img src="{{ if .Params.images }}{{ index .Params.images 0 }}{{ end }}" /></figure>
+<h1 class="center-title">{{ .Title }}</h1>
+<time>{{ .Lastmod.Format "2006.01.02" }}</time>
+{{ .Content }}
+{{ partial "endofarticle.html" . }}

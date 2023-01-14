@@ -1,0 +1,22 @@
+<ul class="garden-tags">
+{{- range $key, $taxonomy := .Site.Taxonomies.tags -}}
+  <li><a href='#taxonomy-{{ $key | anchorize }}'>{{ $key | title }}</a> <span>{{ len $taxonomy.Pages }}</span></li>
+{{- end -}}
+</ul>
+
+<div class="garden-list">
+  {{- range $key, $taxonomy := .Site.Taxonomies.tags -}}
+    <div>
+      <h4 id="taxonomy-{{ $key }}">{{ $key | upper }}</h4>
+      <ul class="tax-list">
+        {{- range $taxonomy.Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            {{- if .Draft }} <em>Draft</em>{{ end -}}
+            <time>{{ .Date.Format "2006.01" }}</time>
+          </li>
+        {{- end -}}
+      </ul>
+    </div>
+  {{ end -}}
+</div>
