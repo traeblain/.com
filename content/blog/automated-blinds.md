@@ -16,6 +16,7 @@ The whole approach was going to be two fold, find out if it is possible...then a
 
 ## Push Button Capability
 
+{{% youtube qdUauCjARk4 %}}
 <blockquote class="embedly-card" data-card-key="bdfeaf9e6c274fb9a648b7a58a607e12"><h4><a href="https://www.youtube.com/watch?v=0GZW25qiooM">DIY z-wave blinds project</a></h4><p>DIY z-wave blinds project with momentary button for testing All answers can be found in the first 3 pages of this thread. Read it first. http://forum.micasaverde.com/index.php/topic,17118.0.html Thanks to Realifeonhold, pm him to get on the list for a kit. You need micasaverde vera etc for it to work on zwave.</p></blockquote>
 
 After watching the above video, I essentially knew what I needed.  An Arduino, a High Torque servo motor, something to grab the tilt rod, servo mount, and momentary switch.  So off to Amazon and Lowes to find the parts I needed.  (Keep in mind, there's no way my wife was going to be "Okay" with wires and circuit cards hanging around...so I had to make it discreet.)
@@ -124,7 +125,7 @@ Next was getting the Tilt Rod to move with the servo.  I used 1.25in Dowel rod b
 
 Finally, I filled the rest of the space with a block that holds all the parts.  I did not want to drill holes in the blinds or anything, so just filling the space allows it to hold firmly in place during motion and does not need screws.  This again is huge for troubleshooting and aesthetics. 
 
-<div class="align-center"><iframe src="https://clara.io/embed/e695bdd6-c3a9-46be-9e95-6cd8935a9592?renderer=webgl" width="800" height="600" allowfullscreen></iframe></div>
+<div style="max-width: 100%"><iframe src="https://clara.io/embed/e695bdd6-c3a9-46be-9e95-6cd8935a9592?renderer=webgl" width="100%" height="600" allowfullscreen></iframe></div>
 
 If you have your own 3D printer, then feel free to build the parts yourself.  If you don't, then I'd highly suggest [3D Hubs][3dhubs].  I had 2 of the base parts made for $15.00 total. That's cheap... So tack on $7.50 more (or less if you have your own printer) to the overall cost, and you're still getting out cheap.
 
@@ -262,7 +263,7 @@ That's it.  It was slid back into the blinds, then mounted the discreet little w
 
 The final result is what you see here.
 
-<blockquote class="embedly-card" data-card-key="bdfeaf9e6c274fb9a648b7a58a607e12"><h4><a href="https://www.youtube.com/watch?v=1Buc7xSToSo">DIY Automated Blinds</a></h4><p>DIY Automated Blinds</p></blockquote>
+{{% youtube 1Buc7xSToSo %}}
 
 ## The Source
 
@@ -278,8 +279,6 @@ You can do this too.  It's not that hard.  All the data you need is right here, 
 - [Custom Board Gerbers][gerbers] - Github (Not used, but could be useful.)
 
 In general you can get all the latest parts/code from [this Github repository][oshblinds] and--like I said--offer better ways of doing things.
-
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 [trinket]: http://amzn.to/2hKPlGO	"Adafruit Trinket Pro 5 Volt"
 [servoamz]: http://amzn.to/2hui6Zh	"Tower Pro MG946R Servo Motor"

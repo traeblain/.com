@@ -1,13 +1,12 @@
 {{ $words := slice "Nothing..." "Utter Rubbish...Seriously...Bad" "Terrible, comically terrible..." "Bad, with some redeaming qualities" "Poor, but some people might like it" "Meh, depends on my mood" "Decent..." "Good and worth the time" "Great!" "Objectively Superb!!" "Utterly Amazing! So much love..." }}
 {{ $decimal := index (seq 3 6 | shuffle) 0 }}
 <div
-  class="align-center"
+  class="rating"
   title="{{ index $words (index .Params 0) }}"
   style="cursor: initial;"
 >
   <svg
-    width="2000"
-    height="400"
+    style="width: 100%;"
     version="1.1"
     viewBox="0 0 529.17 105.83"
     xmlns="http://www.w3.org/2000/svg"

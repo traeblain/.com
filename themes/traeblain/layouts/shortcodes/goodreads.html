@@ -1,0 +1,54 @@
+{{ $books := getJSON "https://api.airtable.com/v0/appChKYhLC0uF7gPx/Books?maxRecords=100&sort[0][field]=Date&sort[0][direction]=desc" (dict "Authorization" (print "Bearer " $.Site.Params.airtabletoken) "Accept" "application/json") -}}
+{{ with (index $books.records 0).fields -}}
+{{- $progress := sub (len $books.records) (math.Floor (mul (div now.YearDay 365.25) $.Site.Params.bookGoal)) -}}
+{{- $knobProgress := div $progress (float $.Site.Params.bookGoal) -}}
+{{- $degP := mul 3.14159265358 (mul 2 $knobProgress) -}}
+{{- $degM := (mul 3.14159265358 (mul 2 (sub 0.5 $knobProgress))) -}}
+{{ $degC := cond (gt $knobProgress 0.5) $degM $degP }}
+{{ $prefix := "a 40,40 0 0 1 0,80" }}
+{{/*  sin  */}}
+{{-
+  $arg1 := add (sub (add (sub (add (sub (add (sub $degP (div (math.Pow $degP 3) 6)) (div (math.Pow $degP 5) 120)) (div (math.Pow $degP 7) 5040)) (div (math.Pow $degP 9) 362880)) (div (math.Pow $degP 11) 39916800)) (div (math.Pow $degP 13) 6227020800)) (div (math.Pow $degP 15) 1307674368000)) (div (math.Pow $degP 17) 355687428096000)
+}}
+{{/*  cos  */}}
+{{-
+  $arg2 := sub (add (sub (add (sub 1.0 (div (math.Pow $degC 2) 2)) (div (math.Pow $degC 4) 24)) (div (math.Pow $degC 6) 720)) (div (math.Pow $degC 8) 40320)) (div (math.Pow $degC 10) 3628800)
+}}
+{{ $path := cond (gt $knobProgress 0.5) (
+    print $prefix " a 40,40 0 0 1 " (mul 40 $arg1) "," (mul 40 (sub $arg2 1))
+  ) (
+    print "a 40,40 0 0 1 " (mul 40 $arg1) "," (mul 40 (mul -1 (sub $arg2 1)))
+  ) 
+-}}
+
+### Reading Progress
+
+<div class="reading-progress">
+  <svg id="readprogress" xmlns="http://www.w3.org/2000/svg" version="1.1" class="knob-graph" viewBox="0 0 100 120">
+    <circle class="knob-base" cx="50" cy="50" r="40" style="fill: transparent; stroke: #eee; stroke-width: 5;"></circle>
+    <path class="knob-progress" d='{{ print "M 50, 50 m 0, -40 " $path }}' style="fill:transparent;stroke-width:10;stroke-linecap:round;"></path>
+    <use xlink:href="#book" x="50%" y="50%" height="50px" width="50px" transform="translate(-30, -35)" class="symbol-color"></use>
+    <text class="knob-undertext" x="50%" y="93%" dominant-baseline="baseline" text-anchor="middle">{{ math.Round (mul $knobProgress 100) }}% Done</text>
+  </svg>
+
+Trae has currently read **{{ len $books.records }}** book{{ if gt (len $books.records) 1 }}s{{end}}
+this year, with a goal of reading {{ $.Site.Params.bookGoal }} books in {{ now.Format "2006" }}.
+_That puts him {{ if eq $progress 0 }}right on schedule.{{ else -}}
+{{ math.Sqrt (math.Pow $progress 2) }} book{{ if (eq (math.Sqrt (math.Pow $progress 2)) 1) }}s{{end}}
+{{ if (gt $progress 0) }}ahead{{else}}behind{{end}} schedule.{{end -}}_
+
+[![{{ .Title }}]({{ .Image }} "{{ .Title }}")]({{ .Link }}) 
+
+#### {{ .Title }}
+
+_by {{ .Author }}_  
+{{ strings.Repeat .Rating "⭐ " }}
+
+<div>
+  
+  ---
+  {{.Review}} &mdash; [See my review here]({{ .Link }})
+
+</div>
+{{ end -}}
+</div>

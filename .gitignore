@@ -1,5 +1,6 @@
 ~*
 .hugo_build.lock
+env.ps1
 
 node_modules/
 

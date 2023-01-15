@@ -1,28 +1,20 @@
 <!-- Favorite Sports -->
 {{ $t := $.Site.Data.favoriteteams }}
-<div class="sportflex">
-  {{ range $t.Sports }}
-  <div class="flexrow">
-    <div class="title sport">{{ .sport | title }}</div>
-  </div>
+<div class="sport-item">
+  {{- range $t.Sports }}
+  <h4 class="sport">{{ .sport | title }}</h4>
   {{ range .info }}
-  <div class="flexrow mobilewrap">
-    <div class="upper">
-      <div class="flexrow">
-        <div>
-          <a href="{{ .link }}" target="_blank" rel="noopener">{{ .favorite}}</a>
-        </div>
+  <div class="fr">
+    <div>
+      <div class="fr sport-detail">
+        <div><a href="{{ .link }}" target="_blaink" rel="noopener">{{ .favorite }}</a></div>
         <div>{{ .league | title }}</div>
       </div>
-      <div class="flexrow">
-        <div>
-          {{ .comment | markdownify }}
-        </div>
+      <div class="fr">
+        <p><small>{{ .comment | markdownify }}</small></p>
       </div>
     </div>
-    <div class="sportimage">
-      <img src="{{ .image }}" />
-    </div>
+    <div><img src="{{ .image }}" alt="{{ .favorite }}"></div>
   </div>
   {{- end }}{{ end -}}
 </div>
@@ -32,7 +24,28 @@
 </div>
 
 <style>
-  .flexrow {
+  .sport-item .fr {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+  }
+  .sport-item img {
+    vertical-align: middle;
+    max-height: 300px;
+  }
+  .sport-item .fr > div:last-child {
+    min-width: 300px;
+    text-align: center;
+  }
+  .sport-item > .fr {
+    margin-bottom: 2em;
+  }
+  .sport-detail {
+    padding: 2em 0;
+  }
+  /*  .flexrow {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -46,7 +59,7 @@
     padding: 1.25rem 1rem;
     /* flex-grow: 1; */
     /* text-align: center; */
-  }
+  /*  }
   div.upper {
     flex: 1 275%;
   }
@@ -65,13 +78,12 @@
   }
   .sportimage{
     text-align: center;
-  }
-  @media only screen and (max-device-width: 640px) {
-    div.mobilewrap {
-      flex-wrap: wrap-reverse;
+  }  */
+  @media only screen and (max-device-width: 720px) {
+    .sport-item > .fr {
+      flex-direction: column-reverse;
     }
-  }
-  main blockquote {
-    display: none;
-  }
+    .sport-item > .fr {
+      
+    }
 </style>

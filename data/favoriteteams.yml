@@ -1,6 +1,6 @@
 Name: favoriteteams
-Description: Easy to update list of my favorite sports ball teams...hehe.
-Modified: 2017-12-12
+Description: Easy to update list of my favorite sports ball teams and people...hehe.
+Modified: 2023-01-09
 Sports:
   - sport: football
     info:
@@ -80,27 +80,23 @@ Sports:
       - league: International Cycling Organization
         favorite: Trek-Segafredo
         link: http://www.treksegafredo.com/
-        comment: Evolved from a US/Euro team and the makeup is great.  Hard choice
-          between this and [BMC Racing Team](http://www.bmcracingteam.com/).
+        comment: Don't have super tight allegience to any team anymore as the American representation has dropped significantly.
         image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/treksegafredo.png
       - league: Individual
-        favorite: Tejay van Garderen
-        link: https://en.wikipedia.org/wiki/Tejay_van_Garderen
-        comment: This guy is a beast.  I expect to see him on the podium soon in a
-          grand tour.
-        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/bmc-racing.jpg
+        favorite: Magnus Sheffield
+        link: https://en.wikipedia.org/wiki/Magnus_Sheffield
+        comment: Looking good as an All-Round cyclist.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/v1673299507/favorite-sports/ineos-grenadier-233627.png
   - sport: lacrosse
     info:
-      - league: Major League Lacrosse
-        favorite: Dallas Rattlers
-        link: http://dallasrattlers.com/
+      - league: Premiere Lacrosse League
+        favorite: Atlas Lacrosse Club
+        link: https://premierlacrosseleague.com/teams/atlas
         comment: So didn't pay much attention to Lacrosse until my son started
-          playing.  Then I was guessing we could be a Denver Outlaws fan based on
-          relative proximity versus other teams...and Outlaws...you know, I'm from
-          Texas. But Rochester moved to Dallas, so now I'm a Rattlers fan.  Being
-          they were 3rd place prior to moving, it's even a plus that it's not a
-          basement team.
-        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/dallas-rattlers.png
+          playing.  Didn't like Atlas originally because I felt they were getting
+          all the coverage due to Paul Rabil.  But recently I love the players,
+          the play style, and the logo.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/q_auto:eco/v1673299942/favorite-sports/Atlas_lc_logo.png
   - sport: golf
     info:
       - league: Professional Golfers Association
@@ -126,20 +122,19 @@ Sports:
   - sport: tennis
     info:
       - league: World Tour
-        favorite: Jo-Wilfried Tsonga
-        link: http://www.jowilfriedtsonga.com/
-        comment: Big dude...and that's awesome.  Although liking this
-          [Sock guy](https://en.wikipedia.org/wiki/Jack_Sock).
-        image: https://res.cloudinary.com/dixwznarl/image/upload/c_crop,h_300,w_300/favorite-sports/tsonga-camp.png
+        favorite: N/A
+        link: #
+        comment: Need to look into this some more...taking suggestions.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/v1480537060/tbmonogram-name_ee22vs.png
   - sport: fighting
     info:
       - league: All the Boxing Leagues
-        favorite: Deontay Wilder
-        link: https://en.wikipedia.org/wiki/Deontay_Wilder
-        comment: Power...raw power.
-        image: https://res.cloudinary.com/dixwznarl/image/upload/c_crop,w_600,x_80,y_90/c_scale,w_300/favorite-sports/deontay-wilder.jpg
+        favorite: Errol Spence Jr.
+        link: https://en.wikipedia.org/wiki/Errol_Spence_Jr.
+        comment: He just beats everyone.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/v1673301103/favorite-sports/ErrolSpenceJr1200x1200b.jpg
       - league: Ultimate Fighting Championship
-        favorite: Tyron Woodley
-        link: http://www.tyronwoodley.com/
-        comment: Welterweight is the best MMA division. Most fun to watch.
-        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/favorite-sports/401438-tyron.jpg
+        favorite: Islam Ramazanovich Makhachev
+        link: https://en.wikipedia.org/wiki/Islam_Makhachev
+        comment: Guys a beast in lightweight.
+        image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/v1673301889/favorite-sports/MAKHACHEV_ISLAM_L.png
