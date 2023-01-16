@@ -798,6 +798,13 @@
   article.digital-garden > time, article.about-me > time, article.search > time {
     display: none;
   }
+  iframe.mastodon-embed {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 0;
+    border-radius: 10px;
+  }
 
   /*------ HOME STYLES --------*/
   {{ if .IsHome }}
@@ -1003,6 +1010,119 @@
     fill: var(--text-color);
     transition: fill 0.5s ease-in-out
   }
+  div.github-stats {
+    border: 1px solid var(--light);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: stretch;
+  }
+  svg.github-calendar {
+    grid-column: 1 / span 3;
+    padding: 1em;
+  }
+  div.github-stats > div {
+    border-left: 1px solid var(--light);
+    width: 100%;
+    border-top: 1px solid var(--light);
+    align-self: stretch;
+    font-size: 0.8em;
+    padding: 0.5em;
+  }
+  div.github-stats > div:first-of-type, div.github-stats > div:nth-of-type(2) {
+    border-left: 0;
+  }
+  div.github-stats > div {
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    place-items: stretch;
+  }
+  div.github-stats > div:first-of-type > div {
+    border-right: 1px solid var(--light);
+    border-bottom: 1px solid var(--light);
+    display: grid;
+    align-items: center;
+    white-space: nowrap;
+  }
+  div.github-stats > div:first-of-type > div:last-child, div.github-stats > div:first-of-type > div:nth-last-child(2) {
+    border-bottom: 0;
+  }
+  div.github-stats > div:first-of-type > div:first-of-type, div.github-stats > div:last-of-type > div:first-of-type {
+    width:100%;
+    height: 2.5em;
+    border-bottom: 1px solid var(--light);
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  div.github-stats > div:first-of-type > div span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--nord);
+  }
+  div.github-stats > div:nth-of-type(2) {
+    place-items: stretch;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+  }
+  div.github-stats > div:nth-of-type(2) > :first-child {
+    grid-row: 1 / span 3;
+    display: grid;
+    place-items: center;
+  }
+  div.github-stats > div:nth-of-type(2) > div {
+    display: grid;
+    align-items: end;
+    text-align: left;
+  }
+  div.github-stats > div:nth-of-type(2) > div span:last-child {
+    align-self: start;
+  }
+  div.github-stats a {
+    font-size: 2em;
+    line-height: 1;
+  }
+  div.github-stats a img {
+    width: 65px;
+    border-radius: 100%;
+    margin: 0.2em;
+    vertical-align: middle;
+  }
+  div.github-stats > div:last-of-type div {
+    display: grid;
+    align-items: center;
+    grid-row: span 2;
+  }
+  div.github-stats > div:last-of-type {
+    align-items: center;
+    justify-content: center;
+  }
+  div.github-stats div svg {
+    height: 65px;
+    width: 65px;
+  }
+  article.about-me div.entertainment {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
+  article.about-me div.music {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  article.about-me div.music a:first-of-type {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+  article.about-me div.music a {
+    display: grid;
+  }
+
   {{ end }}
 
   

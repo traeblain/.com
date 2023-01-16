@@ -1,0 +1,12 @@
+{{- $artistList := getJSON "https://api.airtable.com/v0/appWQ7mufpoNZv5cS/Music?sort[0][field]=plays&sort[0][direction]=desc" (dict "Authorization" (print "Bearer " $.Site.Params.airtabletoken) "Accept" "application/json") -}}
+{{- range $artistList.records -}}
+{{- with .fields }}
+<a href="{{ .link }}">
+  <svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica Light, Helveticaneue Light, Calibri Light, Helveticaneue, Helvetica, Gill Sans, Myriad Pro, Arial, Lucida Grande, sans-serif">
+    <image id="top-artist-0" width="500" height="500" href="{{ .image }}" preserveAspectRatio="none"></image>
+    <rect x="0" y="420" height="80" width="500" style="opacity: 80%;"></rect>
+    <text id="artistname-0" y="460" x="10" font-size="40px" fill="white" lengthAdjust="spacingAndGlyphs">{{ .artist }}</text>
+    <text x="10" y="487" style="font-size: 24px; fill: white; text-transform: uppercase;">{{ .plays }} plays</text>
+  </svg>
+</a>
+{{ end }}{{ end }}

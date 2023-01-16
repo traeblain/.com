@@ -1,0 +1,23 @@
+{{ $game := getJSON "https://automate.blain.io/last-played" }}
+{{/* $game := `[{"id":185256,"cover":{"id":236797,"url":"//images.igdb.com/igdb/image/upload/t_thumb/co52pp.jpg"},"name":"Rumbleverse"},{"id":231013,"cover":{"id":279612,"url":"//images.igdb.com/igdb/image/upload/t_thumb/co5zr0.jpg"},"name":"Rumbleverse: Holiday Demon Pack"}]` | transform.Unmarshal */}}
+{{ $firstGame := index $game 0 }}
+
+<svg version="1.1" viewBox="0 0 441 720" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica Light, Helveticaneue Light, Calibri Light, Helveticaneue, Helvetica, Gill Sans, Myriad Pro, Arial, Lucida Grande, sans-serif">
+  <defs>
+    <pattern id="avatarimage" x="0" y="0" height="1" width="1">
+      <image height="80" width="80" href="https://i.psnprofiles.com/avatars/m/G101acc290.png"></image>
+    </pattern>
+  </defs>
+  <image id="background" width="441" height="720" href='{{ replace $firstGame.cover.url "t_thumb" "t_1080p" }}' preserveAspectRatio="none"></image>
+  <rect x="0" y="665" height="55" width="441" fill="black" style="opacity: 80%;"></rect>
+  <circle id="avatar" cx="50" cy="670" r="40" fill="url(#avatarimage)" stroke="white" stroke-width="3px"></circle>
+  
+  <text id="gamertag" x="97" y="680" style="font-size: 16px; fill: white; text-transform: uppercase">Gothar_Destroyer
+    Last Played</text>
+  <text id="gametitle" y="710" x="95" font-size="32px" fill="white" lengthAdjust="spacingAndGlyphs">{{ $firstGame.name }}</text>
+  <!-- <g text-anchor="middle" transform="translate(1280, 720)">
+    <rect x="-210" y="-120" width="210" height="120" fill="#cbcbcb" opacity=".15"></rect>
+    <text id="hrstitle" x="-105" y="-77" font-size="28px" fill="#CBCBCB" style="text-transform: uppercase">Hrs Played</text>
+    <text id="hrsplayed" x="-105" y="-25" font-size="50px" fill="#CBCBCB" style="text-transform: uppercase">1</text>
+  </g> -->
+</svg>

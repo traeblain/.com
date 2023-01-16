@@ -6,16 +6,17 @@
     "headers" (dict 
       "Authorization" (print "Bearer " $.Site.Params.githubtoken) 
       "Accept" "application/json"
-      "Content-Type" "application/json"
     )
   ) | transform.Unmarshal 
 }}
 {{ $colors := (split (default "#ebedf0 #9be9a8 #40c463 #30a14e #216e39" (.Get "colors")) " ") }}
 
-<svg class="github-calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1329 225">
-  <rect width="1329" height="225" x="0" y="0" id="0" fill="none" fill-opacity="1" /> 
+<div class="github-stats">
+<svg class="github-calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1280 225">
+  <rect width="1280" height="225" x="0" y="0" id="0" fill="none" fill-opacity="1" /> 
 {{- $weeks := $gh.data.user.contributionsCollection.contributionCalendar.weeks }}
 {{- $mos := $gh.data.user.contributionsCollection.contributionCalendar.months }}
+{{- $.Scratch.Set "longStreak" 0 -}}{{- $.Scratch.Set "currentStreak" 0 -}}{{- $.Scratch.Set "bestDay" 0 -}}
 {{- range $index, $week := $weeks }}
   {{- range $jindex, $day := $week.contributionDays }}
   {{- $transX := add 8 (mul 23.96 $index) }}
@@ -29,7 +30,10 @@
       )
     )
   ) }}
-  <rect width="19" height="19" x="{{ $transX }}" y="{{ $transY }}" rx="4" ry="4" fill="{{$color}}">{{$day.contributionCount}} commit on {{ $day.date | time.Format ":date_full" }}</rect>
+  <rect width="19" height="19" x="{{ $transX }}" y="{{ $transY }}" rx="4" ry="4" fill="{{$color}}" data-tip='{{$day.contributionCount}} commit{{ cond (gt $day.contributionCount 1) "s" "" }} on {{ $day.date | time.Format ":date_full" }}'>{{$day.contributionCount}} commit{{ cond (gt $day.contributionCount 1) "s" "" }} on {{ $day.date | time.Format ":date_full" }}</rect>
+  {{ $.Scratch.Set "currentStreak" (cond (lt $day.contributionCount 1) 0 ((add ($.Scratch.Get "currentStreak") 1))) }}
+  {{ $.Scratch.Set "longStreak" (math.Max ($.Scratch.Get "longStreak") ($.Scratch.Get "currentStreak")) }}
+  {{ $.Scratch.Set "bestDay" (math.Max ($.Scratch.Get "bestDay") $day.contributionCount) }}
   {{- end }}
 {{ end }}
 {{ $.Scratch.Set "padding" 8 }}
@@ -48,3 +52,24 @@
     <text x="168" y="2" dominant-baseline="hanging">More</text>
   </g>
 </svg>
+<div>
+  <div>Commits</div>
+  <div>Total<span>{{ $gh.data.user.contributionsCollection.contributionCalendar.totalContributions }}</span></div>
+  <div>Cur. Streak<span>{{ $.Scratch.Get "currentStreak" }}</span></div>
+  <div>Long Streak<span>{{ $.Scratch.Get "longStreak" }}</span></div>
+  <div>Best Day<span>{{ $.Scratch.Get "bestDay" }}</span></div>
+</div>
+<div>
+  <a href="{{ $gh.data.user.url }}"><img src="{{ $gh.data.user.avatarUrl }}" alt=""/></a>
+  {{- $yearDiff := now.Sub (time $gh.data.user.createdAt ) }}
+  <div>
+    <span class="ghuser"><a href="{{ $gh.data.user.url }}">{{ $gh.data.user.name }}</a></span>
+    <span class="ghcreated">Joined {{ math.Floor (div $yearDiff.Hours 8765.82) }} Years Ago</span>
+  </div>
+</div>
+<div>
+  <div>Other Repos</div>
+  <div><a href="https://codeberg.org/trae"><svg class='svg'><use xlink:href='#codeberg'></use></svg></a></div>
+  <div><a href="https://bitbucket.org/traeblain/"><svg class='svg'><use xlink:href='#bitbucket'></use></svg></a></div>
+</div>
+</div>

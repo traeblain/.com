@@ -14,14 +14,14 @@ Welcome!  I'm glad you are here.  I am a Mechanical Engineer in the Dallas-Ft. W
 - Mechanical Engineer w/15+ years experience
 - Husband to a beautiful wife
 - Father to 4 great children
-- Parent of Magic Head/Ovaltine Jenkins/Lavender Gooms/Hummingbird Saltalamacchia/Ghee Buttersnaps/Jazz Hands[^1]
+- Has a dog named Magic Head/Ovaltine Jenkins/Lavender Gooms/Hummingbird Saltalamacchia/Ghee Buttersnaps/Jazz Hands[^1]
 - I play Guitar
 - I have a patent for a toilet..seriously.
 - I love Capt'n Crunch with CrunchBerries!
 
 ## Toots
 
-**Add Mastodon Content here...**
+{{% mastodon %}}
 
 ## Reading
 
@@ -29,15 +29,24 @@ Welcome!  I'm glad you are here.  I am a Mechanical Engineer in the Dallas-Ft. W
 
 ## Coding
 
-**Do a better job of showing Github/Gitlab/Codeberg stuff here**
-
 {{< githubcal colors="#ebedf0 #86B9F7 #5C7FAA #5B7DA9 #34475F" >}}
 
 ## Entertainment
 
-**Refactor the Movie/TV/Gaming stuff**
+<div class="entertainment">
 
-**Music as well**
+[![Last Movie Watched](https://widgets.trakt.tv/users/3ce95a43ea6297d34071aab460918b21/watched/poster@2x.jpg?type=movie)](https://trakt.tv/users/traeblain)
+
+[![Last Show Watched](https://widgets.trakt.tv/users/3ce95a43ea6297d34071aab460918b21/watched/poster@2x.jpg?type=episode)](https://trakt.tv/users/traeblain)
+
+[{{< lastgame >}}](https://psnprofiles.com/Gothar_Destroyer)
+</div>
+
+<div class="music">
+
+{{% topartists %}}
+
+</div>
 
 ### Additional stuff
 
