@@ -15,6 +15,10 @@ author:
   name: Trae Blain
   commonname: traeblain
 
+security:
+  exec:
+    osEnv: ['(?i)^(SSH_AUTH_SOCK|HTTP_PROXY|HTTPS_PROXY)$']
+
 social:
   twitter: traeblain
 
