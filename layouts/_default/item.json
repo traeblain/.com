@@ -1,2 +1,7 @@
-{{- $url := .Permalink }}{{ with .Params.source }}{{ $url := . }}{{ end }}{{ with .Params.href }}{{ $url := . }}{{ end }}
-{{ dict "title" .Title "date" .Date "url" $url "image" .Params.background "tags" .Params.tags "content" .Plain | jsonify (dict "indent" "  ") }}
+{{ dict "title" (cond (gt (len .Title) 0) .Title (.Summary | html | truncate 40)) 
+  "date" .Date 
+  "url" (cond (eq .Type "link") .Params.source .Permalink)
+  "image" (index .Params.images 0) 
+  "tags" .Params.tags 
+  "content" (print .Plain "url:" .Permalink ) | jsonify (dict "indent" "  ")
+}}

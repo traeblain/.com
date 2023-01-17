@@ -7,3 +7,54 @@
   }
   window.addEventListener("scroll", changeHeaderHeight, false)
 </script>
+
+{{- if .Site.Params.goat }}
+<script
+  data-goatcounter="https://{{ .Site.Params.goat }}.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"
+></script>
+<noscript>
+  <img
+    src="https://{{ .Site.Params.goat }}.goatcounter.com/count?p={{ .Page.Permalink }}"
+    alt="Goat Counter Check"
+  />
+</noscript>
+{{- end -}}
+
+{{- if eq (.Title | anchorize) "search" }}
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+<script type="module">
+  const data = await fetch('/index.json').then((response) => response.json()).then((json) => json.data)
+  console.log(data)
+  const fuse = new Fuse(data, {
+    keys: [
+      {
+        name: 'title',
+        weight: 3,
+      },
+      {
+        name: 'tags',
+        weight: 2
+      },
+      {
+        name: 'content'
+      }
+    ]
+  })
+  const debounce = (func, timeout = 300) => {
+    let timer;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => { func.apply(this, args); }, timeout);
+    };
+  }
+  const search = () => {
+    let results = fuse.search(searchInput.value)
+    document.getElementById('searchResults').innerText = results
+  }
+  const debouncedSearch = debounce(search)
+  const searchInput = document.getElementById('search')
+  searchInput.addEventListener('keyup', debouncedSearch)
+</script>
+{{- end -}}

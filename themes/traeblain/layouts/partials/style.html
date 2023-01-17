@@ -100,6 +100,28 @@
     border: 1px solid var(--text-color);
     border-radius: 10px;
   }
+  @media (prefers-color-scheme: dark) {
+    body {
+      --background: #2e3440;
+      --text-color: #ffffff;
+      --nord: #e5e9f0;
+      --nord-light: #4c566a;
+      --dark-alpha: #e5e9f0cb;
+      --light: #3b4252;
+      --dark: #6c757d;
+      --secondary: #6c757d;
+    }
+    body:has(nav li.dark-toggle input[type=checkbox]:checked) {
+      --background: white;
+      --text-color: #1d1d1d;
+      --nord: #4c566a;
+      --nord-light: #e5e9f0;
+      --light: #eceff4;
+      --dark: #3b4252;
+      --dark-alpha: #3b4252cb;
+      --secondary: #d8dee9;
+    }
+  }
   main {
     max-width: 70ch;
     padding: 3em 0 0.5em;
@@ -490,6 +512,14 @@
   }
   nav li.dark-toggle input[type=checkbox]:checked ~ span::after {
     content: '☀️';
+  }
+  @media (prefers-color-scheme: dark) {
+    nav li.dark-toggle span::after {
+      content: '☀️';
+    }
+    nav li.dark-toggle input[type=checkbox]:checked ~ span::after {
+      content: '🌙';
+    }
   }
   nav.mainmenu li.hamburger {
     display: none;

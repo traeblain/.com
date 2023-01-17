@@ -1,7 +1,11 @@
 ---
+title: Trae Blain
 date: 2023-01-01T14:42:58-06:00
 draft: false
 type: home
+images:
+  - https://res.cloudinary.com/dixwznarl/image/upload/v1673922391/tbcom/tblain-background.jpg
+description: I’m 3 parts Husband, 2 parts Father, 1 part Geek, 4 parts Christ-follower, 6 parts Sarcasm, and 9 parts Sexy…wait…that’s too many parts.
 ---
 
 <blockquote>

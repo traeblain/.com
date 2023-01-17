@@ -1,0 +1,13 @@
+{
+    "name": "TraeBlain.com",
+    "icons": [
+        {
+            "src": "/android-chrome-512x512.png?v=BGAGDnakbQ",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#757575",
+    "background_color": "#757575",
+    "display": "standalone"
+}

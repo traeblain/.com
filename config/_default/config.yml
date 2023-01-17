@@ -8,7 +8,6 @@ enableGitInfo: true
 enableInlineShortcodes: true
 enableRobotsTXT: true
 timeZone: America/Chicago
-rssLimit: 15
 paginate: 15
 
 author:
@@ -31,6 +30,8 @@ params:
     - status
     - video
   bookGoal: 20
+  goat: trae
+  rssLimit: 15
 
 markup:
   highlight:
@@ -52,3 +53,7 @@ outputs:
   page:
     - HTML
     - JSON
+  home:
+    - HTML
+    - JSON
+    - RSS

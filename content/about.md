@@ -1,7 +1,7 @@
 ---
 title: About Me
 images: 
-  - https://res.cloudinary.com/dixwznarl/image/upload/v1673041131/notebook/writing-typewriter.jpg
+  - https://res.cloudinary.com/dixwznarl/image/upload/c_scale,fl_progressive,q_auto:eco,w_1920/v1673923905/tbcom/46851249031_18e65a91c1_o.jpg
 tags:
   - page
   - me

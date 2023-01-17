@@ -1,6 +1,6 @@
 {{- define "response" -}}
 [
-    {{- range $index, $e := .Data.Pages -}}
+    {{- range $index, $e := .Site.RegularPages -}}
     {{ if $index }}, {{ end }}{{ .Render "item" }}
     {{- end -}}
 ]

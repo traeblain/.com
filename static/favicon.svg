@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1137.8 1137.8" xmlns="http://www.w3.org/2000/svg">
+ <style>
+  @media (prefers-color-scheme: dark) {
+    :root {
+      filter: invert(100%);
+    }
+  }
+ </style>
+ <g transform="translate(0 -59.577)">
+  <path d="m56.889 113.76v170.67h113.78v-56.889h312.89v312.89h170.67v-312.89h312.89v56.889h113.78v-170.67zm426.67 597.33v312.89h-142.22v113.78h455.11v-113.78h-142.22v-312.89z" style="fill:#262626;stroke-width:1.1378px;stroke:#000"/>
+  <path d="m199.11 255.99v739.56h256v-113.78h-113.78v-199.11h369.78l85.333 85.333v113.78h-113.78v113.78h256v-284.44l-85.333-85.333 85.333-85.333v-284.44h-256v113.78h113.78v113.78l-85.333 85.333h-369.78v-199.11h113.78v-113.78z" style="fill:#8c8c8c"/>
+ </g>
+</svg>
