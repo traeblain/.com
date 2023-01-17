@@ -1,4 +1,4 @@
-{{ $game := getJSON ( print "https://automate.blain.io/last-played" "?cachekey" (now.Format "2006-01-02")) }}
+{{ $game := getJSON ( print "https://automate.blain.io/last-played" "?cachekey" (now.Format "2006-01-02-03")) }}
 {{/* $game := `[{"id":185256,"cover":{"id":236797,"url":"//images.igdb.com/igdb/image/upload/t_thumb/co52pp.jpg"},"name":"Rumbleverse"},{"id":231013,"cover":{"id":279612,"url":"//images.igdb.com/igdb/image/upload/t_thumb/co5zr0.jpg"},"name":"Rumbleverse: Holiday Demon Pack"}]` | transform.Unmarshal */}}
 {{ $firstGame := index $game 0 }}
 
