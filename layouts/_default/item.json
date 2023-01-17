@@ -3,5 +3,6 @@
   "url" (cond (eq .Type "link") .Params.source .Permalink)
   "image" (index .Params.images 0) 
   "tags" .Params.tags 
+  "type" .Params.type
   "content" (print .Plain "url:" .Permalink ) | jsonify (dict "indent" "  ")
 }}

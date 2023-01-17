@@ -1,5 +1,5 @@
 <footer>
-  <a href='#'><svg class="svg"><use xlink:href="#cheers"></use></svg> Kudos</a>
+  {{ if ne .Title "Search" }}<a href='#'><svg class="svg"><use xlink:href="#cheers"></use></svg> Kudos</a>{{ end }}
   <a href='#'><label for="share-{{ path.BaseName .File }}"><svg class="svg"><use xlink:href="#shareicon" style="transform: translateX(1ch)"></use></svg> Share</label></a>
   <div class="share-links">
     <input type="checkbox" name="share-{{ path.BaseName .File }}" id="share-{{ path.BaseName .File }}" style="display: none;">

@@ -1,6 +1,122 @@
 
-<input type="text" name="search" id="search">
+<input type="text" name="search" id="searchBox" placeholder="Search...">
 
 <div id="searchResults"></div>
 
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+<script type="module">
+  const data = await fetch('/index.json').then((response) => response.json()).then((json) => json.data)
+  console.log(data)
+  const fuse = new Fuse(data, {
+    keys: [
+      {
+        name: 'title',
+        weight: 3,
+      },
+      {
+        name: 'tags',
+        weight: 2
+      },
+      {
+        name: 'content'
+      }
+    ]
+  })
+  const debounce = (func, timeout = 300) => {
+    let timer;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => { func.apply(this, args); }, timeout);
+    };
+  }
+  const search = () => {
+    let results = fuse.search(searchInput.value)
+    console.log(results)
+    /*  document.getElementById('searchResults').innerText = results  */
+    document.getElementById("searchResults").innerHTML = ""
+    results.forEach(item => {
+      const child = document.createElement("div")
+      child.innerHTML = template(item.item.title, item.item.url, item.item.content, item.item.type, item.item.image, item.item.date)
+      document.getElementById("searchResults").appendChild(child)
+    })
+  }
+  const debouncedSearch = debounce(search)
+  const searchInput = document.getElementById('searchBox')
+  searchInput.addEventListener('keyup', debouncedSearch)
 
+  const template = (title, url, content, type, image, date) => {  
+    let icon = '' 
+    switch(type) {
+      case 'link':
+        icon = '🔗'
+        break
+      case 'quote':
+        icon = '💬'
+        break
+      case 'image':
+        icon = '📸'
+        break
+      case 'video': 
+        icon = '🎞️'
+        break
+      case 'status':
+        icon = '😊'
+        break
+      default:
+        icon = '✏️'
+    }
+    date = new Date(date).toLocaleDateString('en-us', { year: 'numeric', month: 'short', day: 'numeric' })
+    return `<a href="${url}" class="searchItem">
+      <div class="searchUrl"><span class="searchType">${icon}</span> ${url}</div>
+      <div class="searchTitle">${title}</div>
+      <div class="searchSummary"><span>${date}  &bull; </span>${(content.length > 400) ? content.substring(0, 400) + "&hellip;" : content }</div>
+    </a>
+  `}
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const query = urlParams.get('search');
+  searchInput.value = query
+  if (query) {
+    search()
+  }
+</script>
+
+<style>
+  #searchResults a.searchItem {
+    background: none;
+    color: var(--text-color);
+    background-clip: initial;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+  }
+  #searchResults a.searchItem div {
+    flex-basis: 100%;
+  }
+  #searchResults .searchSummary, #searchResults .searchUrl {
+    font-size: 0.7em;
+    line-height: 1.5;
+  }
+  #searchResults .searchSummary span {
+    color: var(--secondary);
+  }
+  #searchResults a.searchItem .searchTitle {
+    color: var(--primary);
+    padding: 0.1em 0;
+  }
+  #searchResults a.searchItem:hover .searchTitle {
+    color: var(--nord);
+    text-decoration: underline;
+  }
+  input#searchBox {
+    border: 1px solid var(--light);
+    outline: 0;
+    display: block;
+    width: 100%;
+    font-size: 2em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+    color: var(--gray);
+  }
+</style>

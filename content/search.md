@@ -1,10 +1,8 @@
 ---
 title: Search
 images: 
-  - https://res.cloudinary.com/dixwznarl/image/upload/v1673041131/notebook/writing-typewriter.jpg
+  - https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_1920/tbcom/math-search.jpg
 type: search
 ---
-
-dumb dumb
 
 {{< search >}}
