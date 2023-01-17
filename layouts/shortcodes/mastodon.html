@@ -1,3 +1,7 @@
-{{- $toots := getJSON (print "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fsocial.lol%2F%40trae.rss" "&cachekey=" (now.Format "2006-01-02-03")) -}}
-{{- $firstToot := index $toots.items 0 -}}
+{{- $toots := 
+  resources.GetRemote "https://social.lol/@trae.rss" 
+  (dict "key" (now.Format "2006-01-02-03-04")) | transform.Unmarshal
+}}
+
+{{- $firstToot := index $toots.channel.item 0 -}}
 <iframe src="{{ $firstToot.link }}/embed" class="mastodon-embed" style="max-width: 100%;" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://social.lol/embed.js" async="async"></script>
