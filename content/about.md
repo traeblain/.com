@@ -5,6 +5,7 @@ images:
 tags:
   - page
   - me
+description: Welcome! I’m glad you are here. I am a Mechanical Engineer in the Dallas-Ft. Worth Area (DFW) working to make some brilliant new designs capable and manufacturable. My expertise is in Geometric Dimentioning & Tolerancing (GDT) and mechanical producibility. But enough about that, here’s some fun things about me and what I do around the net.
 ---
 
 Welcome!  I'm glad you are here.  I am a Mechanical Engineer in the Dallas-Ft. Worth Area (DFW) working to make some brilliant new designs capable and manufacturable.  My expertise is in Geometric Dimentioning & Tolerancing (GDT) and mechanical producibility.  But enough about that, here's some fun things about me and what I do around the net.
@@ -18,6 +19,8 @@ Welcome!  I'm glad you are here.  I am a Mechanical Engineer in the Dallas-Ft. W
 - I play Guitar
 - I have a patent for a toilet..seriously.
 - I love Capt'n Crunch with CrunchBerries!
+
+[^1]: His name is Burton Guster (Gus for short) named after the [Psych](https://www.imdb.com/title/tt0491738/) character played by the amazing [Dulé Hill](https://en.wikipedia.org/wiki/Dul%C3%A9_Hill), those are just a few of his nicknames in the show.
 
 ## Toots
 
@@ -54,6 +57,3 @@ Welcome!  I'm glad you are here.  I am a Mechanical Engineer in the Dallas-Ft. W
 - Work on lists
 - Anything else?
 
-
-
-[^1]: His name is Burton Guster (Gus for short) named after the Psych character played by the amazing Dulé Hill, those are just a few of his nicknames in the show.
