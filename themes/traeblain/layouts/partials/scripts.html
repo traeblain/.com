@@ -8,6 +8,17 @@
     {{ end -}}
   }
   window.addEventListener("scroll", changeHeaderHeight, false)
+
+  const mastShare = (target) => {
+    console.log(target)
+    let src = target.getAttribute("data-src")
+    let domain = prompt("Enter your Mastodon location", "social.lol")
+    if (domain.trim() == "" || domain == null) {
+      return;
+    }
+    url = "https://" + domain.trim() + "/share?text=" + src
+    window.open(url, '_blank')
+  }
 </script>
 
 {{- if .Site.Params.goat }}
@@ -22,8 +33,4 @@
     alt="Goat Counter Check"
   />
 </noscript>
-{{- end -}}
-
-{{- if eq (.Title | anchorize) "search" }}
-
 {{- end -}}
