@@ -1,14 +1,14 @@
-name = "Accessible Minimalism"
+name = "TraeBlain.com 2023"
 license = "Unlicense"
 licenselink = "https://unlicense.org"
-description = "Minimalist Hugo theme with a penchant for accessibility"
-homepage = "https://github.com/leonstafford/accessible-minimalism-hugo-theme"
-tags = ["minimalist", "accessible", "simple"]
-features = ["For visually impaired readers and developers"]
-min_version = "0.68.0"
-demosite = "https://accessible-minimalism.netlify.app"
+description = "The Theme to TraeBlain.com circa 2023"
+homepage = "https://traeblain.com/"
+tags = ["clean", "hero", "types"]
+features = ["Has multiple post types: blog, quotes, links, video, status, images."]
+min_version = "0.109.0"
+demosite = "https://traeblain.com/"
 
 [author]
-  name = "Leon Stafford"
-  homepage = "https://ljs.dev"
+  name = "Trae Blain"
+  homepage = "https://traeblain.com/"
 
