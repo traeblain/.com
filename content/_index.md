@@ -37,5 +37,3 @@ Below are a few of my latest posts and favorite items package just for you.  But
 #### Recent Links
 
 {{% recentlinks %}}
-
-<link rel="authorization_endpoint" href="https://indieauth.com/auth">

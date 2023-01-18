@@ -6,7 +6,7 @@
   <li class="link-item">
     <table>
       <tr>
-        <td><a href="{{ .Params.source }}" title="{{ $t }}"><img src="http://placeimg.com/150/84/arch" alt="{{ $t }}"/></a></td>
+        <td>{{ if .Params.images }}<a href="{{ .Params.source }}" title="{{ $t }}"><img src="{{ index .Params.images 0}}" alt="{{ $t }}"/></a>{{ else }}🔗{{ end }}</td>
         <td><strong><a href="{{ .Params.source }}" title="{{ $t }}">
           {{ $t }}
         </a></strong> |&nbsp;<a href="{{ .Permalink }}" title="Local Permalink" alt="Local Permalink">#</a></td>
