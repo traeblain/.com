@@ -16,3 +16,7 @@
   from = "/*"
   to = "/404"
   status ="404"
+[[redirects]]
+  from = "/random"
+  to = "/.nelify/functions/random"
+  status = "200"
