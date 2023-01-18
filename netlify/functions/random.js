@@ -1,5 +1,5 @@
 const axios = require('axios').default
-const url = "/index.json" //Don't know if this will work...
+const url = "https://tbcom2023.netlify.app/index.json" //Didn't work, remember to change this one GOLIVE!
 
 exports.handler = async (event, context) => {
 
