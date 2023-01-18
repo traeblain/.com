@@ -36,7 +36,7 @@ Welcome!  I'm glad you are here.  I am a Mechanical Engineer in the Dallas-Ft. W
 
 ## Entertainment
 
-<div class="entertainment">
+<div class="entertainment" id="entertainment">
 
 [![Last Movie Watched](https://widgets.trakt.tv/users/3ce95a43ea6297d34071aab460918b21/watched/poster@2x.jpg?type=movie)](https://trakt.tv/users/traeblain)
 
@@ -45,7 +45,7 @@ Welcome!  I'm glad you are here.  I am a Mechanical Engineer in the Dallas-Ft. W
 [{{< lastgame >}}](https://psnprofiles.com/Gothar_Destroyer)
 </div>
 
-<div class="music">
+<div class="music" id="music">
 
 {{% topartists %}}
 

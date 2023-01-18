@@ -20,7 +20,7 @@ I'm 3 parts Husband, 2 parts Father, 1 part Geek, 4 parts Christ-follower, 6 par
 
 </blockquote>
 
-Here I [wax poetic](/blog/), [read profusely](https://traeblain.com/#reads), offer [hot](https://traeblain.com/#tweet) [opinions](https://social.lol/@trae), [code](https://github.com/traeblain)...I'm a coder..., [jam](https://last.fm/tblain), watch [movie films and my stories,](https://trakt.tv/users/traeblain) and [gameplay](https://rawg.io/@g0thar).
+Here I [wax poetic](/blog/), [read profusely](/about/#reading), offer [hot](https://twitter.com/traeblain) [opinions](https://social.lol/@trae), [code](https://github.com/traeblain)...I'm a coder..., [jam](https://last.fm/tblain), watch [movie films and my stories,](https://trakt.tv/users/traeblain) and [gameplay](https://rawg.io/@g0thar).
 
 ## Welcome to the ol' Stomping Grounds
 
