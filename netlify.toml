@@ -13,12 +13,6 @@
     X-Content-Type-Options = "nosniff"
 
 [[redirects]]
-  from = "/*"
-  to = "/404/"
-  status = 404
-  force = false
-
-[[redirects]]
   from = "/now"
   to = "/about/"
   status = 301
@@ -28,4 +22,10 @@
   from = "/random"
   to = "/.netlify/functions/random/"
   status = 200
+  force = false
+
+[[redirects]]
+  from = "/*"
+  to = "/404/"
+  status = 404
   force = false
