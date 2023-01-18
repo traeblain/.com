@@ -11,7 +11,7 @@ exports.handler = async (event, context) => {
   const redirect = getData[randomPost].url
 
   return {
-    statusCode: 200
+    statusCode: 200,
     body: `<head>
     <meta http-equiv="Refresh" content="0; URL=${redirect}" />
   </head>`

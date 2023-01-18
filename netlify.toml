@@ -1,22 +1,31 @@
 [build]
   command = "hugo -D"
   publish = "public"
+
 [build.environment]
   HUGO_VERSION = "0.110.0"
+
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-[[redirects]]
-  from = "/now"
-  to = "about"
+
 [[redirects]]
   from = "/*"
-  to = "/404"
-  status ="404"
+  to = "/404/"
+  status = 404
+  force = false
+
+[[redirects]]
+  from = "/now"
+  to = "/about/"
+  status = 301
+  force = false
+
 [[redirects]]
   from = "/random"
-  to = "/.nelify/functions/random"
-  status = "200"
+  to = "/.netlify/functions/random/"
+  status = 200
+  force = false
