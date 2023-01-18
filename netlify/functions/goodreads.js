@@ -39,7 +39,7 @@ exports.handler = async (event, context) => {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer ' + process.env.AIRTABLE_TOKEN
+        'Authorization': 'Bearer ' + process.env.HUGO_PARAMS_AIRTABLETOKEN
       }
     })
 
