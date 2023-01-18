@@ -1,5 +1,5 @@
 const axios = require('axios').default
-const all = require('./public/index.json') //Pull from local should run faster
+const all = require('../../public/index.json') //Pull from local should run faster
 
 exports.handler = async (event, context) => {
 
