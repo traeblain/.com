@@ -3,12 +3,12 @@ const url = "https://tbcom2023.netlify.app/index.json" //Didn't work, remember t
 
 exports.handler = async (event, context) => {
 
-  const getData = await axios.get(url)
-  const total = getData.data.length
+   const getData = await axios.get(url)
+  const total = getData.data.data.length
 
   const randomPost = Math.floor(Math.random() * total)
-
-  const redirect = getData[randomPost].url
+  
+  const redirect = getData.data.data[randomPost].url
 
   return {
     statusCode: 200,
