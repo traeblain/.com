@@ -3,3 +3,6 @@
 <time>{{ .Date.Format "2006.01.02" }}</time>
 {{ .Content }}
 {{ partial "endofarticle.html" . }}
+{{- if .Params.script }}
+  <script src="{{ .Params.script }}"></script>
+{{- end }}
