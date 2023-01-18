@@ -7,8 +7,6 @@
 
 [functions]
   directory = "netlify/functions"
-[functions.random]
-  included_files=["public/index.json"]
 
 [[headers]]
   for = "/*"

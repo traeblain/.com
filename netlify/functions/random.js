@@ -1,9 +1,8 @@
 const axios = require('axios').default
-const all = require('../../public/index.json') //Pull from local should run faster
+const all = require('../../public/index.json')
 
 exports.handler = async (event, context) => {
 
-  // const getData = await axios.get(url)
   const randomPost = Math.floor(Math.random() * all.data.length)
   
   const redirect = all.data[randomPost].url
