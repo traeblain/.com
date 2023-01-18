@@ -5,6 +5,11 @@
 [build.environment]
   HUGO_VERSION = "0.110.0"
 
+[functions]
+  directory = "netlify/functions"
+[functions.random]
+  included_files=["public/index.json"]
+
 [[headers]]
   for = "/*"
   [headers.values]

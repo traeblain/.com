@@ -1,14 +1,12 @@
 const axios = require('axios').default
-const url = "https://tbcom2023.netlify.app/index.json" //Didn't work, remember to change this one GOLIVE!
+const all = require('./public/index.json') //Pull from local should run faster
 
 exports.handler = async (event, context) => {
 
-   const getData = await axios.get(url)
-  const total = getData.data.data.length
-
-  const randomPost = Math.floor(Math.random() * total)
+  // const getData = await axios.get(url)
+  const randomPost = Math.floor(Math.random() * all.data.length)
   
-  const redirect = getData.data.data[randomPost].url
+  const redirect = all.data[randomPost].url
 
   return {
     statusCode: 200,
