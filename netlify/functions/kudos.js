@@ -21,7 +21,7 @@ exports.handler = async (event, context) => {
     const getData = await axios.get(getUrl.replace('{URLFILL}', event.queryStringParameters.url), {
       headers: {
         'Accept': 'application/json',
-        'Authorization': 'Bearer ' + process.env.AIRTABLE_TOKEN
+        'Authorization': 'Bearer ' + process.env.HUGO_PARAMS_AIRTABLETOKEN
       }
     })
     
@@ -31,7 +31,7 @@ exports.handler = async (event, context) => {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer ' + process.env.AIRTABLE_TOKEN
+          'Authorization': 'Bearer ' + process.env.HUGO_PARAMS_AIRTABLETOKEN
         }
       })
     } else {
@@ -40,7 +40,7 @@ exports.handler = async (event, context) => {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer ' + process.env.AIRTABLE_TOKEN
+          'Authorization': 'Bearer ' + process.env.HUGO_PARAMS_AIRTABLETOKEN
         }
       })
     }
