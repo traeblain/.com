@@ -30,7 +30,7 @@
 
   function kudos(page, el) {
     fetch('/.netlify/functions/kudos?key=7f2ababa423061c509f4923dd04b6cf1&url=' + page, { method: 'post' })
-    .then(resp => { resp.json() })
+    .then(resp => { resp.text() })
     .then(text => {
       if (resp.statusCode === 200) {
         el.getElementsByName('svg')[0].classList.add('animate')
