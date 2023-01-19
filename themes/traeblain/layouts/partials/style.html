@@ -835,6 +835,52 @@
     border: 0;
     border-radius: 10px;
   }
+  footer svg.cheers path:nth-of-type(4) {
+    transform: rotate(-15deg) translate(-145px, 55px);
+  }
+  footer svg.cheers path:nth-of-type(5) {
+      transform: rotate(15deg) translate(120px, -170px);
+  }
+  footer svg.cheers path:nth-of-type(1) {
+    transform: translate(70px, 150px);
+    opacity: 0;
+  }
+  footer svg.cheers path:nth-of-type(2) {
+    transform: translate(-25px, 160px);
+    opacity: 0;
+  }
+  footer svg.cheers path:nth-of-type(3) {
+    transform: translate(-105px, 115px);
+    opacity: 0;
+  }
+  footer svg.cheers.animate path.noise {
+    fill: #de9c00;
+    animation: noise 2s 1s ease-out forwards;
+  }
+  footer svg.cheers.animate path.glass {
+    /* transform: rotate(0deg) translate(0px, 0px); */
+    animation: clink 1.5s ease-out forwards;
+    opacity: 1;
+  }
+  @keyframes clink {
+    100% {
+      transform: rotate(0deg) translate(0px, 0px);
+    }
+  }@keyframes noise {
+    0% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+    }
+    80% {
+      transform: rotate(0deg) translate(0px, 0px);
+    }
+    100% {
+      transform: rotate(0deg) translate(0px, 0px);
+      opacity: 0;
+    }
+  }
 
   /*------ HOME STYLES --------*/
   {{ if .IsHome }}

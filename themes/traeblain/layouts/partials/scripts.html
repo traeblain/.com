@@ -29,11 +29,12 @@
   }
 
   function kudos(page, el) {
-    var modifiedHeaders = JSON.parse(JSON.stringify(headers))
     fetch('/.netlify/functions/kudos?key=7f2ababa423061c509f4923dd04b6cf1&url=' + page, { method: 'post' })
-    .then(resp => { resp.text() })
+    .then(resp => { resp.json() })
     .then(text => {
-      console.log(el)
+      if (resp.statusCode === 200) {
+        el.getElementsByName('svg')[0].classList.add('animate')
+      }
     }).catch( error => {
       console.log(error)
     })
