@@ -28,6 +28,18 @@
   force = false
 
 [[redirects]]
+  from = "/functions/daily"
+  to = "/.netlify/functions/daily"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/functions/kudos"
+  to = "/.netlify/functions/kudos"
+  status = 200
+  force = false
+
+[[redirects]]
   from = "/*"
   to = "/404/"
   status = 404
