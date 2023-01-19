@@ -1,16 +1,17 @@
 ---
 title: "Markdown Example"
 date: 2023-01-10T14:04:13-06:00
-draft: false
+draft: true
 tags:
   - first
   - second
 images: 
   - https://res.cloudinary.com/dixwznarl/image/upload/v1673041131/notebook/writing-typewriter.jpg
-favorite: true
 ---
 
 <a name="top"></a>
+
+This may remain in _Draft_ form in perpetuity.
 
 * [Headings](#Headings)
 * [Paragraphs](#Paragraphs)
