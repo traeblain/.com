@@ -31,12 +31,16 @@
   function kudos(page, el) {
     fetch('/.netlify/functions/kudos?key=7f2ababa423061c509f4923dd04b6cf1&url=' + page, { method: 'post' })
     .then(resp => { 
-      if (resp.statusCode === 200) { return resp.text() } else { throw(error) }
+      if (resp.statusCode === 200) { 
+        return resp.text() 
+      } else { 
+        throw new Error('Response came back with a status code of: ' + resp.statusCode)
+      }
     })
     .then(text => {
       el.getElementsByName('svg')[0].classList.add('animate')
     }).catch( error => {
-      console.log(error)
+      console.error(error)
     })
   }  
 </script>
