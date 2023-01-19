@@ -19,6 +19,25 @@
     url = "https://" + domain.trim() + "/share?text=" + src
     window.open(url, '_blank')
   }
+
+  var headers = {
+    method: 'post',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    }
+  }
+
+  function kudos(page, el) {
+    var modifiedHeaders = JSON.parse(JSON.stringify(headers))
+    fetch('/.netlify/functions/kudos?key=7f2ababa423061c509f4923dd04b6cf1&url=' + page, { method: 'post' })
+    .then(resp => { resp.text() })
+    .then(text => {
+      console.log(el)
+    }).catch( error => {
+      console.log(error)
+    })
+  }  
 </script>
 
 {{- if .Site.Params.goat }}
