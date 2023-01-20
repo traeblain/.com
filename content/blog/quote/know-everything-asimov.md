@@ -1,8 +1,7 @@
 ---
-date: 2023-01-10T17:14:41-06:00
+date: 2023-01-20T19:06:23.910Z
+draft: false
 type: quote
 cite: Isaac Asimov
-draft: true
 ---
-
 People who think they know everything are a great annoyance to those of us who do.
