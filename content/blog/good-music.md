@@ -2,12 +2,12 @@
 draft: false
 title: Good Music
 date: 2023-01-16 01:28:17 -0600
-background: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_1920/v1673854553/notebook/record-on-white.jpg
+images: 
+  - https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_1920/v1673854553/notebook/record-on-white.jpg
 tags:
   - music
 description: I've been able to sit and work somewhat on my own recently, and
   that means listening to music.  Here's what I'm currently playing on repeat.
-script: " "
 ---
 So, I've been able to work on my own recently.  Due to people being out for Christmas and then many taking longer breaks than normal, I get to work on my own a bit.  That's good and bad for me because I do need some external stimuli to keep me moving...yet I've also been able to hyperfocus on a couple things well.
 
