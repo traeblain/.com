@@ -57,7 +57,7 @@ main:
   - identifier: rss
     name: RSS Feed
     pre: <svg class='svg'><use xlink:href='#rss'></use></svg>
-    url: /blog/index.xml
+    url: /index.xml
     weight: 206
     parent: links
   

@@ -52,21 +52,21 @@ Welcome!  I'm glad you are here.  I am a Mechanical Engineer in the Dallas-Ft. W
 
 </div>
 
-## Links List
-  - [<svg class="svg"><use xlink:href="#mastodon"></use></svg>](https://social.lol/@trae)
-  - [<svg class="svg"><use xlink:href="#goodreads"></use></svg>](https://www.goodreads.com/user/show/1671848-trae)
-  - [<svg class="svg"><use xlink:href="#linkedin"></use></svg>](https://linkedin.com/in/traeblain)
-  - [<svg class="svg"><use xlink:href="#instagram"></use></svg>](https://instagram.com/traeblain)
-  - [<svg class="svg"><use xlink:href="#tv"></use></svg>](https://trakt.tv/users/traeblain)
-  - [<svg class="svg"><use xlink:href="#alien"></use></svg>](https://psnprofiles.com/Gothar_Destroyer)
-  - <a href="https://rawg.io/@g0thar" class="rawg">R</a>
-  - [<svg class="svg"><use xlink:href="#lastfm"></use></svg>](https://www.last.fm/user/tblain)
-  - [<svg class="svg"><use xlink:href="#github"></use></svg>](https://github.com/traeblain)
-  - [<svg class="svg"><use xlink:href="#bitbucket"></use></svg>](https://bitbucket.com/traeblain)
-  - [<svg class="svg"><use xlink:href="#codeberg"></use></svg>](https://codeberg.org/trae)
-  - [<svg class="svg"><use xlink:href="#lock"></use></svg>](http://keybase.io/traeblain)
-  - [<svg class="svg"><use xlink:href="#rss"></use></svg>](https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Ffeedly.com%2Ff%2FrTXjCeF8JMcEjFevoSmC4j4R)
-  - [<svg class="svg"><use xlink:href="#twitter"></use></svg>](https://twitter.com/traeblain)
-  - [<svg class="svg"><use xlink:href="#heart"></use></svg>](https://omg.lol/@trae)
-  - [<svg class="svg"><use xlink:href="#youtube"></use></svg>](https://www.youtube.com/@TraeBlain)
+## Find Me
+  - [<svg class="svg"><use xlink:href="#mastodon"></use></svg>](https://social.lol/@trae "Mastodon: Social.lol")
+  - [<svg class="svg"><use xlink:href="#goodreads"></use></svg>](https://www.goodreads.com/user/show/1671848-trae "GoodReads Profile")
+  - [<svg class="svg"><use xlink:href="#linkedin"></use></svg>](https://linkedin.com/in/traeblain "LinkedIn")
+  - [<svg class="svg"><use xlink:href="#instagram"></use></svg>](https://instagram.com/traeblain "Instagram")
+  - [<svg class="svg"><use xlink:href="#tv"></use></svg>](https://trakt.tv/users/traeblain "Trakt.TV - Shows and Movies")
+  - [<svg class="svg"><use xlink:href="#alien"></use></svg>](https://psnprofiles.com/Gothar_Destroyer "PlayStation Trophies")
+  - <a href="https://rawg.io/@g0thar" class="rawg" title="RAWG Gaming Profile">R</a>
+  - [<svg class="svg"><use xlink:href="#lastfm"></use></svg>](https://www.last.fm/user/tblain "Last.fm Listening Archive")
+  - [<svg class="svg"><use xlink:href="#github"></use></svg>](https://github.com/traeblain "Github Repos")
+  - [<svg class="svg"><use xlink:href="#bitbucket"></use></svg>](https://bitbucket.com/traeblain "BitBucket Repos")
+  - [<svg class="svg"><use xlink:href="#codeberg"></use></svg>](https://codeberg.org/trae "Codeberg Repos")
+  - [<svg class="svg"><use xlink:href="#lock"></use></svg>](http://keybase.io/traeblain "Keybase Profile")
+  - [<svg class="svg"><use xlink:href="#rss"></use></svg>](https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Ffeedly.com%2Ff%2FrTXjCeF8JMcEjFevoSmC4j4R "Feedly Public Links")
+  - [<svg class="svg"><use xlink:href="#twitter"></use></svg>](https://twitter.com/traeblain "Twitter")
+  - [<svg class="svg"><use xlink:href="#heart"></use></svg>](https://omg.lol/@trae "omg.lol")
+  - [<svg class="svg"><use xlink:href="#youtube"></use></svg>](https://www.youtube.com/@TraeBlain "YouTube")
 {.links-list}
