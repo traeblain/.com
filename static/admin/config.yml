@@ -121,7 +121,7 @@ collections:
     folder: 'content/blog/quote'
     create: true
     slug: '{{slug}}'
-    summary: "{{body}} &mdash; {{cite | upper}}"
+    summary: "{{body}} -- {{cite | upper}}"
     fields:
       - label: 'Publish Date'
         name: 'date'
@@ -145,6 +145,7 @@ collections:
     folder: 'content/blog/status'
     create: true
     slug: '{{slug}}'
+    summary: "{{emoji}} {{body}}"
     fields:
       - label: 'Publish Date'
         name: 'date'
