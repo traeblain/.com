@@ -305,7 +305,7 @@
     left: 0;
     height: 74px;
     z-index: 1000;
-    box-shadow: 0 0 7px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
     transition: height 0.5s ease-in;
   }
   nav.mainmenu.scrolled {
@@ -835,6 +835,52 @@
     border: 0;
     border-radius: 10px;
   }
+  footer svg.cheers path:nth-of-type(4) {
+    transform: rotate(-15deg) translate(-145px, 55px);
+  }
+  footer svg.cheers path:nth-of-type(5) {
+      transform: rotate(15deg) translate(120px, -170px);
+  }
+  footer svg.cheers path:nth-of-type(1) {
+    transform: translate(70px, 150px);
+    opacity: 0;
+  }
+  footer svg.cheers path:nth-of-type(2) {
+    transform: translate(-25px, 160px);
+    opacity: 0;
+  }
+  footer svg.cheers path:nth-of-type(3) {
+    transform: translate(-105px, 115px);
+    opacity: 0;
+  }
+  footer svg.cheers.animate path.noise {
+    fill: #de9c00;
+    animation: noise 2s 1s ease-out forwards;
+  }
+  footer svg.cheers.animate path.glass {
+    /* transform: rotate(0deg) translate(0px, 0px); */
+    animation: clink 1.5s ease-out forwards;
+    opacity: 1;
+  }
+  @keyframes clink {
+    100% {
+      transform: rotate(0deg) translate(0px, 0px);
+    }
+  }@keyframes noise {
+    0% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+    }
+    80% {
+      transform: rotate(0deg) translate(0px, 0px);
+    }
+    100% {
+      transform: rotate(0deg) translate(0px, 0px);
+      opacity: 0;
+    }
+  }
 
   /*------ HOME STYLES --------*/
   {{ if .IsHome }}
@@ -1152,7 +1198,28 @@
   article.about-me div.music a {
     display: grid;
   }
-
+  article.about-me ul.links-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  article.about-me ul.links-list li {
+    font-size: 1em;
+    width: 2em;
+    height: 4em;
+  }
+  article.about-me ul.links-list li svg {
+    width: 100%;
+    height: 100%;
+  }
+  article.about-me ul.links-list li .rawg {
+    font-weight: 900;
+    font-size: 2.5em;
+    line-height: 1.6;
+  }
   {{ end }}
 
   

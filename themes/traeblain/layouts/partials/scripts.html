@@ -29,15 +29,17 @@
   }
 
   function kudos(page, el) {
-    var modifiedHeaders = JSON.parse(JSON.stringify(headers))
-    fetch('/.netlify/functions/kudos?key=7f2ababa423061c509f4923dd04b6cf1&url=' + page, { method: 'post' })
-    .then(resp => { resp.text() })
-    .then(text => {
-      console.log(el)
-    }).catch( error => {
-      console.log(error)
+    fetch('/functions/kudos?key=7f2ababa423061c509f4923dd04b6cf1&url=' + page, { method: 'post' })
+    .then(resp => {
+      if (resp.status === 200 || resp.status === 201) {
+        el.querySelector('svg.cheers').classList.add('animate')
+        return resp.text()
+      }
+        throw new Error(resp.text())
     })
-  }  
+    .then(console.log)
+    .catch(console.error)
+  }
 </script>
 
 {{- if .Site.Params.goat }}

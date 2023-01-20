@@ -50,7 +50,7 @@ exports.handler = async (event, context) => {
     if (kudo.status === 200 || kudo.status === 201) {
       return {
         statusCode: 200,
-        body: `Updated ${event.queryStringParameters.url} with a kudo!`
+        body: `${kudo.status} - Updated ${event.queryStringParameters.url} with a kudo!`
       }
     }
   }
