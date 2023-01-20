@@ -1198,7 +1198,28 @@
   article.about-me div.music a {
     display: grid;
   }
-
+  article.about-me ul.links-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  article.about-me ul.links-list li {
+    font-size: 1em;
+    width: 2em;
+    height: 4em;
+  }
+  article.about-me ul.links-list li svg {
+    width: 100%;
+    height: 100%;
+  }
+  article.about-me ul.links-list li .rawg {
+    font-weight: 900;
+    font-size: 2.5em;
+    line-height: 1.6;
+  }
   {{ end }}
 
   

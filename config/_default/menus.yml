@@ -45,7 +45,7 @@ main:
   - identifier: Instagram
     name: Instagram
     pre: <svg class='svg'><use xlink:href='#instagram'></use></svg>
-    url: https://instagram.com/traeblina
+    url: https://instagram.com/traeblain
     weight: 205
     parent: links
   - identifier: pgp

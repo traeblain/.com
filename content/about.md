@@ -12,15 +12,16 @@ Welcome!  I'm glad you are here.  I am a Mechanical Engineer in the Dallas-Ft. W
 
 ## Fun Facts
 
-- Mechanical Engineer w/15+ years experience
+- [Mechanical Engineer w/15+ years experience](https://www.linkedin.com/in/traeblain/)
 - Husband to a beautiful wife
-- Father to 4 great children
-- Has a dog named Magic Head/Ovaltine Jenkins/Lavender Gooms/Hummingbird Saltalamacchia/Ghee Buttersnaps/Jazz Hands[^1]
-- I play Guitar
-- I have a patent for a toilet..seriously.
-- I love Capt'n Crunch with CrunchBerries!
+- Father to 4 great children[^1]
+- Has a dog named Magic Head/Ovaltine Jenkins/Lavender Gooms/Hummingbird Saltalamacchia/Ghee Buttersnaps/Jazz Hands[^2]
+- I play guitar
+- I have a patent for a toilet..[seriously](https://patents.google.com/patent/US8800074B2/en).
+- I love [Cap'n Crunch](https://www.capncrunch.com/), Berries or no Berries!
 
-[^1]: His name is Burton Guster (Gus for short) named after the [Psych](https://www.imdb.com/title/tt0491738/) character played by the amazing [Dulé Hill](https://en.wikipedia.org/wiki/Dul%C3%A9_Hill), those are just a few of his nicknames in the show.
+[^1]: And I will have my vengeance, in this life or the next.
+[^2]: His name is Burton Guster (Gus for short) named after the [Psych](https://www.imdb.com/title/tt0491738/) character played by the amazing [Dulé Hill](https://en.wikipedia.org/wiki/Dul%C3%A9_Hill), those are just a few of his nicknames in the show.
 
 ## Toots
 
@@ -51,9 +52,21 @@ Welcome!  I'm glad you are here.  I am a Mechanical Engineer in the Dallas-Ft. W
 
 </div>
 
-### Additional stuff
-
-- Can I get my health stuff back up?
-- Work on lists
-- Anything else?
-
+## Links List
+  - [<svg class="svg"><use xlink:href="#mastodon"></use></svg>](https://social.lol/@trae)
+  - [<svg class="svg"><use xlink:href="#goodreads"></use></svg>](https://www.goodreads.com/user/show/1671848-trae)
+  - [<svg class="svg"><use xlink:href="#linkedin"></use></svg>](https://linkedin.com/in/traeblain)
+  - [<svg class="svg"><use xlink:href="#instagram"></use></svg>](https://instagram.com/traeblain)
+  - [<svg class="svg"><use xlink:href="#tv"></use></svg>](https://trakt.tv/users/traeblain)
+  - [<svg class="svg"><use xlink:href="#alien"></use></svg>](https://psnprofiles.com/Gothar_Destroyer)
+  - <a href="https://rawg.io/@g0thar" class="rawg">R</a>
+  - [<svg class="svg"><use xlink:href="#lastfm"></use></svg>](https://www.last.fm/user/tblain)
+  - [<svg class="svg"><use xlink:href="#github"></use></svg>](https://github.com/traeblain)
+  - [<svg class="svg"><use xlink:href="#bitbucket"></use></svg>](https://bitbucket.com/traeblain)
+  - [<svg class="svg"><use xlink:href="#codeberg"></use></svg>](https://codeberg.org/trae)
+  - [<svg class="svg"><use xlink:href="#lock"></use></svg>](http://keybase.io/traeblain)
+  - [<svg class="svg"><use xlink:href="#rss"></use></svg>](https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Ffeedly.com%2Ff%2FrTXjCeF8JMcEjFevoSmC4j4R)
+  - [<svg class="svg"><use xlink:href="#twitter"></use></svg>](https://twitter.com/traeblain)
+  - [<svg class="svg"><use xlink:href="#heart"></use></svg>](https://omg.lol/@trae)
+  - [<svg class="svg"><use xlink:href="#youtube"></use></svg>](https://www.youtube.com/@TraeBlain)
+{.links-list}
