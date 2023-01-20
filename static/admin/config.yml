@@ -11,7 +11,7 @@ media_library:
 site_url: https://traeblain.com
 logo_url: https://res.cloudinary.com/dixwznarl/image/upload/v1480537358/tbcom/tbmonogram.svg
 editor:
-  preview: false
+  preview: true
 view_filters:
   - label: Drafts
     field: draft
@@ -121,7 +121,7 @@ collections:
     folder: 'content/blog/quote'
     create: true
     slug: '{{slug}}'
-    summary: '{{ body }} &mdash; {{ cite | upper }}'
+    summary: "{{body}} &mdash; {{cite | upper}}"
     fields:
       - label: 'Publish Date'
         name: 'date'
