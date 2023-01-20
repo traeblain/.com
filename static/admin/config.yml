@@ -120,9 +120,12 @@ collections:
     label: 'Quote'
     folder: 'content/blog/quote'
     create: true
-    slug: '{{slug}}'
+    slug: '{{fields.slug}}'
     summary: "{{body}} -- {{cite | upper}}"
     fields:
+      - label: 'Slug'
+        name: 'slug'
+        widget: 'string'
       - label: 'Publish Date'
         name: 'date'
         widget: 'datetime'        
@@ -144,9 +147,12 @@ collections:
     label: 'Status'
     folder: 'content/blog/status'
     create: true
-    slug: '{{slug}}'
+    slug: '{{fields.slug}}'
     summary: "{{emoji}} {{body}}"
     fields:
+      - label: 'Slug'
+        name: 'slug'
+        widget: 'string'
       - label: 'Publish Date'
         name: 'date'
         widget: 'datetime'  
