@@ -1,6 +1,6 @@
 <footer>
   {{ if ne .Title "Search" }}<a href='#' onclick="kudos('{{ .RelPermalink }}', this);return false;"><svg class="svg"><use xlink:href="#cheers"></use></svg> Kudos</a>{{ end }}
-  <a href='#'><label for="share-{{ path.BaseName .File }}"><svg class="svg"><use xlink:href="#shareicon" style="transform: translateX(1ch)"></use></svg> Share</label></a>
+  <a href='#'><label for="share-{{ path.BaseName .File }}"><svg class="svg"><use xlink:href="#shareicon"></use></svg> Share</label></a>
   <div class="share-links">
     <input type="checkbox" name="share-{{ path.BaseName .File }}" id="share-{{ path.BaseName .File }}" style="display: none;">
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" title="Share on Facebook" target="_blank" rel="noopener"><svg class="svg"><use xlink:href="#facebook"></use></svg></a>

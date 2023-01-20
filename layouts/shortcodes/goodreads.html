@@ -29,7 +29,7 @@
     <text class="knob-undertext" x="50%" y="93%" dominant-baseline="baseline" text-anchor="middle">{{ math.Round (mul $knobProgress 100) }}% Done</text>
   </svg>
 
-Trae has currently read **{{ len $books.records }}** book{{ if gt (len $books.records) 1 }}s{{end}}
+[Trae](https://www.goodreads.com/user/show/1671848-trae) has currently read **{{ len $books.records }}** book{{ if gt (len $books.records) 1 }}s{{end}}
 this year, with a goal of reading {{ $.Site.Params.bookGoal }} books in {{ now.Format "2006" }}.
 _That puts him {{ if eq $progress 0 }}right on schedule.{{ else -}}
 {{ math.Sqrt (math.Pow $progress 2) }} book{{ if (eq (math.Sqrt (math.Pow $progress 2)) 1) }}s{{end}}
