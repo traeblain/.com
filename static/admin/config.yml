@@ -16,6 +16,10 @@ view_filters:
   - label: Drafts
     field: draft
     pattern: true
+view_groups:
+  - label: Year
+    field: date
+    pattern: \d{4}
 collections:
   - name: 'blog'
     label: 'Blog'
