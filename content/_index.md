@@ -26,14 +26,14 @@ Here I [wax poetic](/blog/), [read profusely](/about/#reading), offer [hot](http
 
 Below are a few of my latest posts and favorite items package just for you.  But best place to look is the [blog](/blog/) and I write and 'draft' in the open in my [digital garden](/notebook/).
 
-#### Recent Posts [{{% svgicon pencil %}}](/blog/)
+### Recent Posts [{{% svgicon pencil %}}](/blog/ "Link to Blog")
 
 {{% recent %}}
 
-#### Favorite Posts
+### Favorite Posts
 
 {{% favorite %}}
 
-#### Recent Links
+### Recent Links
 
 {{% recentlinks %}}

@@ -1,4 +1,4 @@
-<figure class="hero"><img src="{{ if .Params.images }}{{ index .Params.images 0 }}{{ end }}" /></figure>
+<figure class="hero"><img src="{{ if .Params.images }}{{ index .Params.images 0 }}{{ end }}" alt="Background Hero Image" /></figure>
 <h1 class="center-title">{{ .Title }}</h1>
 <time>{{ .Date.Format "2006.01.02" }}</time>
 {{ .Content }}

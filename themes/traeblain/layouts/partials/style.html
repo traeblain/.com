@@ -186,7 +186,7 @@
   p, cite, li, td, th, strong, em, b, i, mark, code, figcaption, footer div  {
     color: var(--text-color);
   }
-  a, a:visited, a:active, button {
+  a, a:visited, a:active, button, nav li.navsearch span {
     text-decoration: none;
     background-image: linear-gradient(45deg, var(--primary), var(--blue));
     fill: url(#fillGradient);
@@ -456,7 +456,7 @@
     border: 0;
     outline: none;
   }
-  nav form a {
+  nav form span {
     top: 14.5px;
     right: 0;
     width: 1em;
@@ -465,8 +465,9 @@
     color: var(--primary);
     font-size: 1.5em;
     font-weight: 100;
+    cursor: pointer;
   }
-  nav form a:hover {
+  nav form span:hover {
     background: var(--background);
     color: var(--nord);
   }
