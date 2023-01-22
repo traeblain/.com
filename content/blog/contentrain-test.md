@@ -3,14 +3,13 @@ ID: "d2bd3b2d-ae81-464a-8afd-ef02cc79f322"
 title: "Contentrain Test"
 slug: "contentrain-test"
 tags:
-  - "commentary"
-  - "faith"
   - "first"
   - "games"
 description: "Testing to see if this works better."
 date: "2023-01-22 12:00"
 draft: true
-images: []
+images:
+  - "static/1674427287684_112222-The_Great_Wave_off_Kanagawa.jpg"
 script: ""
 createdAt: 1674426863546
 
