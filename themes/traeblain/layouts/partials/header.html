@@ -20,7 +20,7 @@
           <a href="#">
             <label for="menu-{{ .Identifier }}" style="cursor: pointer;">{{ .Name }}</label>
           </a>
-          <input type="checkbox" name="menu-{{ .Identifier }}" id="menu-{{ .Identifier }}" style="display: none;">
+          <input type="checkbox" name="menu-{{ .Identifier }}" id="menu-{{ .Identifier }}" aria-label="menu-{{ .Identifier }}" style="display: none;">
           <ul class="sub-menu">
             {{ range .Children -}}
               <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
@@ -41,7 +41,7 @@
     {{ end -}}
     </ul>
     <li class="dark-toggle">
-      <input style="display: none;" type="checkbox" name="darkToggle" id="darkToggle">
+      <input style="display: none;" type="checkbox" name="darkToggle" id="darkToggle" aria-label="darkToggle">
       <label for="darkToggle"></label>
       <span></span>
     </li>
