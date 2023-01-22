@@ -9,6 +9,21 @@
   }
   window.addEventListener("scroll", changeHeaderHeight, false)
 
+  const darkSwitch = document.getElementById("darkToggle")
+  darkSwitch.addEventListener("change", () => {
+    if (darkSwitch.checked) {
+      localStorage.setItem("darkToggle", "on")
+      console.log("Switch is checked")
+    } else {
+      localStorage.setItem("darkToggle", "off")
+      console.log("Switch is unchecked")
+    }
+  })
+  if (localStorage.getItem("darkToggle") == "on") {
+    console.log("Switch should be checked")
+    darkSwitch.checked = true
+  }
+
   const mastShare = (target) => {
     console.log(target)
     let src = target.getAttribute("data-src")
@@ -20,7 +35,7 @@
     window.open(url, '_blank')
   }
 
-  var headers = {
+  const headers = {
     method: 'post',
     headers: {
       'Accept': 'application/json',
