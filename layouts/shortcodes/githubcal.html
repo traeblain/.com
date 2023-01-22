@@ -7,7 +7,7 @@
       "Authorization" (print "Bearer " $.Site.Params.githubtoken) 
       "Accept" "application/json"
     )
-    "key" (now.Format "2006-01-02-03")
+    "key" (print "gitHub-" (now.Format "2006-01-02-03"))
   ) | transform.Unmarshal 
 }}
 {{ $colors := (split (default "#ebedf0 #9be9a8 #40c463 #30a14e #216e39" (.Get "colors")) " ") }}

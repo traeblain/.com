@@ -1,4 +1,4 @@
-{{- $artistList := getJSON (print "https://api.airtable.com/v0/appWQ7mufpoNZv5cS/Music?sort[0][field]=plays&sort[0][direction]=desc" "&cachekey" (now.Format "2006-01-02-03")) (dict "Authorization" (print "Bearer " $.Site.Params.airtabletoken) "Accept" "application/json") -}}
+{{- $artistList := getJSON (print "https://api.airtable.com/v0/appWQ7mufpoNZv5cS/Music?sort[0][field]=plays&sort[0][direction]=desc" "&cachekey=" (now.Format "2006-01-02-03")) (dict "Authorization" (print "Bearer " $.Site.Params.airtabletoken) "Accept" "application/json") -}}
 {{- range $artistList.records -}}
 {{- with .fields }}
 <a href="{{ .link }}">
