@@ -3,7 +3,7 @@ ID: "d2bd3b2d-ae81-464a-8afd-ef02cc79f322"
 title: "Contentrain Test"
 slug: "contentrain-test"
 tags:
-  - "Commentary"
+  - "commentary"
   - "faith"
   - "first"
   - "games"
