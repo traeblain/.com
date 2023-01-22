@@ -13,14 +13,11 @@
   darkSwitch.addEventListener("change", () => {
     if (darkSwitch.checked) {
       localStorage.setItem("darkToggle", "on")
-      console.log("Switch is checked")
     } else {
       localStorage.setItem("darkToggle", "off")
-      console.log("Switch is unchecked")
     }
   })
   if (localStorage.getItem("darkToggle") == "on") {
-    console.log("Switch should be checked")
     darkSwitch.checked = true
   }
 
