@@ -2,7 +2,8 @@
 ID: "d2bd3b2d-ae81-464a-8afd-ef02cc79f322"
 title: "Contentrain Test"
 slug: "contentrain-test"
-tags: []
+tags:
+  - "Commentary"
 description: "Testing to see if this works better."
 date: "2023-01-22 12:00"
 draft: true
