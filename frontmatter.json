@@ -25,13 +25,13 @@
           "title": "images",
           "name": "images",
           "type": "image",
-          "multiple": true,
-          "isPreviewImage": true
+          "isPreviewImage": true,
+          "multiple": true
         },
         {
           "title": "draft",
           "name": "draft",
-          "type": "datetime"
+          "type": "boolean"
         },
         {
           "title": "tags",

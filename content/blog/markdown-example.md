@@ -1,11 +1,9 @@
 ---
-title: "Markdown Example"
+title: Markdown Example
 date: 2023-01-10T14:04:13-06:00
 draft: true
-tags:
-  - first
-  - second
-images: 
+tags: []
+images:
   - https://res.cloudinary.com/dixwznarl/image/upload/v1673041131/notebook/writing-typewriter.jpg
 ---
 
@@ -13,24 +11,33 @@ images:
 
 This may remain in _Draft_ form in perpetuity.
 
-* [Headings](#Headings)
-* [Paragraphs](#Paragraphs)
-* [Blockquotes](#Blockquotes)
-* [Lists](#Lists)
-* [Horizontal rule](#Horizontal)
-* [Table](#Table)
-* [Code](#Code)
-* [Inline elements](#Inline)
+- [Headings](#headings)
+- [Heading two](#heading-two)
+  - [Heading three](#heading-three)
+    - [Heading four](#heading-four)
+      - [Heading five](#heading-five)
+        - [Heading six](#heading-six)
+- [Paragraphs](#paragraphs)
+- [Blockquotes](#blockquotes)
+- [Lists](#lists)
+  - [Ordered List](#ordered-list)
+  - [Unordered List](#unordered-list)
+    - [Task List](#task-list)
+    - [Definitions List](#definitions-list)
+- [Horizontal rule](#horizontal-rule)
+- [Table](#table)
+- [Code](#code)
+  - [Inline code](#inline-code)
+  - [Highlighted](#highlighted)
+- [Inline elements](#inline-elements)
 
 ***
 
-# <a name="Headings"></a>Headings
-
-# Heading one
+## Headings
 
 Sint sit cillum ~pariatur eiusmod nulla pariatur~ ipsum. ~~Sit laborum~~ anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat commodo id sunt. Nostrud enim ad commodo incididunt cupidatat in ullamco ullamco Lorem cupidatat velit enim et Lorem. Ut laborum cillum laboris fugiat culpa sint irure do reprehenderit culpa occaecat. Exercitation esse mollit tempor magna aliqua in occaecat aliquip veniam reprehenderit nisi dolor in laboris dolore velit.
 
-https://traeblain.com/
+<https://traeblain.com/>
 
 ## Heading two
 
@@ -52,10 +59,9 @@ Veniam enim esse amet veniam deserunt laboris amet enim consequat. Minim nostrud
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-
 [[Top]](#top)
 
-# <a name="Paragraphs"></a>Paragraphs
+## Paragraphs
 
 Incididunt ex adipisicing ea ullamco consectetur in voluptate proident fugiat tempor deserunt reprehenderit ullamco id dolore laborum. Do laboris laboris minim incididunt qui consectetur exercitation adipisicing dolore et magna consequat magna anim sunt. Officia fugiat Lorem sunt pariatur incididunt Lorem reprehenderit proident irure. Dolore ipsum aliqua mollit ad officia fugiat sit eu aliquip cupidatat ipsum duis laborum laborum fugiat esse. Voluptate anim ex dolore deserunt ea ex eiusmod irure. Occaecat excepteur aliqua exercitation aliquip dolor esse eu eu.
 
@@ -65,7 +71,7 @@ Officia irure in non voluptate adipisicing sit amet tempor duis dolore deserunt 
 
 [[Top]](#top)
 
-# <a name="Blockquotes"></a>Blockquotes
+## Blockquotes
 
 Ad nisi laborum aute cupidatat magna deserunt eu id laboris id. Aliquip nulla cupidatat sint ex Lorem mollit laborum dolor amet est ut esse aute. Nostrud ex consequat id incididunt proident ipsum minim duis aliqua ut ex et ad quis. Laborum sint esse cillum anim nulla cillum consectetur aliqua sit. Nisi excepteur cillum labore amet excepteur commodo enim occaecat consequat ipsum proident exercitation duis id in.
 
@@ -85,7 +91,7 @@ Adipisicing voluptate ipsum culpa voluptate id aute laboris labore esse fugiat v
 
 [[Top]](#top)
 
-# <a name="Lists"></a>Lists
+## Lists
 
 ### Ordered List
 
@@ -105,8 +111,8 @@ Adipisicing voluptate ipsum culpa voluptate id aute laboris labore esse fugiat v
 
 - Olive
 - Orange
-    - Blood orange
-    - Clementine
+  - Blood orange
+  - Clementine
 - Papaya
 - Ut aute ipsum occaecat nisi culpa Lorem id occaecat cupidatat id id magna laboris ad duis. Fugiat cillum dolore veniam nostrud proident sint consectetur eiusmod irure adipisicing.
 - Passionfruit
@@ -130,7 +136,7 @@ Orange
 
 [[Top]](#top)
 
-# <a name="Horizontal"></a>Horizontal rule
+## Horizontal rule
 
 In dolore velit aliquip labore mollit minim tempor veniam eu veniam ad in sint aliquip mollit mollit. Ex occaecat non deserunt elit laborum sunt tempor sint consequat culpa culpa qui sit. Irure ad commodo eu voluptate mollit cillum cupidatat veniam proident amet minim reprehenderit.
 
@@ -140,7 +146,7 @@ In laboris eiusmod reprehenderit aliquip sit proident occaecat. Non sit labore a
 
 [[Top]](#top)
 
-# <a name="Table"></a>Table
+## Table
 
 Duis sunt ut pariatur reprehenderit mollit mollit magna dolore in pariatur nulla commodo sit dolor ad fugiat. Laboris amet ea occaecat duis eu enim exercitation deserunt ea laborum occaecat reprehenderit. Et incididunt dolor commodo consequat mollit nisi proident non pariatur in et incididunt id. Eu ut et Lorem ea ex magna minim ipsum ipsum do.
 
@@ -156,13 +162,13 @@ Minim id consequat adipisicing cupidatat laborum culpa veniam non consectetur et
 
 [[Top]](#top)
 
-# <a name="Code"></a>Code
+## Code
 
-## Inline code
+### Inline code
 
 Ad amet irure est magna id mollit Lorem in do duis enim. Excepteur velit nisi magna ea pariatur pariatur ullamco fugiat deserunt sint non sint. Duis duis est `code in text` velit velit aute culpa ex quis pariatur pariatur laborum aute pariatur duis tempor sunt ad. Irure magna voluptate dolore consectetur consectetur irure esse. Anim magna `<strong>in culpa qui officia</strong>` dolor eiusmod esse amet aute cupidatat aliqua do id voluptate cupidatat reprehenderit amet labore deserunt.
 
-## Highlighted
+### Highlighted
 
 Et fugiat ad nisi amet magna labore do cillum fugiat occaecat cillum Lorem proident. In sint dolor ullamco ad do adipisicing amet id excepteur Lorem aliquip sit irure veniam laborum duis cillum. Aliqua occaecat minim cillum deserunt magna sunt laboris do do irure ea nostrud consequat ut voluptate ex.
 
@@ -191,12 +197,12 @@ Below no parser for MathJax
 $$
 \left[ \begin{array}{a} a^l_1 \\ ⋮ \\ a^l_{d_l} \end{array}\right]
 = \sigma(
- \left[ \begin{matrix} 
+ \left[ \begin{matrix}
     w^l_{1,1} & ⋯  & w^l_{1,d_{l-1}} \\  
-    ⋮ & ⋱  & ⋮  \\ 
+    ⋮ & ⋱  & ⋮  \\
     w^l_{d_l,1} & ⋯  & w^l_{d_l,d_{l-1}} \\  
  \end{matrix}\right]  ·
- \left[ \begin{array}{x} a^{l-1}_1 \\ ⋮ \\ ⋮ \\ a^{l-1}_{d_{l-1}} \end{array}\right] + 
+ \left[ \begin{array}{x} a^{l-1}_1 \\ ⋮ \\ ⋮ \\ a^{l-1}_{d_{l-1}} \end{array}\right] +
  \left[ \begin{array}{b} b^l_1 \\ ⋮ \\ b^l_{d_l} \end{array}\right])
 $$
 
@@ -218,15 +224,15 @@ What about the GoAT!?!?
 
 [[Top]](#top)
 
-# <a name="Inline"></a>Inline elements
+## Inline elements
 
-Sint ea anim ipsum ad commodo cupidatat do **exercitation** incididunt et minim ad labore sunt. Minim deserunt labore laboris velit nulla incididunt ipsum nulla. Ullamco ad laborum ea qui et anim in laboris exercitation tempor sit officia laborum reprehenderit culpa velit quis. **Consequat commodo** reprehenderit duis [irure](#!) esse esse exercitation minim enim Lorem dolore duis irure. Nisi Lorem reprehenderit ea amet excepteur dolor excepteur magna labore proident voluptate ipsum. Reprehenderit ex esse deserunt aliqua ea officia mollit Lorem nulla magna enim. Et ad ipsum labore enim ipsum **cupidatat consequat**. Commodo non ea cupidatat magna deserunt dolore ipsum velit nulla elit veniam nulla eiusmod proident officia.[^2]
+Sint ea anim ipsum ad commodo cupidatat do **exercitation** incididunt et minim ad labore sunt. Minim deserunt labore laboris velit nulla incididunt ipsum nulla. Ullamco ad laborum ea qui et anim in laboris exercitation tempor sit officia laborum reprehenderit culpa velit quis. **Consequat commodo** reprehenderit duis [irure](#top) esse esse exercitation minim enim Lorem dolore duis irure. Nisi Lorem reprehenderit ea amet excepteur dolor excepteur magna labore proident voluptate ipsum. Reprehenderit ex esse deserunt aliqua ea officia mollit Lorem nulla magna enim. Et ad ipsum labore enim ipsum **cupidatat consequat**. Commodo non ea cupidatat magna deserunt dolore ipsum velit nulla elit veniam nulla eiusmod proident officia.[^2]
 
 [^2]: A second footnote...maybe...
 
 ![Super wide](https://placekitten.com/1280/800)
 
-*Proident sit veniam in est proident officia adipisicing* ea tempor cillum non cillum velit deserunt. ==Voluptate laborum incididunt== sit consectetur Lorem irure incididunt voluptate nostrud. Commodo ut eiusmod tempor^th^ H~2~O cupidatat esse enim minim ex :smiley: anim consequat. Mollit sint culpa qui laboris quis consectetur ad sint esse. Amet anim anim minim ullamco et duis non irure. Sit tempor adipisicing ea laboris `culpa ex duis sint` anim aute ++reprehenderit id eu ea.++ Aute [excepteur proident](#!) Lorem minim adipisicing nostrud mollit ad ut voluptate do nulla esse occaecat aliqua sint anim.^[Self Descriptive footnote]
+_Proident sit veniam in est proident officia adipisicing_ ea tempor cillum non cillum velit deserunt. ==Voluptate laborum incididunt== sit consectetur Lorem irure incididunt voluptate nostrud. Commodo ut eiusmod tempor^th^ H~2~O cupidatat esse enim minim ex :smiley: anim consequat. Mollit sint culpa qui laboris quis consectetur ad sint esse. Amet anim anim minim ullamco et duis non irure. Sit tempor adipisicing ea laboris `culpa ex duis sint` anim aute ++reprehenderit id eu ea.++ Aute [excepteur proident](#inline-elements) Lorem minim adipisicing nostrud mollit ad ut voluptate do nulla esse occaecat aliqua sint anim.^[Self Descriptive footnote]
 
 ![Not so big](httpS://placekitten.com/480/400)
 { .align-left }
@@ -235,7 +241,7 @@ Incididunt in culpa cupidatat mollit cillum qui proident sit. In cillum aliquip 
 
 [![Manny Pacquiao](https://img.youtube.com/vi/s6bCmZmy9aQ/0.jpg)](https://youtu.be/s6bCmZmy9aQ)
 
-Reprehenderit non eu quis in ad elit esse qui aute id [incididunt](#!) dolore cillum. Esse laboris consequat dolor anim exercitation tempor aliqua deserunt velit magna laboris. Culpa culpa minim duis amet mollit do quis amet commodo nulla irure.
+Reprehenderit non eu quis in ad elit esse qui aute id [incididunt](#blockquotes) dolore cillum. Esse laboris consequat dolor anim exercitation tempor aliqua deserunt velit magna laboris. Culpa culpa minim duis amet mollit do quis amet commodo nulla irure.
 
 ```goat
       .               .                .               .--- 1          .-- 1     / 1
