@@ -42,6 +42,9 @@ Thumbs.db
 *.key
 *.pem
 
+hugo
+hugo.exe
+
 # track these files, if they exist
 !.editorconfig
 !.env.example

@@ -1,0 +1,159 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "images",
+          "name": "images",
+          "type": "image",
+          "multiple": true,
+          "isPreviewImage": true
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "datetime"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.templates.prefix": "",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "blog",
+      "path": "[[workspace]]/content/blog"
+    },
+    {
+      "title": "image",
+      "path": "[[workspace]]/content/blog/image"
+    },
+    {
+      "title": "status",
+      "path": "[[workspace]]/content/blog/status"
+    },
+    {
+      "title": "video",
+      "path": "[[workspace]]/content/blog/video"
+    },
+    {
+      "title": "link",
+      "path": "[[workspace]]/content/blog/link"
+    },
+    {
+      "title": "quote",
+      "path": "[[workspace]]/content/blog/quote"
+    },
+    {
+      "title": "pages",
+      "path": "[[workspace]]/content"
+    }
+  ],
+  "frontMatter.data.files": [
+    {
+      "id": "favorite-sports",
+      "title": "Favorite Sports",
+      "file": "[[workspace]]/data/favoritesports.yml",
+      "fileType": "yaml",
+      "labelField": "sport",
+      "singleEntry": false,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "sport": {
+            "type": "string"
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "league": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "string"
+                },
+                "link": {
+                  "type": "string"
+                },
+                "comment": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "hidden": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "comment",
+                "favorite",
+                "image",
+                "league",
+                "link"
+              ],
+              "title": "Details"
+            }
+          }
+        },
+        "required": [
+          "details",
+          "sport"
+        ],
+        "title": "Sport"
+      }
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "movies",
+    "review",
+    "commentary",
+    "faith",
+    "games",
+    "geek",
+    "hardware",    
+    "list",
+    "me",
+    "music",
+    "page",
+    "reading",
+    "science",
+    "site",
+    "sports",
+    "thoughts",
+    "tools"
+  ]
+}
