@@ -1,8 +1,10 @@
 const temml = require('temml')
 
-const mathml = temml.renderToString('c = \\pm\\sqrt{a^2 + b^2}')
+// const mathml = temml.renderToString('c = \\pm\\sqrt{a^2 + b^2}')
 
 exports.handler = async (event, context) => {
+  const tex = event.body
+  const mathml = temml.renderToString(tex)
   return {
     statusCode: 200,
     headers: {
@@ -10,8 +12,9 @@ exports.handler = async (event, context) => {
     },
     body: JSON.stringify(
       {
-        hello: "Hello Functions",
-        math: mathml
+        title: "Your Math Function",
+        math: mathml,
+        tex: tex
       }
     )
   }
