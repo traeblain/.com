@@ -4,7 +4,7 @@ const temml = require('temml')
 
 exports.handler = async (event, context) => {
   const tex = event.body
-  const mathml = temml.renderToString(tex)
+  const mathml = temml.renderToString(tex, {displayMode: true, xml: true})
   return {
     statusCode: 200,
     headers: {
