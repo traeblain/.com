@@ -1,4 +1,4 @@
-const temml = require('/opt/build/repo/node_modules/temml/dist/temml.cjs')
+const temml = require('temml')
 
 const mathml = temml.renderToString('c = \\pm\\sqrt{a^2 + b^2}')
 

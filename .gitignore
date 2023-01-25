@@ -52,3 +52,6 @@ hugo.exe
 !.gitignore
 !.nvmrc
 !.phpcs.xml.dist
+
+# Local Netlify folder
+.netlify
