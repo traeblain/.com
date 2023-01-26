@@ -14,23 +14,16 @@ This may remain in _Draft_ form in perpetuity.
 - [Headings](#headings)
 - [Heading two](#heading-two)
   - [Heading three](#heading-three)
-    - [Heading four](#heading-four)
-      - [Heading five](#heading-five)
-        - [Heading six](#heading-six)
 - [Paragraphs](#paragraphs)
 - [Blockquotes](#blockquotes)
 - [Lists](#lists)
   - [Ordered List](#ordered-list)
   - [Unordered List](#unordered-list)
-    - [Task List](#task-list)
-    - [Definitions List](#definitions-list)
 - [Horizontal rule](#horizontal-rule)
 - [Table](#table)
 - [Code](#code)
   - [Inline code](#inline-code)
   - [Highlighted](#highlighted)
-    - [Below no parser for MathML](#below-no-parser-for-mathml)
-    - [What about the GoAT!?!?](#what-about-the-goat)
 - [Inline elements](#inline-elements)
 
 ***
@@ -194,7 +187,7 @@ func main() {
 
 Ex amet id ex aliquip id do laborum excepteur exercitation elit sint commodo occaecat nostrud est. Nostrud pariatur esse veniam laborum non sint magna sit laboris minim in id. Aliqua pariatur pariatur excepteur adipisicing irure culpa consequat commodo et ex id ad. [[my-first-link]] might work. {{<math>}}∑_{n=1}^{+∞} \frac{1}{n^2} = \frac{π^2}{6}{{</math>}} more words, and hopefully another paragraph before or line break before we get to the details so that I can see what happens when combat chuck go go, combat chuck pick it up pick it up.
 
-#### Below no parser for MathML
+#### Below parsing to MathML
 
 {{<math>}}
 f(x)=\sum_{n=-\infty}^\infty c_n e^{2\pi i(n/T) x} = \sum_{n=-\infty}^\infty \hat{f}(\xi_n) e^{2\pi i\xi_n x}\Delta\xi
@@ -246,5 +239,3 @@ Reprehenderit non eu quis in ad elit esse qui aute id [incididunt](#blockquotes)
  /   \ /   \    |   |   |   |    |   |   |   |     '---+            '-+         +
  1   2 3   4    1   2   3   4    1   2   3   4         '--- 4          '-- 4     \ 4
 ```
-
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>y</mi><mi>t</mi></msub><mo>=</mo><msub><mi>β</mi><mn>0</mn></msub><mo>+</mo><msub><mi>β</mi><mn>1</mn></msub><msub><mi>x</mi><mi>t</mi></msub><mo>+</mo><msub><mi>ϵ</mi><mi>t</mi></msub></mrow><annotation encoding="application/x-tex">y_t=\beta_0+\beta_1 x_t + \epsilon_t</annotation></semantics></math>
