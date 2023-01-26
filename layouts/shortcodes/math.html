@@ -1,0 +1,11 @@
+{{- $mathObj := resources.GetRemote "https://traeblain.com/.netlify/functions/mathml" (
+  dict "body" .Inner
+    "headers" (dict
+      "Accept" "application/json"
+      "Content-Type" "text/plain"
+    )
+    "key" (print "mathML-" (now.UnixMilli))
+  ) | transform.Unmarshal
+-}}
+
+{{ $mathObj.math | safeHTML }}

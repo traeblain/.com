@@ -5,7 +5,7 @@ const temml = require('temml')
 exports.handler = async (event, context) => {
   const tex = event.body
   console.log(event.body)
-  const mathml = temml.renderToString(tex, {displayMode: true, xml: true})
+  const mathml = temml.renderToString(tex, {displayMode: true, xml: true}).replace("display=\"block\"", "class=\"hugo-math\"")
   return {
     statusCode: 200,
     headers: {

@@ -29,6 +29,8 @@ This may remain in _Draft_ form in perpetuity.
 - [Code](#code)
   - [Inline code](#inline-code)
   - [Highlighted](#highlighted)
+    - [Below no parser for MathML](#below-no-parser-for-mathml)
+    - [What about the GoAT!?!?](#what-about-the-goat)
 - [Inline elements](#inline-elements)
 
 ***
@@ -190,23 +192,15 @@ func main() {
 }
 ```
 
-Ex amet id ex aliquip id do laborum excepteur exercitation elit sint commodo occaecat nostrud est. Nostrud pariatur esse veniam laborum non sint magna sit laboris minim in id. Aliqua pariatur pariatur excepteur adipisicing irure culpa consequat commodo et ex id ad. [[my-first-link]] might work.
+Ex amet id ex aliquip id do laborum excepteur exercitation elit sint commodo occaecat nostrud est. Nostrud pariatur esse veniam laborum non sint magna sit laboris minim in id. Aliqua pariatur pariatur excepteur adipisicing irure culpa consequat commodo et ex id ad. [[my-first-link]] might work. {{<math>}}∑_{n=1}^{+∞} \frac{1}{n^2} = \frac{π^2}{6}{{</math>}} more words, and hopefully another paragraph before or line break before we get to the details so that I can see what happens when combat chuck go go, combat chuck pick it up pick it up.
 
-Below no parser for MathJax
+#### Below no parser for MathML
 
-$$
-\left[ \begin{array}{a} a^l_1 \\ ⋮ \\ a^l_{d_l} \end{array}\right]
-= \sigma(
- \left[ \begin{matrix}
-    w^l_{1,1} & ⋯  & w^l_{1,d_{l-1}} \\  
-    ⋮ & ⋱  & ⋮  \\
-    w^l_{d_l,1} & ⋯  & w^l_{d_l,d_{l-1}} \\  
- \end{matrix}\right]  ·
- \left[ \begin{array}{x} a^{l-1}_1 \\ ⋮ \\ ⋮ \\ a^{l-1}_{d_{l-1}} \end{array}\right] +
- \left[ \begin{array}{b} b^l_1 \\ ⋮ \\ b^l_{d_l} \end{array}\right])
-$$
+{{<math>}}
+f(x)=\sum_{n=-\infty}^\infty c_n e^{2\pi i(n/T) x} = \sum_{n=-\infty}^\infty \hat{f}(\xi_n) e^{2\pi i\xi_n x}\Delta\xi
+{{</math>}}
 
-What about the GoAT!?!?
+#### What about the GoAT!?!?
 
 ```goat
     .----.        .----.
