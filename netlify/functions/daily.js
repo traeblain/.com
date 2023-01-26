@@ -17,7 +17,7 @@ exports.handler = async (event, context) => {
       try {
         if (!artists[i].mbid) {
           let artistGetDetails = await axios.get(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${artists[i].name}&api_key=b25b959554ed76058ac220b7b2e0a026&format=json`)
-          artists[i].mbid = artistGetDetails.artist.mbid
+          artists[i].mbid = artistGetDetails.data.artist.mbid
         }
         artistData = await axios.get('https://webservice.fanart.tv/v3/music/' + artists[i].mbid + '&?api_key=' + process.env.FANART_API + '&format=json')
 
