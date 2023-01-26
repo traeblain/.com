@@ -40,6 +40,12 @@
   force = false
 
 [[redirects]]
+  from = "/functions/math"
+  to = "/.netlify/functions/mathml"
+  status = 200
+  force = false
+
+[[redirects]]
   from = "/*"
   to = "/404/"
   status = 404
