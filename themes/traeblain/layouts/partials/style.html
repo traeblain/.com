@@ -890,8 +890,8 @@
   }
 
   /*------ HOME STYLES --------*/
-  {{ if .IsHome }}
-  article.home .home-avatar {
+  /* {{- if .IsHome }} */
+    article.home .home-avatar {
     width: 11rem;
     height: 11rem;
     background-color: var(--nord);
@@ -991,12 +991,12 @@
   ul.link-list li.link-item tr:first-child td:first-child img {
     width: 150px;
   }
-  {{ end -}}
+  /* {{ end -}} */
   /*--------------------------------*/
 
 
   /*------ GARDEN STYLES --------*/
-  {{ if eq (.Title | anchorize) "digital-garden" }}
+  /* {{ if eq (.Title | anchorize) "digital-garden" }} */
 
   ul.garden-tags {
     display: flex;
@@ -1032,12 +1032,12 @@
     font-family: var(--font-family-headline);
     margin-left: 1ch;
   }
-  {{ end }}
+  /* {{ end }} */
   /*------------------------------*/
   
 
   /*------ ABOUT STYLES --------*/
-  {{ if eq (.Title | anchorize) "about-me" }}
+  /* {{ if eq (.Title | anchorize) "about-me" }} */
   div.reading-progress {
     display: grid;
     align-items: center;
@@ -1227,7 +1227,7 @@
     font-size: 2.5em;
     line-height: 1.6;
   }
-  {{ end }}
+  /* {{ end }} */
 
   
 
