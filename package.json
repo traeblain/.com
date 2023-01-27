@@ -25,6 +25,9 @@
     "dotenv": "^16.0.3",
     "moment": "^2.29.4",
     "rss-parser": "^3.12.0",
-    "temml": "github:ronkok/temml#6dcc755"
+    "temml": "^0.10.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
   }
 }
