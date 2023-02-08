@@ -1,8 +1,8 @@
 {{- $place := (.Scratch.Get "is-section") -}}
 {{ if $place -}}
 {{ .Scratch.Set "title" (.Summary | safeHTML | truncate 50) -}}
+<h3>🔗 {{ else }}<h1>🔗 {{ end }}
 {{ if .Title }}{{ .Scratch.Set "title" .Title }}{{ end -}}
-<h3>🔗 {{ else }}<h1>🔗 {{ end }} 
   <a href="{{ .Params.source }}">{{ .Scratch.Get "title" }}</a>
 {{ if $place }}</h3>{{ else }}</h1>{{ end }}
 
