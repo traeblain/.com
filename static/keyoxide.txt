@@ -1,0 +1,17 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hey there! Here's a signature profile for Trae!
+
+Verify this at https://keyoxide.org/sig
+
+proof=https://social.lol/@trae
+proof=openpgp4fpr:D31CBFF41515BA9341C28D3E66A2396E49348798
+proof=https://gist.github.com/traeblain/957d26f968a6c3782aee4b370c4cf33f
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTTHL/0FRW6k0HCjT5mojluSTSHmAUCY+SHUAAKCRBmojluSTSH
+mBJfAQCHXX9DGUuHJpKiWrtalX39bCqAL743Sa6dI0prTy1ehgD/QcOIiinibVYZ
+wSLFYnMPPkY5UpXP59BYJQA0QZMnfgY=
+=JCyN
+-----END PGP SIGNATURE-----
