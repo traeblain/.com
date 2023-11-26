@@ -18,9 +18,6 @@ security:
   exec:
     osEnv: ['(?i)^(SSH_AUTH_SOCK|HTTP_PROXY|HTTPS_PROXY)$']
 
-social:
-  twitter: traeblain
-
 params:
   mainSections:
     - blog
@@ -32,6 +29,8 @@ params:
   bookGoal: 20
   goat: trae
   rssLimit: 15
+  social:
+    twitter: traeblain
 
 markup:
   highlight:
