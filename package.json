@@ -25,9 +25,11 @@
     "dotenv": "^16.0.3",
     "moment": "^2.29.4",
     "rss-parser": "^3.13.0",
-    "temml": "^0.10.4"
+    "temml": "^0.10.4",
+    "tinacms": "^1.5.26"
   },
   "devDependencies": {
+    "@tinacms/cli": "^1.5.36",
     "eslint": "^8.32.0"
   }
 }
