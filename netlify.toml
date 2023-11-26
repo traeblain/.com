@@ -1,9 +1,9 @@
 [build]
-  command = "hugo -D --minify"
+  command = "npx tinacms build && hugo -D --minify"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.110.0"
+  HUGO_VERSION = "0.120.4"
 
 [functions]
   directory = "netlify/functions"
