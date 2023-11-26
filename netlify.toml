@@ -1,12 +1,13 @@
 [build]
-  command = "hugo -D --minify"
+  command = "npx tinacms build && hugo -D --minify"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.110.0"
+  HUGO_VERSION = "0.120.4"
 
 [functions]
   directory = "netlify/functions"
+  node_bundler = 'esbuild'
 
 [[headers]]
   for = "/*"
@@ -44,6 +45,11 @@
   to = "/.netlify/functions/mathml"
   status = 200
   force = false
+
+[[redirects]]
+  from ='/api/*'
+  to = '/.netlify/functions/api/:splat'
+  status = 200
 
 [[redirects]]
   from = "/*"

@@ -1,8 +1,9 @@
 ~*
 .hugo_build.lock
 env.ps1
+.env
 
-node_modules/
+node_modules
 
 /build
 /dist
