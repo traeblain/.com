@@ -1,4 +1,4 @@
-{{ $books := getJSON (print "https://api.airtable.com/v0/appChKYhLC0uF7gPx/Books?maxRecords=100&sort[0][field]=Date&sort[0][direction]=desc" "&cachekey" (now.Format "2006-01-02-03")) (dict "Authorization" (print "Bearer " $.Site.Params.airtabletoken) "Accept" "application/json") -}}
+{{ $books := getJSON (print "https://api.airtable.com/v0/appChKYhLC0uF7gPx/Books?maxRecords=100&sort[0][field]=Date&sort[0][direction]=desc" "&cachekey" (now.Format "2006-01-02-03-04")) (dict "Authorization" (print "Bearer " $.Site.Params.airtabletoken) "Accept" "application/json") -}}
 {{ with (index $books.records 0).fields -}}
 {{- $progress := sub (len $books.records) (math.Floor (mul (div now.YearDay 365.25) $.Site.Params.bookGoal)) -}}
 {{- $knobProgress := div (len $books.records) (float $.Site.Params.bookGoal) -}}
