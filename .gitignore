@@ -19,6 +19,7 @@ Thumbs.db
 *.komodoproject
 *.code-workspace
 .vscode
+.vs
 *.log
 *.sql
 *.sqlite

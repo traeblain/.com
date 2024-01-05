@@ -1,10 +1,11 @@
 {
   "name": "traeblaindotcom",
   "version": "3.0.0",
-  "description": "Build requirements for Netlify Plugins",
+  "description": "Source code for Trae Blain's Website'",
   "main": "index.js",
   "scripts": {
-    "run": "hugo -D"
+    "run": "hugo -D --minify",
+    "dev": "hugo server -D -F -w"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,10 @@
   },
   "keywords": [
     "netlify",
-    "functions"
+    "functions",
+    "blog",
+    "personal",
+    "website"
   ],
   "author": "Trae Blain",
   "license": "MIT",
