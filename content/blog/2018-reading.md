@@ -86,8 +86,8 @@ That's a good list. It was honestly a really good year in reading, here's lookin
 [skin game]: https://www.amazon.com/gp/product/0451464397/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=6044f18f78e550dc77d4fcb3b714a604&language=en_US
 [mere christianity]: https://www.amazon.com/gp/product/0684823780/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=7bbe9f73f6e65dea0095757760db7e2a&language=en_US
 [skyward]: https://www.amazon.com/gp/product/1473217857/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=74d10056f01395eaf245847c37c707be&language=en_US
-[hell divers]: https://www.amazon.com/gp/product/B07JHNG3BW/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=3af7ec5edef80a33dec4068145a435b0&language=en_US
-[dresden files]: https://www.amazon.com/gp/bookseries/B00CKCWAEA/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=traeblain03-20&linkId=6b612aee5e16c1994957131ba9b1464c&language=en_US
+[hell divers]: https://www.amazon.com/dp/B0BZDSPTWH?binding=kindle_edition&searchxofy=true&ref_=dbs_s_aps_series_rwt_tkin&qid=1706295876&sr=8-8&tag=traeblain03-20
+[dresden files]: https://www.amazon.com/s/ref=as_li_ss_tl?url=search-alias=stripbooks&field-keywords=The+Dresden+Files&linkCode=ll2&tag=traeblain-20&linkId=e6139913e2df0b52cb8f86b0aa35a4e3
 [bobiverse]: https://www.amazon.com/gp/product/B073DCB98Y/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=f79174f455352b8346e69230b1f57a14&language=en_US
 [language of god]: https://www.amazon.com/dp/1416542744/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=1db74a4d14712ce3e390d1112d66f503&language=en_US
 [skeleton]: https://www.amazon.com/gp/product/0529100819/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=bc4e61cdf8edcad126f28805cef1c92a&language=en_US
