@@ -19,7 +19,7 @@ Star Wars: The Last Jedi is about to be released and since they announced the ti
 
 What does it mean to bring balance to The Force?  Qui-gon Jinn believes he found "The Chosen One" in Anakin Skywalker.  "The Chosen One" was supposed to rid the world of the Sith and bring balance to the force.  Obi-won comes to believe this as well.  Mace Windu and Yoda speak to him about the prophesy of who is to restore _balance to the force_.
 
-{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/v1512247220/notebook/D9QXQy.gif" alt="Bring balance to the force" class="align-right" >}} 
+{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/v1706296726/notebook/chosen-one.jpg" alt="Bring balance to the force" class="align-right" >}} 
 
 But what is balance?  There is an argument that light and dark cannot live in harmony, but restoring balance is instead treating the dark side as a cancer to the force.  The balance that needs to be restored is the eradication of the dark side so The Force can be rid of this corruption.  Then the Force can live in it's natural balance.  This view seems to be reinforced by George Lucas in various older interviews.
 
