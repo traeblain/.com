@@ -40,7 +40,7 @@ What do you think?  Like or not?  I'm kind of proud of it.
 
 
 [expect]: {{< ref "/blog/2015-where-do-we-go-next.md" >}}
-[Flavors.me]: http://flavors.me/
+[Flavors.me]: https://web.archive.org/web/20170131201904/http://flavors.me/
 [About.me]: http://about.me/
 [homepage]: /
 [letsencrypt]: https://letsencrypt.org/
