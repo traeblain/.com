@@ -66,7 +66,7 @@ I finally settled on this book by Robert Kurson, Rocket Men. It is the story of 
 
 ## Biggest Surprise
 
-{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:good,w_300/notebook/books/legacy-of-dragons.jpg" class="align-left" title="The Legacy of Dragons" link="https://www.amazon.com/gp/bookseries/B075RGCJPH/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=traeblain03-20&linkId=5277c2d70b50d6f3dbfaa2e94aef7692&language=en_US" >}} 
+{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:good,w_300/notebook/books/legacy-of-dragons.jpg" class="align-left" title="The Legacy of Dragons" link="https://www.amazon.com/dp/B08T6D96HF?binding=kindle_edition&searchxofy=true&ref_=dbs_s_aps_series_rwt_tkin&qid=1706296350&sr=8-4" >}} 
 
 Most of the time, my "Biggest Surprise" category goes to a book that I wasn't sure I was going to like or had never heard of and it blew me away. This year, it's a little different. Jeff Campbell is an excellent writer and the Pillars of Reality was a great series. In [Legacy of Dragons][legacy] series, something broke...the stories that should have been extremely compelling were extremely flat. With the introduction of some modernity to the world from a realization that they are Earthen exiles, and how this technology meshes with the magic sounded like a great recipe for world-building. But the story was full of teen angst and one-dimensional characters. It's too bad...I had high hopes. <br class="u-cf">
 
@@ -94,4 +94,4 @@ That's a good list. It was honestly a really good year in reading, here's lookin
 [isaacs storm]: https://www.amazon.com/gp/product/0375708278/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=7e4fba5684f0b57411127cc97aa1d105&language=en_US
 [evolution]: https://www.amazon.com/gp/product/0830852905/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=20140ad5c1959205c6110754a24cde89&language=en_US
 [meditations]: https://www.amazon.com/gp/product/0143036270/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=af7bd32b2457883a899a3d620267d8d6&language=en_US
-[legacy]: https://www.amazon.com/gp/bookseries/B075RGCJPH/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=traeblain03-20&linkId=5277c2d70b50d6f3dbfaa2e94aef7692&language=en_US
+[legacy]: https://www.amazon.com/dp/B08T6D96HF?binding=kindle_edition&searchxofy=true&ref_=dbs_s_aps_series_rwt_tkin&qid=1706296350&sr=8-4
