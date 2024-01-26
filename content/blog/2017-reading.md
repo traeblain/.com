@@ -30,7 +30,7 @@ Wow!  **Sixty (60)** books!  2017 was another good year with regards to reading 
 
 ## Favorite Series
 
-{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/c_scale,h_350,q_auto:good/notebook/books/kingfountain-series.jpg" class="align-left" title="The Kingfountain Series" link="http://amzn.to/2EE6T7l" >}} [The Kingfountain Series](http://amzn.to/2EE6T7l) was one I picked up on a whim.  I think Audible had _The Queen's Poisoner_ as the Daily Deal at one point. At one point I was looking for great fantasy that didn't include heavy violence or other gratuitous situations...kind of an _anti-Song of Ice and Fire_ read.  The series follows a story about a boy from childhood to adulthood, highlighting his ability to understand and work himself through run after run of bad situations.  Regardless of his age, it kept me interested and deeply hooked.  There are more books in this series now, and they should be queued up to read at some point in 2018.
+{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/c_scale,h_350,q_auto:good/notebook/books/kingfountain-series.jpg" class="align-left" title="The Kingfountain Series" link="http://amzn.to/2EE6T7l" >}} [The Kingfountain Series](https://www.amazon.com/dp/B07FK765VN?binding=kindle_edition&searchxofy=true&ref_=dbs_s_aps_series_rwt_tkin&qid=1706294049&sr=8-1) was one I picked up on a whim.  I think Audible had _The Queen's Poisoner_ as the Daily Deal at one point. At one point I was looking for great fantasy that didn't include heavy violence or other gratuitous situations...kind of an _anti-Song of Ice and Fire_ read.  The series follows a story about a boy from childhood to adulthood, highlighting his ability to understand and work himself through run after run of bad situations.  Regardless of his age, it kept me interested and deeply hooked.  There are more books in this series now, and they should be queued up to read at some point in 2018.
 
 <br class="u-cf">
 
@@ -39,8 +39,8 @@ Wow!  **Sixty (60)** books!  2017 was another good year with regards to reading 
 
 #### Honorable Mentions
 
-- [Frontlines](http://amzn.to/2sEF5dx) by Marco Kloos
-- [Monster Hunter International](http://amzn.to/2HrvxG2) by Larry Correia
+- [Frontlines](https://www.amazon.com/dp/B07F7W3ZB4?binding=kindle_edition&ref_=dbs_s_ks_series_rwt_tkin&qid=1706294223&sr=1-1) by Marco Kloos
+- [Monster Hunter International](https://www.amazon.com/dp/B07F7NGF35?binding=kindle_edition&ref_=dbs_s_ks_series_rwt_tkin&qid=1706294151&sr=1-1) by Larry Correia
 
 ## Favorite Non-Fiction
 
