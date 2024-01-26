@@ -11,13 +11,13 @@ I read a ton of books last year.  I spent so much time on planes and in travel l
 
 ## Favorite Read
 
-{{< figure src="/images/books/golden-son.jpg" title="Golden Son" class="align-left" link="http://www.amazon.com/gp/product/0345539834/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0345539834&linkCode=as2&tag=traeblain-20&linkId=537WE74NWTOJV4EW" >}}
+{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/v1706293604/notebook/books/golden-son.webp" title="Golden Son" class="align-left" link="http://www.amazon.com/gp/product/0345539834/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0345539834&linkCode=as2&tag=traeblain-20&linkId=537WE74NWTOJV4EW" >}}
 
 [Golden Son][goldenson] and Pierce Brown's previous book, [Red Rising][redrising] is in my opinion the best post-Apocalyptic young adult series I've read.  This includes beating out Hunger Games and Maze Runner (I've decided to stay away from the Divergent series...).  I was really worried that Brown would suffer "The Sophomore Slump" or "Book Two Syndrome".  This is the part where the author slumps because he either writes for the publisher now instead of what captured people from the first book, or is so excited about the climactic ending to the full story arc that book two is a dull prep book for the next in the series.  But Brown falls for neither of these issues.  It's a great read and I'd really recommend it!
 
 ## Favorite Series
 
-{{< figure src="/images/books/frontlines-series.jpg" title="Frontlines Series" class="align-left" link="http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&camp=1789&creative=390957&field-keywords=Frontlines%20Kloos&linkCode=ur2&rh=n%3A283155%2Ck%3AFrontlines%20Kloos&tag=traeblain-20&url=search-alias%3Dstripbooks&linkId=6JASQH5RNUJNYTPU" >}}
+{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/v1706293805/notebook/books/frontline-series.jpg" title="Frontlines Series" class="align-left" link="http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&camp=1789&creative=390957&field-keywords=Frontlines%20Kloos&linkCode=ur2&rh=n%3A283155%2Ck%3AFrontlines%20Kloos&tag=traeblain-20&url=search-alias%3Dstripbooks&linkId=6JASQH5RNUJNYTPU" >}}
 
 Marco Kloos puts together a spectacular Sci-Fi Military series with waring humans, a dynamic alien, and all the commentary from grunts to special forces.  Once I started this series, I couldn't stop.  Like above, Kloos doesn't stop or slump when he issues his next novel.  Lines of Departure is a strong book on it's own.  I'm worried that the series will over stay it's welcome, but if Kloos keeps going like he is, I doubt it will. I'm still desperately waiting for the next book to hit shelves, but I guess I'll have to wait until April.
 
@@ -25,7 +25,7 @@ If you like Science-Fiction or Military-Fiction, you'll probably really enjoy th
 
 ## Favorite Non-Fiction
 
-{{< figure src="/images/books/dead-wake.jpg" title="Dead Wake" class="align-left" link="http://www.amazon.com/gp/product/0307408868/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307408868&linkCode=as2&tag=traeblain-20&linkId=XSKW7OOEZVSTSCDI" >}}
+{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/v1706293881/notebook/books/dead-wake.jpg" title="Dead Wake" class="align-left" link="http://www.amazon.com/gp/product/0307408868/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307408868&linkCode=as2&tag=traeblain-20&linkId=XSKW7OOEZVSTSCDI" >}}
 
 Dead Wake is the story of the Lusitania's last voyage across the Atlantic ocean before being attacked by a German U-boat.  Larson takes his research and not only tells the story, but creates a narrative that is addicting and engrossing.  This book is probably Larson's best book since writing [Devil in the White City][devil], a book of which is probably my top 2 or 3 favorite non-fiction books of all time.
 
