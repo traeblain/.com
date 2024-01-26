@@ -5,7 +5,6 @@ images:
   - "https://res.cloudinary.com/dixwznarl/image/upload/q_auto:good/v1480480425/graph-on-screen_nqm0et.jpg"
 text_color: "dark"
 tags: [ "geek", "site" ]
-script: "/data/data-driven-site.js"
 ---
 
 I'm quite proud of my homepage.  As I said before, I used to use services like [Flavors.me][] and [About.me][] for my main page because they did something particular...that gathered my info in one place.  From social sites to image sites, these tools did that easily.  But I started to realize I wasn't showing what I really wanted...additionally I was having a hard time keeping those connections up as well.  So it was time to make my own.
@@ -94,7 +93,7 @@ That's the gist.  It's pretty neat to have a semi-dynamic site that is built wit
 Since I cannot really beta test a personal site, if you run into any bugs, ping me.  I'm still learning and hope to have some better idea as things go...might even add more info...more data!!
 
 
-[Flavors.me]: http://flavors.me/
+[Flavors.me]: https://web.archive.org/web/20170131201904/http://flavors.me/
 [About.me]: http://about.me/
 [Pelican]: http://blog.getpelican.com/
 [Hugo]: http://gohugo.io/
@@ -113,7 +112,7 @@ Since I cannot really beta test a personal site, if you run into any bugs, ping 
 [Keybase]: http://keybase.io/
 [Caddy]: https://caddyserver.com/
 [le]: https://letsencrypt.org/
-[Stamplay]: https://stamplay.com/
+[Stamplay]: https://web.archive.org/web/20180519015206/https://stamplay.com/
 [Firebase]: https://firebase.com/
 [Last.fm]: http://last.fm/
 
