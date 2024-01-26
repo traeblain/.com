@@ -35,7 +35,7 @@ Without diving into quantum physics, [solipsism](https://en.wikipedia.org/wiki/S
 
 ### Proposition 2: The universe began to exist
 
-This argument hinges on two premises.  One, [Big Bang Cosmology](https://en.wikipedia.org/wiki/Big_Bang) and two, absence of [physical infinites](http://blogs.discovermagazine.com/crux/2015/02/20/infinity-ruining-physics/).  The Big Bang explains a large list of scientific observations including Hubble's red-shift and the cosmic microwave background.  This appears to give the universe a finite beginning.  It sets the 0 point for all of space-time.  
+This argument hinges on two premises.  One, [Big Bang Cosmology](https://en.wikipedia.org/wiki/Big_Bang) and two, absence of [physical infinites](https://www.discovermagazine.com/the-sciences/infinity-is-a-beautiful-concept-and-its-ruining-physics).  The Big Bang explains a large list of scientific observations including Hubble's red-shift and the cosmic microwave background.  This appears to give the universe a finite beginning.  It sets the 0 point for all of space-time.  
 
 Agnostic astronomer, [Robert Jastrow](https://en.wikipedia.org/wiki/Robert_Jastrow) came to the belief that with the advent of Big Bang cosmology, that science has proven the need for a Creator.
 
