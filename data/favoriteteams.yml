@@ -123,7 +123,7 @@ Sports:
     info:
       - league: World Tour
         favorite: N/A
-        link: #
+        link: "/"
         comment: Need to look into this some more...taking suggestions.
         image: https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:eco,w_300/v1480537060/tbmonogram-name_ee22vs.png
   - sport: fighting
