@@ -297,7 +297,7 @@ In general you can get all the latest parts/code from [this Github repository][o
 [3dhubs]: https://www.3dhubs.com/?coupon=mjRaUzAR&amp;aic=TLNZJFL	"3D Hubs"
 [Wink]: https://www.wink.com	"Wink Smart Home System"
 [curtainmodule]: http://www.monoprice.com/product?p_id=11992	"Monoprice Z-Wave Curtain Module"
-[1225]: http://amzn.to/2hLLj0H	"12V to 5V DC converter"
+[1225]: https://www.amazon.com/s?k=12V-to-5V+converter&tag=traeblain03-20	"12V to 5V DC converter"
 [onshapedata]: https://cad.onshape.com/documents/8ed92bd7a8a283c1cce0d0e1/w/60f2cbadd25be0ffdfbe1d93/e/90822f0c91f3fc46d97b8cc1 "Automated Blinds Assembly"
 [mntblock]: https://github.com/traeblain/OSH-Projects/blob/master/automated-blinds/mount-block.stl "Mount Block"
 [tiltrodblock]: https://github.com/traeblain/OSH-Projects/blob/master/automated-blinds/tilt-rod-block.stl "Tilt Rod Block"
