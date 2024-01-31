@@ -137,7 +137,7 @@ Everything looks really nice and instead of a twist pole, I have a button....but
 
 ## Z-Wave
 
-Now we need to automate it.  In the original video, (if you watched it) the guy mentioned a Z-Wave button.  That device was a [Remotec ZFM-80US][remotec], and although good and working it's bulky (remember my wife does not want ugly fixturing) and if you can find it, it's expensive ($40-$50).  So I decided to avoid that.  Additionally, I use the [Wink][] system and if I was to install that switch, the system will think it's a Light/Power switch. I don't want a power switch to control my blinds, I want blind controllers!
+Now we need to automate it.  In the original video, (if you watched it) the guy mentioned a Z-Wave button.  That device was a **Remotec ZFM-80US**, and although good and working it's bulky (remember my wife does not want ugly fixturing) and _if you can find it_, it's expensive ($40-$50).  So I decided to avoid that.  Additionally, I use the [Wink][] system and if I was to install that switch, the system will think it's a Light/Power switch. I don't want a power switch to control my blinds, I want blind controllers!
 
 ![Monoprice Z-Wave Curtain Module](https://res.cloudinary.com/dixwznarl/image/upload/notebook/auto-blinds/zwave-curtain-monoprice.jpg)
 
@@ -290,12 +290,11 @@ In general you can get all the latest parts/code from [this Github repository][o
 [heatshrink]: http://amzn.to/2gIM0uj	"Heat Shrink"
 [doorbell]: https://www.lowes.com/search?searchTerm=door+bell+switch	"Door Bell Switch at Lowes"
 [connector]: http://amzn.to/2gIGtDT	"Header Connector 425 pieces (only need 3)"
-[pushbuttontut]: https://www.arduino.cc/en/tutorial/button	"Push Button Arduino Tutorial"
-[debounce]: https://www.arduino.cc/en/Tutorial/Debounce	"Debounce Tutorial"
+[pushbuttontut]: https://docs.arduino.cc/built-in-examples/digital/Button/	"Push Button Arduino Tutorial"
+[debounce]: https://docs.arduino.cc/built-in-examples/digital/Debounce/	"Debounce Tutorial"
 [timeless]: https://trakt.tv/shows/timeless-2016	"Timeless Television"
 [onshape]: https://onshape.com	"OnShape Solid Modeler"
 [3dhubs]: https://www.3dhubs.com/?coupon=mjRaUzAR&amp;aic=TLNZJFL	"3D Hubs"
-[remotec]: https://www.remotec.com.hk/bw8041-product-page/	"Remotec Button"
 [Wink]: https://www.wink.com	"Wink Smart Home System"
 [curtainmodule]: http://www.monoprice.com/product?p_id=11992	"Monoprice Z-Wave Curtain Module"
 [1225]: http://amzn.to/2hLLj0H	"12V to 5V DC converter"
