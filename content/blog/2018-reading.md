@@ -31,7 +31,7 @@ I finally settled on this book by Robert Kurson, Rocket Men. It is the story of 
 
 ## Favorite Series
 
-{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:good,w_300/notebook/books/hell-divers.jpg" class="align-left" title="Hell Divers" link="https://www.amazon.com/gp/product/B07JHNG3BW/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=traeblain03-20&linkId=3af7ec5edef80a33dec4068145a435b0&language=en_US" >}} 
+{{< figure src="https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto:good,w_300/notebook/books/hell-divers.jpg" class="align-left" title="Hell Divers" link="https://www.amazon.com/dp/B0BZDSPTWH?binding=kindle_edition&searchxofy=true&ref_=dbs_s_aps_series_rwt_tkin&qid=1706295876&sr=8-8&tag=traeblain03-20" >}} 
 
 [Hell Divers][] Series by Nicholas Sansbury Smith is a great series about a post-apocalyptical, nuclear radiation torn Earth. Airships are all that have survived this apocalypse and Hell Divers are people who dive from these airships to scavenge what they can from the surface. The first book is riveting and crazy, the second slows down a bit, but the third picks back up with force! I'm currently reading the fourth book and the fifth comes out mid-2019. Due to the radiation and time frame, there's some fantastical creatures that emerge and gripping action. There's some politics as well, but it doesn't get overbearing. Good story and good read. <br class="u-cf">
 
