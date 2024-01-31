@@ -74,7 +74,7 @@ Due to the difficulty and the really weak story payoff at the end (although imme
 
 {{< rating 7 >}}
 
-## Death Stranding ([Kojima Productions](https://www.kojimaproductions.jp/enhttps://www.kojimaproductions.jp/en))
+## Death Stranding ([Kojima Productions](https://www.kojimaproductions.jp/en))
 
 {{< youtube tCI396HyhbQ >}}
 
