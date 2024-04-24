@@ -5,26 +5,12 @@ draft: true
 tags: []
 images:
   - https://res.cloudinary.com/dixwznarl/image/upload/v1673041131/notebook/writing-typewriter.jpg
+toc: true
 ---
 
 <a name="top"></a>
 
 This may remain in _Draft_ form in perpetuity.
-
-- [Headings](#headings)
-- [Heading two](#heading-two)
-  - [Heading three](#heading-three)
-- [Paragraphs](#paragraphs)
-- [Blockquotes](#blockquotes)
-- [Lists](#lists)
-  - [Ordered List](#ordered-list)
-  - [Unordered List](#unordered-list)
-- [Horizontal rule](#horizontal-rule)
-- [Table](#table)
-- [Code](#code)
-  - [Inline code](#inline-code)
-  - [Highlighted](#highlighted)
-- [Inline elements](#inline-elements)
 
 ***
 
@@ -54,7 +40,8 @@ Veniam enim esse amet veniam deserunt laboris amet enim consequat. Minim nostrud
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-[[Top]](#top)
+[🔝](#top)
+{ .unsetcolor style="font-size: 1.5rem; text-align: right;" }
 
 ## Paragraphs
 
@@ -64,7 +51,8 @@ Officia dolore laborum aute incididunt commodo nisi velit est est elit et dolore
 
 Officia irure in non voluptate adipisicing sit amet tempor duis dolore deserunt enim ut. Reprehenderit incididunt in ad anim et deserunt deserunt Lorem laborum quis. Enim aute anim labore proident laboris voluptate elit excepteur in. Ex labore nulla velit officia ullamco Lorem Lorem id do. Dolore ullamco ipsum magna dolor pariatur voluptate ipsum id occaecat ipsum. Dolore tempor quis duis commodo quis quis enim.
 
-[[Top]](#top)
+[🔝](#top)
+{ .unsetcolor style="font-size: 1.5rem; text-align: right;" }
 
 ## Blockquotes
 
@@ -76,6 +64,7 @@ Labore ea magna Lorem consequat aliquip consectetur cillum duis dolore. Et venia
 
 [^1]: And that's the footnote.
 
+> [!IMPORTANT]
 > Qui est sit et reprehenderit aute est esse enim aliqua id aliquip ea anim. Pariatur sint reprehenderit mollit velit voluptate enim consectetur sint enim. Quis exercitation proident elit non id qui culpa dolore esse aliquip consequat.
 
 Ipsum excepteur cupidatat sunt minim ad eiusmod tempor sit.
@@ -84,7 +73,8 @@ Ipsum excepteur cupidatat sunt minim ad eiusmod tempor sit.
 
 Adipisicing voluptate ipsum culpa voluptate id aute laboris labore esse fugiat veniam ullamco occaecat do ut. Tempor et esse reprehenderit veniam proident ipsum irure sit ullamco et labore ea excepteur nulla labore ut. Ex aute minim quis tempor in eu id id irure ea nostrud dolor esse.
 
-[[Top]](#top)
+[🔝](#top)
+{ .unsetcolor style="font-size: 1.5rem; text-align: right;" }
 
 ## Lists
 
@@ -129,7 +119,8 @@ Apple
 Orange
 : The fruit of an evergreen tree of the genus Citrus.
 
-[[Top]](#top)
+[🔝](#top)
+{ .unsetcolor style="font-size: 1.5rem; text-align: right;" }
 
 ## Horizontal rule
 
@@ -139,7 +130,8 @@ In dolore velit aliquip labore mollit minim tempor veniam eu veniam ad in sint a
 
 In laboris eiusmod reprehenderit aliquip sit proident occaecat. Non sit labore anim elit veniam Lorem minim commodo eiusmod irure do minim nisi. Dolor amet cillum excepteur consequat sint non sint.
 
-[[Top]](#top)
+[🔝](#top)
+{ .unsetcolor style="font-size: 1.5rem; text-align: right;" }
 
 ## Table
 
@@ -155,7 +147,8 @@ Duis sunt ut pariatur reprehenderit mollit mollit magna dolore in pariatur nulla
 
 Minim id consequat adipisicing cupidatat laborum culpa veniam non consectetur et duis pariatur reprehenderit eu ex consectetur. Sunt nisi qui eiusmod ut cillum laborum Lorem officia aliquip laboris ullamco nostrud laboris non irure laboris. Cillum dolore labore Lorem deserunt mollit voluptate esse incididunt ex dolor.
 
-[[Top]](#top)
+[🔝](#top)
+{ .unsetcolor style="font-size: 1.5rem; text-align: right;" }
 
 ## Code
 
@@ -209,7 +202,8 @@ f(x)=\sum_{n=-\infty}^\infty c_n e^{2\pi i(n/T) x} = \sum_{n=-\infty}^\infty \ha
            '----'        '----'      '-----+-----+-----'  '-----+-----+-----+-----+
 ```
 
-[[Top]](#top)
+[🔝](#top)
+{ .unsetcolor style="font-size: 1.5rem; text-align: right;" }
 
 ## Inline elements
 
@@ -217,11 +211,13 @@ Sint ea anim ipsum ad commodo cupidatat do **exercitation** incididunt et minim 
 
 [^2]: A second footnote...maybe...
 
-![Super wide](https://placekitten.com/1280/800)
+![Super wide](https://picsum.photos/1280/800)
 
-_Proident sit veniam in est proident officia adipisicing_ ea tempor cillum non cillum velit deserunt. ==Voluptate laborum incididunt== sit consectetur Lorem irure incididunt voluptate nostrud. Commodo ut eiusmod tempor^th^ H~2~O cupidatat esse enim minim ex :smiley: anim consequat. Mollit sint culpa qui laboris quis consectetur ad sint esse. Amet anim anim minim ullamco et duis non irure. Sit tempor adipisicing ea laboris `culpa ex duis sint` anim aute ++reprehenderit id eu ea.++ Aute [excepteur proident](#inline-elements) Lorem minim adipisicing nostrud mollit ad ut voluptate do nulla esse occaecat aliqua sint anim.^[Self Descriptive footnote]
+_Proident sit veniam in est proident officia adipisicing_ ea tempor cillum non cillum velit deserunt. ==Voluptate laborum incididunt== sit consectetur Lorem irure incididunt voluptate nostrud. Commodo ut eiusmod tempor^th^ H~2~O cupidatat esse enim minim ex :smiley: anim consequat. Mollit sint culpa qui laboris quis consectetur ad sint esse. Amet anim anim minim ullamco et duis non irure. Sit tempor adipisicing ea laboris `culpa ex duis sint` anim aute ++reprehenderit id eu ea.++ Aute [excepteur proident](#inline-elements) Lorem minim adipisicing nostrud mollit ad ut voluptate do nulla esse occaecat aliqua sint anim. [^Self]
 
-![Not so big](httpS://placekitten.com/480/400)
+[^Self]: Descriptive footnote
+
+![Not so big](https://picsum.photos/480/400)
 { .align-left }
 
 Incididunt in culpa cupidatat mollit cillum qui proident sit. In cillum aliquip incididunt voluptate magna amet cupidatat cillum pariatur sint aliqua est _enim **anim** voluptate_. Magna aliquip proident incididunt id duis pariatur eiusmod incididunt commodo culpa dolore sit. Culpa do nostrud elit ad exercitation anim pariatur non minim nisi **adipisicing sunt _officia_**. Do deserunt magna mollit Lorem commodo ipsum do cupidatat mollit enim ut elit veniam ea voluptate.
@@ -231,11 +227,34 @@ Incididunt in culpa cupidatat mollit cillum qui proident sit. In cillum aliquip 
 Reprehenderit non eu quis in ad elit esse qui aute id [incididunt](#blockquotes) dolore cillum. Esse laboris consequat dolor anim exercitation tempor aliqua deserunt velit magna laboris. Culpa culpa minim duis amet mollit do quis amet commodo nulla irure.
 
 ```goat
-      .               .                .               .--- 1          .-- 1     / 1
-     / \              |                |           .---+            .-+         +
-    /   \         .---+---.         .--+--.        |   '--- 2      |   '-- 2   / \ 2
-   +     +        |       |        |       |    ---+            ---+          +
-  / \   / \     .-+-.   .-+-.     .+.     .+.      |   .--- 3      |   .-- 3   \ / 3
- /   \ /   \    |   |   |   |    |   |   |   |     '---+            '-+         +
- 1   2 3   4    1   2   3   4    1   2   3   4         '--- 4          '-- 4     \ 4
+      .               .                .              .-- 1          .-- 1     / 1
+     / \              |                |           .--+           .-+         +
+    /   \         .---+---.         .--+--.        |  '-- 2      |   '-- 2   / \ 2
+   +     +        |       |        |       |       |          ---+          +
+  / \   / \     .-+-.   .-+-.     .+.     .+.      |  .-- 3      |   .-- 3   \ / 3
+ /   \ /   \    |   |   |   |    |   |   |   |     '--+           '-+         +
+ 1   2 3   4    1   2   3   4    1   2   3   4        '-- 4          '-- 4     \ 4
 ```
+
+```goat
+                ________                            o        *          *   .--------------.
+   *---+--.    |        |     o   o      |         ^          \        /   |  .----------.  |
+       |   |    '--*   -+-    |   |      v        /            \      /    | |  <------.  | |
+       |    '----->       .---(---'  --->*<---   /      .+->*<--o----'     | |          | | |
+   <--'  ^  ^             |   |                 |      | |  ^    \         |  '--------'  | |
+          \/        *-----'   o     |<----->|   '-----'  |__|     v         '------------'  |
+          /\                                                               *---------------'
+```
+
+```goat
+* * * * *  * * * * o  o o * o o  * * * * *    * * *      o o o     · * · · ·     · · ·
+o o * o o  * o o o *  o * o * o  * o o o o   * * * *    * o * *    · * * · ·    · · · ·
+o o * o o  * * * * o  o * * * o  * * * * o  * * * * *  o o o o o   · o · · o   · · * * ·
+o o * o o  * o o * o  * o o o *  * o o o o   * * * *    o * o o    · · · · o    · · * ·
+o o * o o  * o o o *  * o o o *  * * * * *    * * *      o * o     · · · · ·     · · *
+```
+
+[🔝](#top)
+{ .unsetcolor style="font-size: 1.5rem; text-align: right;" }
+
+[my-first-link]: https://weblog.tra.pt/tex-to-mathml-function

@@ -1,7 +1,8 @@
 <figure class="hero"><img src="{{ if .Params.images }}{{ index .Params.images 0 }}{{ end }}" alt="Background Hero Image" /></figure>
 <h1 class="center-title">{{ .Title }}</h1>
 <time>{{ .Date.Format "2006.01.02" }}</time>
-{{ .Content }}
+{{- if .Params.toc }}{{ .TableOfContents }}{{ end }}
+{{ replaceRE `[~]([^=\s<].*?(\r\n|\r|\n)?.*?)[~]` "<sub>$1</sub>" (replaceRE `[\^]([^=\s<].*?(\r\n|\r|\n)?.*?)[\^]` "<sup>$1</sup>" (replaceRE `[+]{2}([^=\s<].*?(\r\n|\r|\n)?.*?)[+]{2}` "<ins>$1</ins>" (replaceRE `[=]{2}([^=\s<].*?(\r\n|\r|\n)?.*?)[=]{2}` "<mark>$1</mark>" .Content))) | safeHTML }}
 {{ partial "endofarticle.html" . }}
 {{- if .Params.script }}
   <script src="{{ .Params.script }}"></script>
