@@ -25,19 +25,19 @@
   },
   "homepage": "https://traeblain.com/",
   "dependencies": {
-    "@tinacms/auth": "^1.0.4",
-    "axios": "^1.2.3",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "moment": "^2.29.4",
-    "next-tinacms-cloudinary": "^4.4.3",
+    "@tinacms/auth": "^1.0.9",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "moment": "^2.30.1",
+    "next-tinacms-cloudinary": "^11.0.0",
     "rss-parser": "^3.13.0",
     "serverless-http": "^3.2.0",
-    "temml": "^0.10.4",
-    "tinacms": "^1.5.26"
+    "temml": "^0.10.32",
+    "tinacms": "^2.5.0"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.5.36",
-    "eslint": "^8.32.0"
+    "@tinacms/cli": "^1.6.12",
+    "eslint": "^9.16.0"
   }
 }
