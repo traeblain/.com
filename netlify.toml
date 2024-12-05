@@ -1,5 +1,5 @@
 [build]
-  command = "npx tinacms build && hugo -D --minify"
+  command = "hugo -D --minify"
   publish = "public"
 
 [build.environment]
