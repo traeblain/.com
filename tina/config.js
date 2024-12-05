@@ -38,6 +38,9 @@ export default defineConfig({
         name: "blog",
         label: "Blogs",
         path: "content/blog",
+        match: {
+          exclude: "{link,quote,image,video,status}/**/**"
+        },
         defaultItem: () => {
           let now = new Date()
           now = now.toLocaleString('sv', {timeZoneName: 'short'}).replace("GMT","").split("−")
