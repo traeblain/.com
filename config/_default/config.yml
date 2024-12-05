@@ -57,3 +57,7 @@ outputs:
     - HTML
     - JSON
     - RSS
+
+caches:
+  getresource:
+    maxAge: 0
