@@ -34,6 +34,9 @@
     "temml": "^0.10.32"
   },
   "devDependencies": {
-    "eslint": "^9.16.0"
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0"
   }
 }
