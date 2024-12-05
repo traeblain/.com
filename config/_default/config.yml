@@ -8,7 +8,8 @@ enableGitInfo: true
 enableInlineShortcodes: true
 enableRobotsTXT: true
 timeZone: America/Chicago
-paginate: 15
+pagination:
+  pagerSize: 15
 
 author:
   name: Trae Blain
