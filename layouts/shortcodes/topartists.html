@@ -1,4 +1,14 @@
-{{- $artistList := resources.GetRemote (print "https://api.airtable.com/v0/appWQ7mufpoNZv5cS/Music?sort[0][field]=plays&sort[0][direction]=desc" "&cachekey=" (now.Format "2006-01-02-03")) (dict "Authorization" (print "Bearer " $.Site.Params.airtabletoken) "Accept" "application/json") | transform.Unmarshal -}}
+{{- $artistList :=
+  resources.GetRemote (print "https://api.airtable.com/v0/appWQ7mufpoNZv5cS/Music?sort[0][field]=plays&sort[0][direction]=desc" "&cachekey=" (now.Format "2006-01-02-03")) 
+  (dict 
+    "method" "get"
+    "headers" (dict 
+      "Authorization" (print "Bearer " $.Site.Params.airtabletoken) 
+      "Accept" "application/json"
+    )
+    "key" (print "airTable-" (now.Format "2006-01-02-03"))
+  ) | transform.Unmarshal
+-}}
 {{- range $artistList.records -}}
 {{- with .fields }}
 <a href="{{ .link }}">
