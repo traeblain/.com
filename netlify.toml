@@ -46,6 +46,19 @@
   status = 200
   force = false
 
+# Getting a ton of hits to things like this, redirecting.
+[[redirects]]
+  from = "/https://traeblain.com"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/https://traeblain.com/*"
+  to = "/:splat"
+  status = 301
+  force = true
+
 # [[redirects]]
 #   from ='/api/*'
 #   to = '/.netlify/functions/api/:splat'
