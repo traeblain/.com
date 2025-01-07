@@ -1,3 +1,3 @@
 # netlify.toml redirects weren't working, so trying this.
-/https://traeblain.com  /  301!
-/https://traeblian.com/*  /:splat  301!
+/https%3A%2F%2Ftraeblain.com  /  301!
+/https%3A%2F%2Ftraeblain.com/*  /:splat  301!
