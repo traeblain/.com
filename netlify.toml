@@ -47,17 +47,17 @@
   force = false
 
 # Getting a ton of hits to things like this, redirecting.
-[[redirects]]
-  from = "/https%3A%2F%2Ftraeblain.com"
-  to = "/"
-  status = 301
-  force = true
+# [[redirects]]
+#   from = "/https%3A%2F%2Ftraeblain.com"
+#   to = "/"
+#   status = 301
+#   force = true
 
-[[redirects]]
-  from = "/https%3A%2F%2Ftraeblain.com%2F*"
-  to = "/:splat"
-  status = 301
-  force = true
+# [[redirects]]
+#   from = "/https%3A%2F%2Ftraeblain.com%2F*"
+#   to = "/:splat"
+#   status = 301
+#   force = true
 
 # [[redirects]]
 #   from ='/api/*'
