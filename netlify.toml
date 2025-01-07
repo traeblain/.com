@@ -48,16 +48,16 @@
 
 # Getting a ton of hits to things like this, redirecting.
 [[redirects]]
-  from = "/https://traeblain.com"
+  from = "/https*"
   to = "/"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/https://traeblain.com/*"
-  to = "/:splat"
-  status = 301
-  force = true
+# [[redirects]]
+#   from = "/https%3A%2F%2Ftraeblain.com%2F*"
+#   to = "/:splat"
+#   status = 301
+#   force = true
 
 # [[redirects]]
 #   from ='/api/*'
