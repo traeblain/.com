@@ -1,3 +1,2 @@
 # netlify.toml redirects weren't working, so trying this.
-/:scheme//traeblain.com  /?r=:scheme  301!
-/:scheme//traeblain.com/*  /:splat?r=:scheme  301!
+/https* / 303!
