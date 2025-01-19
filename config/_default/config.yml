@@ -27,7 +27,7 @@ params:
     - quote
     - status
     - video
-  bookGoal: 20
+  bookGoal: 15
   goat: trae
   rssLimit: 15
   social:
