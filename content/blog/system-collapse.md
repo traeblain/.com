@@ -5,8 +5,8 @@ description: System Collapse by Martha Wells is a 2023 novel about a "SecUnit"
   enslaving a colony's people.  But he's not running on normal operating parameters...
 date: 2025-01-19T03:38:05Z
 images: 
-  - https://res.cloudinary.com/dixwznarl/image/upload/c_crop,h_765,q_auto:good,w_1099,y_400/v1737258024/systemcollapse_uqng7c.jpg
-draft: true
+  - https://res.cloudinary.com/dixwznarl/image/upload/c_crop,h_765,q_auto:good,w_1099,y_400/e_gen_remove:region_(x_25;y_25;w_275;h_310)/v1737258024/systemcollapse_uqng7c.jpg
+draft: false
 tags:
   - review
   - reading
