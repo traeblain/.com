@@ -7,7 +7,7 @@ description: POW Aden Jansen is recruited to go undercover to wipe the slate
 date: 2025-01-28T17:57:54.0-06:00
 images:
   - https://res.cloudinary.com/dixwznarl/image/upload/q_auto:good/a_90/c_crop,h_1044,w_1500,y_180/v1738108830/books/descent-kloos_wlnphe.jpg
-draft: true
+draft: false
 tags:
   - review
   - reading
@@ -37,7 +37,7 @@ If I was to have a negative, it would be that Dunstan's story still doesn't fit 
 
 Overall, this book take great strides in restoring the quality read from some significant difficulty of the last two books. So this one is a solid 7 out of 10.
 
-{{< rating 4 >}}
+{{< rating 7 >}}
 
 [series]: https://www.amazon.com/dp/B086CYB6VS?tag=blain10-20
 [book]: https://www.amazon.com/gp/product/B0CM785RMM?tag=blain10-20
