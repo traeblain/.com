@@ -11,7 +11,7 @@
 -}}
 {{ with (index $books.records 0).fields -}}
 {{- $progress := sub (len $books.records) (math.Floor (mul (div now.YearDay 365.25) $.Site.Params.bookGoal)) -}}
-{{- $knobProgress := div (len $books.records) (float $.Site.Params.bookGoal) -}}
+{{- $knobProgress := math.Min (div (len $books.records) (float $.Site.Params.bookGoal)) 1.0 -}}
 {{- $degP := mul 3.14159265358 (mul 2 $knobProgress) -}}
 {{- $degM := (mul 3.14159265358 (mul 2 (sub 0.5 $knobProgress))) -}}
 {{ $degC := cond (gt $knobProgress 0.5) $degM $degP }}
@@ -36,7 +36,7 @@
     <circle class="knob-base" cx="50" cy="50" r="40" style="fill: transparent; stroke: #eee; stroke-width: 5;"></circle>
     <path class="knob-progress" d='{{ print "M 50, 50 m 0, -40 " $path }}' style="fill:transparent;stroke-width:10;stroke-linecap:round;"></path>
     <use xlink:href="#book" x="50%" y="50%" height="50px" width="50px" transform="translate(-30, -35)" class="symbol-color"></use>
-    <text class="knob-undertext" x="50%" y="93%" dominant-baseline="baseline" text-anchor="middle">{{ math.Round (mul $knobProgress 100) }}% Done</text>
+    <text class="knob-undertext" x="50%" y="93%" dominant-baseline="baseline" text-anchor="middle">{{ math.Round (mul (div (len $books.records) (float $.Site.Params.bookGoal)) 100) }}% Done</text>
   </svg>
 
 [Trae](https://www.goodreads.com/user/show/1671848-trae) has currently read **{{ len $books.records }}** book{{ if gt (len $books.records) 1 }}s{{end}}
