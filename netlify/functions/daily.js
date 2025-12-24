@@ -20,7 +20,7 @@ exports.handler = async (event, context) => {
           artists[i].mbid = artistGetDetails.data.artist.mbid
         }
         console.log(artists[i].mbid, artists[i].name)
-        artistData = await axios.get('https://webservice.fanart.tv/v3.2/music/' + artists[i].mbid + '&?api_key=' + process.env.FANART_API + '&format=json')
+        artistData = await axios.get('https://webservice.fanart.tv/v3.2/music/' + artists[i].mbid + '&?api_key=' + process.env.FANART_API)
 
         console.log(artistData)
         cleanArtists[i] = {
@@ -32,7 +32,7 @@ exports.handler = async (event, context) => {
             image: artists[i].image[3]['#text']
           }
         }
-
+        console.log(typeof artistData.artistthumb)
         if (typeof artistData.artistthumb !== 'undefined') {
           cleanArtists[i].fields.image = artistData.artistthumb[0].url.replace('https://assets.fanart.tv/fanart/', 'https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto,w_400/fanart/').replace('http://assets.fanart.tv/fanart/', 'https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto,w_400/fanart/')
         }
@@ -62,8 +62,9 @@ exports.handler = async (event, context) => {
 
     console.log(resp.status, resp.statusText)
     if (resp.status === 200 || resp.status === 201) {
-      console.log('Attempting to rebuild.')
-      const rebuild = await axios.post('https://api.netlify.com/build_hooks/' + process.env.REBUILD_KEY, {})
+      console.log('Skipping rebuild... ')
+      // console.log('Attempting to rebuild.')
+      // const rebuild = await axios.post('https://api.netlify.com/build_hooks/' + process.env.REBUILD_KEY, {})
     }
     return {
       statusCode: 200,
