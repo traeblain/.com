@@ -22,6 +22,7 @@ exports.handler = async (event, context) => {
         console.log(artists[i].mbid, artists[i].name)
         artistData = await axios.get('https://webservice.fanart.tv/v3/music/' + artists[i].mbid + '&?api_key=' + process.env.FANART_API + '&format=json')
 
+        console.log(artistData.data)
         cleanArtists[i] = {
           id: recordIDs[i],
           fields: {
