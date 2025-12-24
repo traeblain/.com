@@ -20,9 +20,9 @@ exports.handler = async (event, context) => {
           artists[i].mbid = artistGetDetails.data.artist.mbid
         }
         console.log(artists[i].mbid, artists[i].name)
-        artistData = await axios.get('https://webservice.fanart.tv/v3/music/' + artists[i].mbid + '&?api_key=' + process.env.FANART_API + '&format=json')
+        artistData = await axios.get('https://webservice.fanart.tv/v3.2/music/' + artists[i].mbid + '&?api_key=' + process.env.FANART_API + '&format=json')
 
-        console.log(artistData.data)
+        console.log(artistData)
         cleanArtists[i] = {
           id: recordIDs[i],
           fields: {
@@ -33,8 +33,8 @@ exports.handler = async (event, context) => {
           }
         }
 
-        if (typeof artistData.data.artistthumb !== 'undefined') {
-          cleanArtists[i].fields.image = artistData.data.artistthumb[0].url.replace('https://assets.fanart.tv/fanart/', 'https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto,w_400/fanart/').replace('http://assets.fanart.tv/fanart/', 'https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto,w_400/fanart/')
+        if (typeof artistData.artistthumb !== 'undefined') {
+          cleanArtists[i].fields.image = artistData.artistthumb[0].url.replace('https://assets.fanart.tv/fanart/', 'https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto,w_400/fanart/').replace('http://assets.fanart.tv/fanart/', 'https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto,w_400/fanart/')
         }
       } catch (e) {
         cleanArtists[i] = {
