@@ -13,16 +13,18 @@ exports.handler = async (event, context) => {
 
     const cleanArtists = []
     let artistData
+    let fanartURL
     for (let i = 0; i < 5; i++) {
       try {
         if (!artists[i].mbid) {
           let artistGetDetails = await axios.get(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${artists[i].name}&api_key=b25b959554ed76058ac220b7b2e0a026&format=json`)
           artists[i].mbid = artistGetDetails.data.artist.mbid
         }
-        console.log(artists[i].mbid, artists[i].name, artists[i].playcount * 1)
-        artistData = await axios.get('https://webservice.fanart.tv/v3.2/music/' + artists[i].mbid + '&?api_key=' + process.env.FANART_API)
+        console.log(artists[i].mbid, artists[i].name, artists[i].playcount * 1) 
+        fanartURL = "https://webservice.fanart.tv/v3.2/music/{0}?api_key={1}".replace('{0}', artists[i].mbid).replace('{1}', process.env.FANART_API)
+        artistData = await axios.get(fanartURL)
 
-        console.log("Artist Data: ", artistData)
+        // console.log("Artist Data: ", JSON.stringify(artistData.data))
 
         cleanArtists[i] = {
           id: recordIDs[i],
@@ -34,10 +36,10 @@ exports.handler = async (event, context) => {
           }
         }
 
-        console.log("Type of artistData.artistthumb: ", typeof artistData.artistthumb)
+        // console.log("Type of artistData.artistthumb: ", typeof artistData.data.artistthumb)
 
-        if (typeof artistData.artistthumb !== 'undefined') {
-          cleanArtists[i].fields.image = artistData.artistthumb[0].url.replace('https://assets.fanart.tv/fanart/', 'https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto,w_400/fanart/').replace('http://assets.fanart.tv/fanart/', 'https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto,w_400/fanart/')
+        if (typeof artistData.data.artistthumb !== 'undefined') {
+          cleanArtists[i].fields.image = artistData.data.artistthumb[0].url.replace('https://assets.fanart.tv/fanart/', 'https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto,w_400/fanart/').replace('http://assets.fanart.tv/fanart/', 'https://res.cloudinary.com/dixwznarl/image/upload/c_scale,q_auto,w_400/fanart/')
         }
       } catch (e) {
         cleanArtists[i] = {
@@ -65,9 +67,9 @@ exports.handler = async (event, context) => {
 
     console.log(resp.status, resp.statusText)
     if (resp.status === 200 || resp.status === 201) {
-      console.log('Skipping rebuild... ')
-      // console.log('Attempting to rebuild.')
-      // const rebuild = await axios.post('https://api.netlify.com/build_hooks/' + process.env.REBUILD_KEY, {})
+      // console.log('Skipping rebuild... ')
+      console.log('Attempting to rebuild.')
+      const rebuild = await axios.post('https://api.netlify.com/build_hooks/' + process.env.REBUILD_KEY, {})
     }
     return {
       statusCode: 200,
