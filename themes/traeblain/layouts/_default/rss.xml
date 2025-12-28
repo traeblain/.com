@@ -22,12 +22,12 @@
     {{ end }}
     {{ range first .Site.Params.rssLimit .Site.RegularPages }}
     <item>
-      <title>{{ cond (gt (len .Title) 0) .Title (.Summary | html | truncate 40) }}</title>
+      <title>{{ cond (gt (len .Title) 0) .Title (.Plain | truncate 40) }}</title>
       <link>{{ cond (eq .Type "link") .Params.source .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ printf "%s <a href='%q'>#</a>" .Summary .Permalink | safeHTML }}</description>
+      <description>{{ printf "<![CDATA[%s <a href='%q'>#</a>]]>" .Summary .Permalink | safeHTML }}</description>
     </item>
     {{ end }}
   </channel>
