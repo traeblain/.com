@@ -61,3 +61,6 @@ outputs:
 caches:
   getresource:
     maxAge: 0
+
+minify:
+  disableXML: true
