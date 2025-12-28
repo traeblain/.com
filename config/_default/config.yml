@@ -11,15 +11,14 @@ timeZone: America/Chicago
 pagination:
   pagerSize: 15
 
-author:
-  name: Trae Blain
-  commonname: traeblain
-
 security:
   exec:
     osEnv: ['(?i)^(SSH_AUTH_SOCK|HTTP_PROXY|HTTPS_PROXY)$']
 
 params:
+  author:
+    name: Trae Blain
+    commonname: traeblain
   mainSections:
     - blog
     - image
