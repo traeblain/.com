@@ -57,3 +57,6 @@ hugo.exe
 
 # Local Netlify folder
 .netlify
+
+# Wrangler local folder
+.wrangler

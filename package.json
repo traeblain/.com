@@ -1,11 +1,13 @@
 {
   "name": "traeblaindotcom",
   "version": "3.0.0",
-  "description": "Source code for Trae Blain's Website'",
+  "description": "lsuv'",
   "main": "index.js",
   "scripts": {
     "run": "hugo -D --minify",
-    "dev": "hugo server -D -F -w"
+    "dev": "hugo server -D -F -w",
+    "wrangler:deploy": "wrangler deploy",
+    "wrangler:dev": "wrangler dev"
   },
   "repository": {
     "type": "git",
@@ -28,15 +30,19 @@
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
+    "hono": "^4.11.3",
     "moment": "^2.30.1",
     "rss-parser": "^3.13.0",
     "serverless-http": "^3.2.0",
     "temml": "^0.10.32"
   },
   "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.8.19",
+    "@cloudflare/workers-types": "^4.20251229.0",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.16.0",
     "eslint": "^9.16.0",
-    "globals": "^15.13.0"
+    "globals": "^15.13.0",
+    "wrangler": "^4.54.0"
   }
 }
