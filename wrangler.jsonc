@@ -9,6 +9,11 @@
     "binding": "ASSETS",
     "run_worker_first": ["/api/*"]
   },
+  "triggers": {
+    "crons": [
+      "45 7 * * *"
+    ]
+  },
   "observability": {
     "enabled": false,
     "head_sampling_rate": 1,

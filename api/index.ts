@@ -7,7 +7,9 @@ import { kudos } from './kudos.ts'
 import { bookUpdate } from './book_update.ts'
 import { daily } from './daily.ts'
 
-const app = new Hono()
+interface Env {}
+
+const app = new Hono<{ Bindings: Env }>()
 app.use(appendTrailingSlash())
 
 // API Root Endpoint
@@ -68,11 +70,6 @@ app.get('/api/book_update/', (c: any) => {
   return await bookUpdate(c)
 })
 
-// Daily Update Endpoint
-app.get('/api/daily/', async (c: any) => {
-  return await daily(c)
-})
-
 // 404 Handler for Undefined API Routes
 app.get('/api/*', (c: any) => {
   c.status(404)
@@ -81,4 +78,19 @@ app.get('/api/*', (c: any) => {
   })
 })
 
-export default app
+export default {
+  fetch: app.fetch,
+  scheduled: async (batch: any, env: Env, ctx: any) => {
+    switch (batch.cron) {
+      case "45 7 * * *":
+        // Daily at 07:45 UTC
+        console.log("Running daily update tasks...")
+        const dailyWorked = await daily(env)
+        if (dailyWorked === 200 || dailyWorked === 201) {
+          console.log("Daily update task completed successfully.")
+          // Add Build Trigger
+        }
+        break
+    }
+  }
+}
