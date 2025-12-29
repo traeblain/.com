@@ -58,7 +58,8 @@ app.get('/api/book_update/', (c: any) => {
   })
 })
 .post('/api/book_update/', async (c: any) => {
-  if (c.req.query('secret') !== c.env.POST_SECRET) {
+  const secretKey = c.env.POST_SECRET
+  if (c.req.query('secret') !== secretKey) {
     c.status(403)
     return c.json({
       error: "Forbidden. This is not the function you are looking for."

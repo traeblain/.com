@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "run": "hugo -D --minify",
-    "dev": "hugo server -D -F -w",
+    "dev": "env-cmd hugo server -D -F -w",
     "wrangler:deploy": "wrangler deploy",
-    "wrangler:dev": "wrangler dev"
+    "wrangler:dev": "concurrently \"env-cmd hugo -D --minify -w\" \"wrangler dev\""
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,8 @@
     "@cloudflare/workers-types": "^4.20251229.0",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.16.0",
+    "concurrently": "^9.2.1",
+    "env-cmd": "^11.0.0",
     "eslint": "^9.16.0",
     "globals": "^15.13.0",
     "wrangler": "^4.54.0"
